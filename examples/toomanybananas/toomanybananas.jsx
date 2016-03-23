@@ -14,7 +14,7 @@ let View = function(controller, svg, module) {
 let model = module.env;
 let tooltip = new Tooltip(jQuery('#tooltip'));
 
-let basename = 'examples/toomanybananas';
+let basename = 'node_modules/runway-compiler/examples/toomanybananas';
 return Promise.all([
   fetchRemoteFile(`${basename}/bg.svg`),
   fetchRemoteFile(`${basename}/banana.svg`),
