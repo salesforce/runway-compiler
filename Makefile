@@ -11,7 +11,6 @@ BOWER ?= bower
 ESLINT ?= $(NODE) node_modules/eslint/bin/eslint.js
 JSFMT ?= $(NODE) node_modules/jsfmt/bin/jsfmt
 MOCHA ?= $(node) node_modules/mocha/bin/mocha
-WEBPACK ?= $(node) node_modules/webpack/bin/webpack.js
 
 .PHONY: all
 all: bundle.js
@@ -58,9 +57,6 @@ format: $(ALLJSFILES)
 .PHONY: lint
 lint: $(ALLJSFILES)
 	$(ESLINT) $(ALLJSFILES)
-
-bundle.js: $(ALLJSFILES)
-	$(WEBPACK)
 
 README.html: README.md
 	markdown $< >$@

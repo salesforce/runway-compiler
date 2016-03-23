@@ -1,46 +1,24 @@
 {
-  "name": "modeling-compiler",
+  "name": "runway-compiler",
   "version": "0.0.1-alpha.0",
   "description": "Requires node >=v4.x, bower, npm.",
   "main": "main.js",
   "dependencies": {
-    "babel-standalone": "^1.0.0",
-    "bootstrap": "^3.3.5",
-    "bootstrap-menu": "^1.0.8",
-    "bootstrap-webpack": "0.0.5",
     "docopt": "^0.6.2",
-    "imports-loader": "^0.6.5",
-    "jquery": "^2.1.4",
-    "jquery-ui": "^1.10.5",
     "lodash": "^4.2.1",
-    "performance-now": "^0.2.0",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "performance-now": "^0.2.0"
   },
   "devDependencies": {
-    "babel-core": "^6.4.5",
-    "babel-loader": "^6.2.1",
-    "babel-preset-react": "^6.3.13",
-    "css-loader": "^0.23.0",
     "eslint": "^1.7.3",
-    "exports-loader": "^0.6.2",
-    "extract-text-webpack-plugin": "^0.9.1",
-    "file-loader": "^0.8.4",
     "jsfmt": "^0.5.2",
-    "less": "^2.5.3",
-    "less-loader": "^2.2.1",
-    "mocha": "^2.3.3",
-    "raw-loader": "^0.5.1",
-    "style-loader": "^0.13.0",
-    "url-loader": "^0.5.6",
-    "webpack": "^1.12.2"
+    "mocha": "^2.3.3"
   },
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git@localhost:dongaro/modeling-compiler.git"
+    "url": "git@localhost:dongaro/runway-compiler.git"
   },
   "author": "Diego Ongaro <dongaro@salesforce.com>",
   "license": "UNLICENSED"
