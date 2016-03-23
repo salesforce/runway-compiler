@@ -11,10 +11,6 @@ On OS X, if you have homebrew, you can run:
 
     brew install node
 
-You can then get `bower` (another package manager) using `npm`:
-
-    npm install -g bower
-
 Then run `make setup` to get started.
 
 Also, `model.vim` is a vim syntax file you can use. Copy it into

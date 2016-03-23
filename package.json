@@ -1,11 +1,12 @@
 {
   "name": "runway-compiler",
   "version": "0.0.1-alpha.0",
-  "description": "Requires node >=v4.x, bower, npm.",
+  "description": "Requires node >=v4.x, npm.",
   "main": "main.js",
   "dependencies": {
     "docopt": "^0.6.2",
     "lodash": "^4.2.1",
+    "parsimmon": "^0.7.0",
     "performance-now": "^0.2.0"
   },
   "devDependencies": {

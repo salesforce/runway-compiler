@@ -1,12 +1,8 @@
-# empty string to terminate multi-line lists
-NULL=
-
 ALLJSFILES=$(shell git ls-files '*.js' '**/*.js')
 TESTJSFILES=$(shell git ls-files '*-test.js' '**/*-test.js')
 
 NODE ?= node
 NPM ?= npm
-BOWER ?= bower
 
 ESLINT ?= $(NODE) node_modules/eslint/bin/eslint.js
 JSFMT ?= $(NODE) node_modules/jsfmt/bin/jsfmt
@@ -16,19 +12,10 @@ MOCHA ?= $(node) node_modules/mocha/bin/mocha
 all: bundle.js
 
 .PHONY: setup
-setup: bower_components/parsimmon/build/parsimmon.commonjs.js \
-       npm_setup \
-       $(NULL)
+setup: npm_setup
 
 npm_setup:
 	$(NPM) install
-
-bower_components/parsimmon/Makefile:
-	$(BOWER) install
-
-bower_components/parsimmon/build/parsimmon.commonjs.js: bower_components/parsimmon/Makefile
-	(cd bower_components/parsimmon; make build/parsimmon.commonjs.js)
-
 
 .PHONY: test
 test: unit-test system-test

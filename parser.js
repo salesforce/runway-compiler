@@ -4,7 +4,7 @@ let errors = require('./errors.js');
 let Input = require('./input.js');
 let Source = require('./source.js');
 let process = require('process');
-let Parsimmon = require('./bower_components/parsimmon/build/parsimmon.commonjs.js');
+let Parsimmon = require('./parsimmon-wrapper.js');
 
 
 ////////// Helpers //////////
