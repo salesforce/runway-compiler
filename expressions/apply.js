@@ -5,6 +5,7 @@ let Expression = require('./expression.js');
 let Types = require('../types/types.js');
 let NumberType = require('../types/number.js').Type;
 let BlackHoleNumberType = require('../types/blackholenumber.js').Type;
+let OutputType = require('../types/output.js').Type;
 let RangeType = require('../types/range.js').Type;
 let makeExpression = require('./factory.js');
 let makeType = require('../types/factory.js');
@@ -196,7 +197,8 @@ class PushFunction extends BaseFunction {
     this.pure = false;
   }
   typecheckSub(params, env) {
-    if (!Types.implementsSet(params[0].type)) {
+    if (!Types.implementsSet(params[0].type) &&
+        !(params[0].type instanceof OutputType)) {
       throw new errors.Type(`Cannot call push() on ${params[0].type}`);
     }
     if (!Types.subtypeOf(params[1].type, params[0].type.valuetype)) {
@@ -205,8 +207,8 @@ class PushFunction extends BaseFunction {
     }
     return env.getType('Boolean'); // TODO: unit
   }
-  evaluateSub(args, env) {
-    args[0].push(args[1]);
+  evaluateSub(args, env, gargs, context) {
+    args[0].push(args[1], context);
     return env.getVar('True'); // TODO: unit
   }
 }

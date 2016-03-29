@@ -77,6 +77,7 @@ class Rule {
       readset: new Set(),
       clock: this.workspace.clock,
       nextWake: Number.MAX_VALUE,
+      output: this.workspace._output,
     };
     let changes = this.workspace.tryChangeState(() => {
       this._fire(econtext);
@@ -217,6 +218,13 @@ class Workspace {
       this.invariants.forEach(invariant => invariant.reportChanges(changes));
       this.rulesets.forEach(ruleset => ruleset.reportChanges(changes));
     });
+    this._output = {};
+  }
+
+  takeOutput() {
+    let o = this._output;
+    this._output = {};
+    return o;
   }
 
   getRulesets() {

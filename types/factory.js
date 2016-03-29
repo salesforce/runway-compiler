@@ -7,6 +7,7 @@ module.exports = factory;
 let errors = require('../errors.js');
 let ArrayType = require('./array.js');
 let Either = require('./either.js');
+let Output = require('./output.js');
 let Range = require('./range.js');
 let RecordType = require('./record.js');
 let VarLen = require('./varlen.js');
@@ -29,6 +30,8 @@ let make = function(decl, env, name) {
       return new ArrayType.Type(decl, env, name);
     } else if (decl.base.value == 'MultiSet') {
       return new VarLen.MultiSetType(decl, env, name);
+    } else if (decl.base.value == 'Output') {
+      return new Output.Type(decl, env, name);
     } else if (decl.base.value == 'OrderedSet') {
       return new VarLen.OrderedSetType(decl, env, name);
     } else if (decl.base.value == 'Vector') {
