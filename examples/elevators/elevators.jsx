@@ -251,7 +251,6 @@ let ruleMenu = (selector, rules) => new BootstrapMenu(selector, {
   })),
 });
 
-console.log(Tooltip.Mixin);
 let Person = React.createClass({
   mixins: [tooltip.Mixin],
 
