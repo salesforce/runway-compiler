@@ -11,10 +11,13 @@ type Person: either {
   Waiting {
     floor: Floor,
     destination: Floor,
+    tripStart: Time,
   },
   Riding {
     elevator: ElevatorId,
     destination: Floor,
+    tripStart: Time,
+    rideStart: Time,
   },
 }
 var people: Array<Person>[PersonId];
@@ -24,6 +27,15 @@ for person in people {
     wakeAt: later(urandomRange(0, 30000)),
   };
 }
+
+type Trip: record {
+  person: PersonId,
+  elevator: ElevatorId,
+  start: Time,
+  board: Time,
+  end: Time,
+};
+var trips: Output<Trip>;
 
 type FloorControl: record {
   downActive: Boolean,
@@ -132,6 +144,7 @@ rule wake for person in people {
         person = Waiting {
           floor: s.floor,
           destination: dest,
+          tripStart: later(0),
         };
         if dest > s.floor {
           if !floorControls[s.floor].upActive {
@@ -357,7 +370,7 @@ rule moveDoors for eid, elevator in elevators {
   match elevator.location {
     AtFloor as f => {
       match f.doors {
-        Opening as o => { 
+        Opening as o => {
           if past(o.doneAt) {
             f.doors = Open {
               closeAt: later(4000),
@@ -413,6 +426,8 @@ rule boardOrLeave for pid, person in people {
               person = Riding {
                 elevator: eid,
                 destination: w.destination,
+                tripStart: w.tripStart,
+                rideStart: later(0),
               };
               push(elevator.riders, pid);
               break;
@@ -426,6 +441,13 @@ rule boardOrLeave for pid, person in people {
       match elevators[r.elevator].location {
         AtFloor as a => {
           if a.at == r.destination && doorsOpen(a.doors) {
+            push(trips, Trip {
+              person: pid,
+              elevator: r.elevator,
+              start: r.tripStart,
+              board: r.rideStart,
+              end: later(0),
+            });
             person = Sleeping {
               floor: r.destination,
               wakeAt: later(urandomRange(5000, 30000)),
