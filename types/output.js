@@ -34,7 +34,6 @@ class OutputValue extends Value {
       context.output[name] = [];
     }
     context.output[name].push(v.toJSON());
-    console.log('pushed into', context.output, 'of', context);
   }
 }
 
