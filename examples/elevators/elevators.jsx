@@ -4,7 +4,6 @@ let React = require('React');
 let ReactDOM = require('ReactDOM');
 let BootstrapMenu = require('bootstrap-menu');
 let jQuery = require('jquery');
-let Timeline = require('Timeline');
 let Tooltip = require('Tooltip');
 let Util = require('Util');
 let _ = require('lodash');
@@ -388,9 +387,6 @@ let ElevatorView = React.createClass({
       <g id="elevators">{elevators}</g>
       <g id="floorControls">{floorControls}</g>
       <g id="people">{people}</g>
-      <g transform="scale(.1)">
-        <Timeline controller={controller} x={50} y={800} width={900} height={100} />
-      </g>
     </g>;
   },
 });
