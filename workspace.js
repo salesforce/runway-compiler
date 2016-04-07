@@ -279,7 +279,7 @@ class Workspace {
       return changes;
     } else {
       msg += ' (changed ' + changes.join(', ') + ')';
-      console.log(msg);
+      //console.log(msg);
       let event = {
         msg: msg,
         state: newState,

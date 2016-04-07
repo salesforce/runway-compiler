@@ -49,7 +49,7 @@ class Simulator {
   }
 
   step() {
-    let start = performance.now();
+    //let start = performance.now();
     let rulesets = _.reject(this.genContext.getRulesets(),
       rs => rs.source.external);
     while (true) {
@@ -58,8 +58,8 @@ class Simulator {
       rules = _.shuffle(rules);
       for (let rule of rules) {
         if (!Changesets.empty(rule.fire())) {
-          let stop = performance.now();
-          console.log(`simulate took ${_.round(stop - start, 3)} ms`);
+          //let stop = performance.now();
+          //console.log(`simulate took ${_.round(stop - start, 3)} ms`);
           return true;
         }
         nextWake = Math.min(nextWake, rule.getNextWake());
