@@ -635,31 +635,26 @@ let invariant = seqMap(keywords.invariant,
       code: block,
   }));
 
-let rule = seqMap(alt(keywords.rule, keywords.external),
-  id,
-  block,
-  (subkind, id, block) => ({
-      kind: 'rule',
-      subkind: subkind,
-      id: id,
-      code: block,
-  }));
-
-let rulefor = seqMap(alt(keywords.rule, keywords.external),
-  id,
-  keywords.for,
+let rulefor = seqMap(keywords.for,
   id.skip(comma).times(0, 1),
   id,
   keywords.in,
   expr,
+  (_1, index, value, _2, expr) => ({
+    index: index.length == 1 ? index[0] : undefined,
+    value: value,
+    expr: expr,
+  }));
+
+let rule = seqMap(alt(keywords.rule, keywords.external),
+  id,
+  rulefor.many(),
   block,
-  (subkind, id, _2, index, value, _3, expr, block) => ({
-      kind: 'rulefor',
+  (subkind, id, loops, block) => ({
+      kind: loops.length > 0 ? 'rulefor' : 'rule',
       subkind: subkind,
       id: id,
-      index: index.length == 1 ? index[0] : undefined,
-      value: value,
-      expr: expr,
+      loops: loops.length > 0 ? loops : undefined,
       code: block,
   }));
 
@@ -693,7 +688,6 @@ let statement = Parsimmon.alt(
   print,
   assert,
   rule,
-  rulefor,
   returnStmt,
   vardecl,
   breakStmt,

@@ -10,7 +10,6 @@ describe('statements/rulefor.js', function() {
       let module = testing.run(`
         var bools : Array<Boolean>[1..3];
         bools[2] = True;
-        var x : Boolean;
         rule invert for bool in bools {
           bool = (bool == False);
         }
@@ -37,6 +36,22 @@ describe('statements/rulefor.js', function() {
         '[4: 0, 5: 5, 6: 0]');
     });
 
+    it('nested', function() {
+      let module = testing.run(`
+        var bools : Array<Boolean>[1..3];
+        bools[2] = True;
+        rule xor for bool1 in bools
+                 for bool2 in bools {
+          bool1 = (bool1 != bool2);
+        }
+      `);
+      assert.equal(module.env.getVar('bools').toString(),
+        '[1: False, 2: True, 3: False]');
+      module.env.getRule('xor').fire([3, 2], context);
+      module.env.getRule('xor').fire([2, 3], context);
+      assert.equal(module.env.getVar('bools').toString(),
+        '[1: False, 2: False, 3: True]');
+    });
+
   });
 });
-

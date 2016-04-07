@@ -687,39 +687,43 @@
           "endchar": 476
         }
       },
-      "index": {
-        "kind": "id",
-        "value": "id",
-        "source": {
-          "input": {
-            "filename": "examples/tokenring/tokenring.model"
+      "loops": [
+        {
+          "index": {
+            "kind": "id",
+            "value": "id",
+            "source": {
+              "input": {
+                "filename": "examples/tokenring/tokenring.model"
+              },
+              "startchar": 480,
+              "endchar": 482
+            }
           },
-          "startchar": 480,
-          "endchar": 482
-        }
-      },
-      "value": {
-        "kind": "id",
-        "value": "server",
-        "source": {
-          "input": {
-            "filename": "examples/tokenring/tokenring.model"
+          "value": {
+            "kind": "id",
+            "value": "server",
+            "source": {
+              "input": {
+                "filename": "examples/tokenring/tokenring.model"
+              },
+              "startchar": 484,
+              "endchar": 491
+            }
           },
-          "startchar": 484,
-          "endchar": 491
+          "expr": {
+            "kind": "id",
+            "value": "servers",
+            "source": {
+              "input": {
+                "filename": "examples/tokenring/tokenring.model"
+              },
+              "startchar": 494,
+              "endchar": 502
+            }
+          }
         }
-      },
-      "expr": {
-        "kind": "id",
-        "value": "servers",
-        "source": {
-          "input": {
-            "filename": "examples/tokenring/tokenring.model"
-          },
-          "startchar": 494,
-          "endchar": 502
-        }
-      },
+      ],
       "code": {
         "kind": "block",
         "code": {

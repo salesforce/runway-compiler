@@ -173,7 +173,7 @@ Options:
     while (true) {
       process.stdout.write(`${i}: `);
       let ok = simulator.step(i);
-      process.stdout.write(`  at clock ${workspace.clock}\n`);
+      process.stdout.write(`${workspace.cursor.getEvent().msg} at clock ${workspace.clock}\n`);
       if (!ok) {
         break;
       }

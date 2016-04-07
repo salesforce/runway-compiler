@@ -33,10 +33,10 @@ let extractSimpleRules = (module) => {
   let simpleRules = [];
   module.env.rules.forEach((rule, name) => {
     if (rule instanceof RuleFor) {
-      rule.expr.evaluate(context).forEach((v, i) => {
+      rule.enumerate(context).forEach(indexes => {
         simpleRules.push({
-          name: `${name}(${i})`,
-          fire: () => rule.fire(i, context),
+          name: `${name}(${indexes.join(', ')})`,
+          fire: () => rule.fire(indexes, context),
         });
       });
     } else {

@@ -150,13 +150,10 @@ class MultiRuleSet {
       readset: new Set(),
       clock: this.workspace.clock,
     };
-    let rules = [];
-    this.source.expr.evaluate(econtext).forEach((v, i) => {
-      rules.push(new Rule(this.workspace, `${this.name}(${i})`,
-        econtext => this.source.fire(i, econtext)));
-    });
+    this.rules = this.source.enumerate(econtext).map(indexes =>
+      new Rule(this.workspace, `${this.name}(${indexes.join(', ')})`,
+        econtext => this.source.fire(indexes, econtext)));
     this.readset = econtext.readset;
-    this.rules = rules;
   }
   reportChanges(changes) {
     // note that rule-for cannot access the clock for now (syntactically
