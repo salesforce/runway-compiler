@@ -38,6 +38,9 @@ class ArrayValue extends Value {
   forEach(cb) {
     this.items.forEach((v, i) => cb(v, this.type.indextype.low + i));
   }
+  map(cb) {
+    return this.items.map((v, i) => cb(v, this.type.indextype.low + i));
+  }
   toString() {
     let inner = this.items.map((v, i) => {
       return `${this.type.indextype.low + i}: ${v.toString()}`;
@@ -54,7 +57,7 @@ class ArrayValue extends Value {
     });
   }
   assign(other) {
-    this.forEach((v, i) => this.index(i).assign(other.index(i)));   
+    this.forEach((v, i) => this.index(i).assign(other.index(i)));
   }
   equals(other) {
     let allEqual = true;

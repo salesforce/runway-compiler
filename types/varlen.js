@@ -44,6 +44,9 @@ class VarLenBaseValue extends Value {
   forEach(cb) {
     this.usedItems().forEach((v, i) => cb(v, this.type.indextype.low + i));
   }
+  map(cb) {
+    return this.usedItems().map((v, i) => cb(v, this.type.indextype.low + i));
+  }
   contains(v) {
     return this.indexOf(v) !== null;
   }
@@ -144,7 +147,7 @@ let insertOrdered = function(v) {
   value.assign(v);
   let inskey = cmpkey(value);
   let index = 0;
-  
+
   this.forEach((v, i) => {
     if (inskey >= cmpkey(v)) {
       index += 1;
