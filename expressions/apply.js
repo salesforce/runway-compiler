@@ -362,7 +362,8 @@ class PastFunction extends BaseFunction {
     if (context.readset !== undefined) {
       context.readset.add('clock:past');
     }
-    if (env.getType('Time') === BlackHoleNumberType.singleton) {
+    if (env.getType('Time') === BlackHoleNumberType.singleton ||
+        context.async === true) {
       return env.getVar('True'); // enable everything
     } else {
       if (context.clock === undefined) {
