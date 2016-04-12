@@ -28,12 +28,22 @@ class Match extends Statement {
       throw new errors.Type(`Cannot match on a ${this.expr.type.getName()} ` +
         `at ${this.expr.source}`);
     }
+
+    let tagsPresent = new Set();
     this.variants.forEach((variant, tag) => {
+      tagsPresent.add(tag);
       if (variant.id !== undefined) {
         let value = this.expr.type.getVariant(tag).makeDefaultValue();
         variant.env.vars.set(variant.id.value, value, variant.id.source);
       }
       variant.code.typecheck();
+    });
+
+    this.expr.type.variants.forEach(v => {
+      if (!tagsPresent.has(v.name)) {
+        throw new errors.Type(`Missing variant ${v.name} in match ` +
+          `at ${this.parsed.source}`);
+      }
     });
   }
 
