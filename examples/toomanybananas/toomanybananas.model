@@ -12,11 +12,11 @@ var roommates: Array<Person>[1..5];
 
 rule step for state in roommates {
   match state {
-    Happy => {
+    Happy {
       state = Hungry;
-    },
+    }
 
-    Hungry => {
+    Hungry {
       if bananas == 0 {
         if (notePresent) {
           // Roommate at store: try again later
@@ -28,19 +28,19 @@ rule step for state in roommates {
         bananas -= 1;
         state = Happy;
       }
-    },
+    }
 
-    GoingToStore => {
+    GoingToStore {
       state = ReturningFromStore {
         carrying: urandomRange(0, 8)
       };
-    },
+    }
 
-    ReturningFromStore as bag => {
+    ReturningFromStore(bag) {
       bananas += bag.carrying;
       notePresent = False;
       state = Hungry;
-    },
+    }
   }
 }
 

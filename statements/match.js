@@ -11,8 +11,18 @@ class Match extends Statement {
   constructor(parsed, env) {
     super(parsed, env);
     this.expr = makeExpression.make(this.parsed.expr, this.env);
-    this.variants = new Map(this.parsed.variants.map((variant) => {
+    this.variants = new Map(this.parsed.variants.map((variant, i) => {
       let variantEnv = new Environment(this.env);
+      if (variant.type.value === 'default') {
+        if (i < this.parsed.variants.length - 1) {
+          throw new errors.Parse(`default must be last in match ` +
+            `at ${this.parsed.source}`);
+        }
+        if (variant.id !== undefined) {
+          throw new errors.Parse(`default cannot have variable in match ` +
+            `at ${this.parsed.source}`);
+        }
+      }
       return [variant.type.value,
         {
           id: variant.id,
@@ -39,22 +49,28 @@ class Match extends Statement {
       variant.code.typecheck();
     });
 
-    this.expr.type.variants.forEach(v => {
-      if (!tagsPresent.has(v.name)) {
-        throw new errors.Type(`Missing variant ${v.name} in match ` +
-          `at ${this.parsed.source}`);
-      }
-    });
+    if (!tagsPresent.has('default')) {
+      this.expr.type.variants.forEach(v => {
+        if (!tagsPresent.has(v.name)) {
+          throw new errors.Type(`Missing variant ${v.name} in match ` +
+            `at ${this.parsed.source}`);
+        }
+      });
+    }
   }
 
   execute(context) {
     let value = this.expr.evaluate(context);
     let variant = this.variants.get(value.varianttype.name);
     if (variant === undefined) {
-      throw new errors.Internal(`Bad variant: ${value.varianttype.name}`);
-    }
-    if (variant.id !== undefined) {
-      variant.env.getVar(variant.id.value).assign(value);
+      variant = this.variants.get('default');
+      if (variant === undefined) {
+        throw new errors.Internal(`Bad variant: ${value.varianttype.name}`);
+      }
+    } else {
+      if (variant.id !== undefined) {
+        variant.env.getVar(variant.id.value).assign(value);
+      }
     }
     variant.code.execute(context);
   }

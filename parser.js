@@ -508,28 +508,26 @@ let returnStmt = keywords.return
   .skip(semicolon);
 
 let match = call(function() {
-  let matchvariant = seqMap(id,
-    keywords.as,
+  let asClause = seqMap(keywords.as,
     id,
-    doubleArrow,
+    (_1, id) => id).or(seqMap(lparen,
+    id,
+    rparen,
+    (_1, id, _2) => id));
+  let matchvariant = seqMap(id,
+    asClause.times(0, 1),
+    doubleArrow.times(0, 1),
     block,
-    (type, _, id, _2, block) => ({
+    (type, as, _2, block) => ({
         kind: 'matchvariant',
         type: type,
-        id: id,
+        id: as.length > 0 ? as[0] : undefined,
         code: block,
-    })).or(seqMap(id,
-    doubleArrow,
-    block,
-    (type, _, block) => ({
-        kind: 'matchvariant',
-        type: type,
-        code: block,
-    })));
+    }));
   return seqMap(keywords.match,
     expr,
     lbrace,
-    sepBy1OptTrail(matchvariant, comma),
+    sepBy1OptTrail(matchvariant, comma.times(0, 1)),
     rbrace,
     (_, expr, _2, variants, _3) => ({
         kind: 'match',

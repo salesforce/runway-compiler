@@ -96,17 +96,15 @@ distribution makeDestination(start: Floor) -> Floor {
 
 function doorsOpen(doors: Doors) -> Boolean {
   match doors {
-    Open    => { return True; },
-    Closed  => { return False; },
-    Opening => { return False; },
-    Closing => { return False; },
+    Open { return True; }
+    default { return False; }
   }
 }
 
 function callActive(floor: Floor, direction: Direction) -> Boolean {
   match direction {
-    Up   => { return floorControls[floor].upActive;   },
-    Down => { return floorControls[floor].downActive; },
+    Up   { return floorControls[floor].upActive;   }
+    Down { return floorControls[floor].downActive; }
   }
 }
 
@@ -116,13 +114,12 @@ function isDestination(floor: Floor, elevator: Elevator) -> Boolean {
   // person riding
   for pid in elevator.riders {
     match people[pid] {
-      Riding as r => {
+      Riding(r) {
         if r.destination == floor {
           return True;
         }
-      },
-      Sleeping => { assert False; },
-      Waiting => { assert False; },
+      }
+      default { assert False; }
     }
   }
   // floor call
@@ -139,7 +136,7 @@ function isDestination(floor: Floor, elevator: Elevator) -> Boolean {
 // They haven't yet pressed the up/down button.
 rule wake for person in people {
   match person {
-    Sleeping as s => {
+    Sleeping(s) {
       if past(s.wakeAt) {
         var dest : Floor = makeDestination(s.floor);
         assert dest != s.floor;
@@ -160,21 +157,20 @@ rule wake for person in people {
           }
         }
       }
-    },
-    Waiting => { /* do nothing */ },
-    Riding => { /* do nothing */ },
+    }
+    default { /* do nothing */ }
   }
 }
 
 // Elevator moves up or down
 rule move for elevator in elevators {
   match elevator.location {
-    Between as b => {
+    Between(b) {
       if past(b.nextAt) {
         elevator.location = AtFloor { at: b.next, doors: Closed };
       }
-    }, // end Between
-    AtFloor as f => {
+    } // end Between
+    AtFloor(f) {
       if (f.doors == Closed &&
           !isDestination(f.at, elevator)) {
         // where to go in this direction
@@ -183,19 +179,18 @@ rule move for elevator in elevators {
         // other direction
         var moveDir : Direction = elevator.direction;
         match elevator.direction {
-          Up => {
+          Up {
             for pid in elevator.riders {
               match people[pid] {
-                Riding as r => {
+                Riding(r) {
                   if r.destination > f.at {
                     moveTo = f.at + 1;
                   }
                   if r.destination < f.at {
                     moveDir = Down;
                   }
-                },
-                Sleeping => { assert False; },
-                Waiting => { assert False; },
+                }
+                default { assert False; }
               }
             }
             for call in elevator.floorCalls {
@@ -207,20 +202,19 @@ rule move for elevator in elevators {
                 moveDir = Down;
               }
             }
-          },
-          Down => {
+          }
+          Down {
             for pid in elevator.riders {
               match people[pid] {
-                Riding as r => {
+                Riding(r) {
                   if r.destination < f.at {
                     moveTo = f.at - 1;
                   }
                   if r.destination > f.at {
                     moveDir = Up;
                   }
-                },
-                Sleeping => { assert False; },
-                Waiting => { assert False; },
+                }
+                default { assert False; }
               }
             }
             for call in elevator.floorCalls {
@@ -232,7 +226,7 @@ rule move for elevator in elevators {
                 moveDir = Up;
               }
             }
-          },
+          }
         } // end match direction
         if moveTo == f.at {
           // No reason to move in this direction.
@@ -256,7 +250,7 @@ rule move for elevator in elevators {
 // Elevator goes from up to down or down to up.
 rule changeDirection for elevator in elevators {
   match elevator.location {
-    AtFloor as f => {
+    AtFloor(f) {
       if f.doors == Closed && !isDestination(f.at, elevator) {
         var smaller : Boolean = False;
         var larger : Boolean = False;
@@ -289,8 +283,8 @@ rule changeDirection for elevator in elevators {
           },
         }
       }
-    },
-    Between as b => { /* no turning here * /},
+    }
+    Between(b) { /* no turning here * /}
   }
 }
 */
@@ -303,16 +297,16 @@ function dispatchElevator(floor: Floor, direction: Direction) {
   for eid, elevator in elevators {
     var at : Floor;
     match elevator.location {
-      AtFloor as a => {
+      AtFloor(a) {
         at = a.at;
-      },
-      Between as b => {
+      }
+      Between(b) {
         distance[eid] += 1;
         at = b.next;
-      },
+      }
     }
     match elevator.direction {
-      Up => {
+      Up {
         if at <= floor && direction == Up {
           distance[eid] += 2 * (floor - at);
         } else {
@@ -321,8 +315,8 @@ function dispatchElevator(floor: Floor, direction: Direction) {
                                 (size(floorControls) - 1) + /* down to bottom */
                                 (size(floorControls) - floor)); /* up to floor */
         }
-      },
-      Down => {
+      }
+      Down {
         if at >= floor && direction == Down {
           distance[eid] += 2 * (at - floor);
         } else {
@@ -331,7 +325,7 @@ function dispatchElevator(floor: Floor, direction: Direction) {
                                 (size(floorControls) - 1) + /* up to top */
                                 (floor - 1)); /* down to floor */
         }
-      },
+      }
     }
   }
 
@@ -359,44 +353,44 @@ function dispatchElevator(floor: Floor, direction: Direction) {
 // Elevator clears a floor button.
 rule clearControl for eid, elevator in elevators {
   match elevator.location {
-    AtFloor as f => {
+    AtFloor(f) {
       if doorsOpen(f.doors) {
         match elevator.direction {
           Up => { floorControls[f.at].upActive = False; },
           Down => { floorControls[f.at].downActive = False; },
         } // direction
       }
-    },
-    Between => {},
+    }
+    Between {}
   } // location
 }
 
 // Elevator opens or closes its doors.
 rule moveDoors for eid, elevator in elevators {
   match elevator.location {
-    AtFloor as f => {
+    AtFloor(f) {
       match f.doors {
-        Opening as o => {
+        Opening(o) {
           if past(o.doneAt) {
             f.doors = Open {
               closeAt: later(4000),
             };
           }
-        },
-        Open as o => {
+        }
+        Open(o) {
           if past(o.closeAt) {
             f.doors = Closing {
               startAt: later(0),
               doneAt: later(4000),
             };
           }
-        },
-        Closing as c => {
+        }
+        Closing(c) {
           if past(c.doneAt) {
             f.doors = Closed;
           }
-        },
-        Closed => {
+        }
+        Closed {
           if (isDestination(f.at, elevator)) {
             f.doors = Opening {
               startAt: later(0),
@@ -407,10 +401,10 @@ rule moveDoors for eid, elevator in elevators {
               direction: elevator.direction,
             });
           }
-        },
+        }
       }
       elevator.location = f;
-    },
+    }
     Between => {},
   }
 }
@@ -418,15 +412,15 @@ rule moveDoors for eid, elevator in elevators {
 // Person gets on or off an elevator.
 rule boardOrLeave for pid, person in people {
   match person {
-    Sleeping => { /* do nothing */ },
-    Waiting as w => {
+    Sleeping { /* do nothing */ }
+    Waiting(w) {
       for eid, elevator in elevators {
         match elevator.location {
-          AtFloor as a => {
+          AtFloor(a) {
             var dirOk : Boolean;
             match elevator.direction {
-              Up => { dirOk = w.destination > w.floor; },
-              Down => { dirOk = w.destination < w.floor; },
+              Up   { dirOk = w.destination > w.floor; }
+              Down { dirOk = w.destination < w.floor; }
             }
             if a.at == w.floor && doorsOpen(a.doors) && dirOk {
               person = Riding {
@@ -438,14 +432,14 @@ rule boardOrLeave for pid, person in people {
               push(elevator.riders, pid);
               break;
             }
-          },
-          Between => { /* do nothing */ },
+          }
+          Between { /* do nothing */ }
         }
       }
-    },
+    }
     Riding as r => {
       match elevators[r.elevator].location {
-        AtFloor as a => {
+        AtFloor(a) {
           if a.at == r.destination && doorsOpen(a.doors) {
             push(trips, Trip {
               person: pid,
@@ -460,8 +454,8 @@ rule boardOrLeave for pid, person in people {
             };
             remove(elevators[r.elevator].riders, pid);
           }
-        },
-        Between => { /* do nothing */ },
+        }
+        Between { /* do nothing */ }
       }
     }
   }
@@ -470,11 +464,10 @@ rule boardOrLeave for pid, person in people {
 invariant goSomewhereElse {
   for person in people {
     match person {
-      Waiting as w => {
+      Waiting(w) {
         assert w.floor != w.destination;
-      },
-      Sleeping => {},
-      Riding => {},
+      }
+      default {}
     }
   }
 }
@@ -482,17 +475,17 @@ invariant goSomewhereElse {
 invariant elevatorRidersCorrect {
   for pid, person in people {
     match person {
-      Sleeping => {
+      Sleeping {
         for elevator in elevators {
           assert !contains(elevator.riders, pid);
         }
-      },
-      Waiting => {
+      }
+      Waiting {
         for elevator in elevators {
           assert !contains(elevator.riders, pid);
         }
-      },
-      Riding as r => {
+      }
+      Riding(r) {
         for eid, elevator in elevators {
           if r.elevator == eid {
             assert contains(elevator.riders, pid);
@@ -500,7 +493,7 @@ invariant elevatorRidersCorrect {
             assert !contains(elevator.riders, pid);
           }
         }
-      },
+      }
     }
   }
 }
