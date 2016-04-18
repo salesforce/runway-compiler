@@ -120,7 +120,9 @@ function isDestination(floor: Floor, elevator: Elevator) -> Boolean {
         if r.destination == floor {
           return True;
         }
-      }
+      },
+      Sleeping => { assert False; },
+      Waiting => { assert False; },
     }
   }
   // floor call
@@ -191,7 +193,9 @@ rule move for elevator in elevators {
                   if r.destination < f.at {
                     moveDir = Down;
                   }
-                }
+                },
+                Sleeping => { assert False; },
+                Waiting => { assert False; },
               }
             }
             for call in elevator.floorCalls {
@@ -214,7 +218,9 @@ rule move for elevator in elevators {
                   if r.destination > f.at {
                     moveDir = Up;
                   }
-                }
+                },
+                Sleeping => { assert False; },
+                Waiting => { assert False; },
               }
             }
             for call in elevator.floorCalls {
