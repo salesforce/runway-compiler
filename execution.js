@@ -1,14 +1,18 @@
 'use strict';
 
 class Execution {
-  constructor(parent, startIndex, firstEvent) {
+  constructor(parent, startIndex, firstEvents) {
     // invariant: null or Execution
     this._parent = parent;
     // invariant: If _parent is null, startIndex is 0. Otherwise, ancestors
-    // contain at least _startIndex > 0 number of events. 
+    // contain at least _startIndex > 0 number of events.
     this._startIndex = startIndex;
     // invariant: non-empty
-    this._events = [firstEvent];
+    if (firstEvents instanceof Array) {
+      this._events = firstEvents;
+    } else {
+      this._events = [firstEvents];
+    }
   }
 
   size() {
@@ -38,7 +42,7 @@ class Execution {
     return result;
   }
 
-  
+
   // Like preceding() but returns index.
   _precedingIndex(leq, endIndex) {
     if (endIndex >= this._startIndex && leq(this._events[0])) { // here
