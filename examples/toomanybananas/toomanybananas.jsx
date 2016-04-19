@@ -130,7 +130,12 @@ let TooManyBananasView = React.createClass({
         x={x}
         y={y}
         xlinkHref={happy ? '#happy' : '#hungry'}
-        className="clickable"
+        className={Changesets.empty(
+          controller.workspace.wouldChangeState(() => {
+            console.log(`step ${id}`);
+            let context = {};
+            model.getRule('step').fire(id, context);
+          })) ? "click-disabled" : "clickable"}
         onClick={() => controller.workspace.tryChangeState(() => {
           console.log(`step ${id}`);
           let context = {};
