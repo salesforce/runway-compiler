@@ -393,7 +393,7 @@ let ElevatorView = React.createClass({
 
 let reactComponent = ReactDOM.render(<ElevatorView />, svg);
 
-let graph = (function() {
+let graphTab = (function(elem) {
   let d3 = require('d3');
 
   d3.select('head').append('style')
@@ -435,7 +435,7 @@ let graph = (function() {
   let color = d3.scale.category10()
     .domain(['waiting', 'riding']);
 
-  let svg = d3.select('#graph').append('svg')
+  let svg = d3.select(elem).append('svg')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom)
     .append('g')
@@ -614,7 +614,6 @@ let graph = (function() {
 
 
   return {
-    name: 'graph',
     update: changes => {
       let output = controller.workspace.takeOutput();
       if (output.trips !== undefined && output.trips.length > 0) {
@@ -628,8 +627,9 @@ let graph = (function() {
       }
     },
   };
-})();
+});
 
+let graph = controller.mountTab(graphTab, 'graph', 'Graph');
 
 return {
   update: function(changes) {
