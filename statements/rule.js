@@ -27,12 +27,6 @@ class Rule extends Statement {
     } catch ( e ) {
       if (e instanceof errors.Return) {
         return;
-      } else if (e instanceof errors.Reset) {
-        this.env.vars.forEach((mvar, name) => {
-          mvar.assign(mvar.type.makeDefaultValue());
-        });
-        // TODO: how to run global initialization?
-        // module.ast.execute(context);
       } else {
         throw e;
       }
