@@ -35,6 +35,9 @@ class OutputValue extends Value {
     }
     context.output[name].push(v.toJSON());
   }
+  assign(v) {
+    // needed for reset statement
+  }
 }
 
 class OutputType extends Type {
