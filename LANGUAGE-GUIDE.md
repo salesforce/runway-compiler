@@ -75,14 +75,15 @@ You can use `==` to compare simple variant names, or you can use `match` stateme
 
     > var go : Boolean;
     > match tl {
-    .   Green => { go = True; },
-    .   Yellow => { go = True; /* reckless driver */ },
-    .   Red => {go = False; },
-    . } 
+    .   Green { go = True; }
+    .   Yellow { go = True; /* reckless driver */ }
+    .   Red {go = False; }
+    . }
     > go
     True
 
-In a match statement, all variants must be accounted for.
+In a match statement, all variants must be accounted for,
+or use the `default` keyword to catch all the rest.
 
 The built-in type ``Boolean`` is an either type defined as follows:
 
@@ -117,24 +118,24 @@ Note that we can't write `p == Alive`, nor can we write `p.heartRate`.
 A match statement is the only way to get at a Person's heart rate:
 
     > match p {
-    .   Dead => {
+    .   Dead {
     .     isResting = True;
-    .   },
-    .   Alive as details => {
+    .   }
+    .   Alive(details) {
     .     isResting = (details.heartRate < 100);
-    .   },
+    .   }
     . }
     > isResting
     True
 
-The keyword `as` in a match statement makes a copy of the variables.
+The variable in parenthesis in a match statement variant makes a copy of the variable.
 As a result, this would be an incorrect way to go to sleep:
 
     > match p {
-    .   Dead => { /* resting quite well already */ },
-    .   Alive as details => {
+    .   Dead { /* resting quite well already */ }
+    .   Alive(details) {
     .     details.asleep = True;
-    .   },
+    .   }
     . }
     > p
     Alive { heartRate: 80, asleep: False }
@@ -142,10 +143,10 @@ As a result, this would be an incorrect way to go to sleep:
 The correct implementation assigns back to the variable:
 
     > match p {
-    .   Dead => { /* resting quite well already */ },
-    .   Alive as details => {
+    .   Dead { /* resting quite well already */ }
+    .   Alive(details) {
     .     p = Alive { heartRate: 80, asleep: True };
-    .   },
+    .   }
     . }
     > p
     Alive { heartRate: 80, asleep: True }
@@ -165,7 +166,7 @@ present similar interfaces:
 - Set: no duplicates, no ordering
 - MultiSet: allows duplicates, no ordering
 - OrderedSet: no duplicates, preserves insertion order
-- Vector: allows duplicates, preserves insertion order 
+- Vector: allows duplicates, preserves insertion order
 
 #### Arrays
 
@@ -178,7 +179,7 @@ are indexed by a specified range type.
     > bools[12] = True
     > bools
     [11: False, 12: True, 13: False, 14: False]
-    > 
+    >
 
 Use a `for` loop to iterate through an array by reference:
 
