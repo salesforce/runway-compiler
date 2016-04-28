@@ -10,8 +10,6 @@
     "performance-now": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^1.7.3",
-    "jsfmt": "^0.5.2",
     "mocha": "^2.3.3"
   },
   "scripts": {

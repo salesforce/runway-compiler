@@ -4,8 +4,8 @@ TESTJSFILES=$(shell git ls-files '*-test.js' '**/*-test.js')
 NODE ?= node
 NPM ?= npm
 
-ESLINT ?= $(NODE) node_modules/eslint/bin/eslint.js
-JSFMT ?= $(NODE) node_modules/jsfmt/bin/jsfmt
+ESLINT ?= eslint
+JSFMT ?= jsfmt
 MOCHA ?= $(node) node_modules/mocha/bin/mocha
 
 .PHONY: all
