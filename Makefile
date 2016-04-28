@@ -6,7 +6,7 @@ NPM ?= npm
 
 ESLINT ?= eslint
 JSFMT ?= jsfmt
-MOCHA ?= $(node) node_modules/mocha/bin/mocha
+MOCHA ?= $(NODE) node_modules/mocha/bin/mocha
 
 .PHONY: all
 all: bundle.js
