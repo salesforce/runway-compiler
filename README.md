@@ -3,20 +3,21 @@
 This project is a work in progress. It's fairly buggy and quirky but can
 provide some value already. The docs aren't very good yet.
 
-Setup
------
+## Setup
 
 First make sure you have `node` and `npm` (node package manager) installed.
-On OS X, if you have homebrew, you can run:
+Clone this repository and run `npm install` within it to get started.
 
-    brew install node
+### Syntax Highlighting: vim
 
-Then run `make setup` to get started.
+`vim/runway.vim` is a vim syntax file you can use. Copy it into
+`~/.vim/syntax/` and set your filetype to `runway` in `~/.vimrc`:
 
-Also, `model.vim` is a vim syntax file you can use. Copy it into
-`~/.vim/syntax/` and set your filetype to `model` in `~/.vimrc`:
+    autocmd BufRead,BufNewFile *.model set filetype=runway
 
-    autocmd BufRead,BufNewFile *.model set filetype=model
+### Syntax Highlighting: atom
+
+TODO
 
 REPL
 ----
@@ -88,14 +89,12 @@ code to make sense of this.
 
 Note that invariants are not automatically checked.
 
-Writing a Model
----------------
+## Writing a Model
 
 Coming soon. The most important thing to note is that most things are
 pass-by-value (copy semantics), but for loops are by reference.
 
-Internals
----------
+## Internals
 
 ### Interpreter
 
@@ -119,15 +118,13 @@ top-level initialization statements, if any.
 
 ### Tests
 
-Run `make test`.
+Run `npm test`.
 
 Unit tests use the [Mocha](https://mochajs.org/) library.  To add a new test
-file for a module named *foo*, name it `foo-test.js` and run `git add
-foo-test.js`. It will then be invoked on subsequent `make test` runs.
+file, place it in the `test/` directory.
 
-The parser is tested by feeding it a couple of files
-([input.model](input.model) and [tokenring.model](tokenring.model)) and
-automatically checking their parser output (against [output.json](output.json)
-and [output-tokenring.json](output-tokenring.json)). Eventually we'll want more
-targeted tests for the parser, but this has worked pretty well so far at
-making sure there aren't any regressions.
+The parser is tested by feeding it a couple of files (`input.model`) and
+`tokenring.model`) and automatically checking their parser output (against
+`output.json` and `output-tokenring.json`). Eventually we'll want more targeted
+tests for the parser, but this has worked pretty well so far at making sure
+there aren't any regressions.

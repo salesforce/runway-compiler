@@ -1,5 +1,5 @@
 *.bck
-/JAVASCRIPT-API.html
-/LANGUAGE-GUIDE.html
+/doc/JAVASCRIPT-API.html
+/doc/LANGUAGE-GUIDE.html
 /README.html
 /node_modules/
