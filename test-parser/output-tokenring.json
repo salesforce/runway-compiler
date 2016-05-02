@@ -439,7 +439,7 @@
                         "filename": "examples/tokenring/tokenring.model"
                       },
                       "startchar": 310,
-                      "endchar": 320
+                      "endchar": 319
                     }
                   },
                   "id": {
@@ -449,8 +449,8 @@
                       "input": {
                         "filename": "examples/tokenring/tokenring.model"
                       },
-                      "startchar": 323,
-                      "endchar": 331
+                      "startchar": 320,
+                      "endchar": 327
                     }
                   },
                   "code": {
@@ -469,8 +469,8 @@
                                 "input": {
                                   "filename": "examples/tokenring/tokenring.model"
                                 },
-                                "startchar": 362,
-                                "endchar": 371
+                                "startchar": 357,
+                                "endchar": 366
                               }
                             },
                             "parent": {
@@ -484,8 +484,8 @@
                                     "input": {
                                       "filename": "examples/tokenring/tokenring.model"
                                     },
-                                    "startchar": 358,
-                                    "endchar": 360
+                                    "startchar": 353,
+                                    "endchar": 355
                                   }
                                 },
                                 "parent": {
@@ -495,16 +495,16 @@
                                     "input": {
                                       "filename": "examples/tokenring/tokenring.model"
                                     },
-                                    "startchar": 350,
-                                    "endchar": 357
+                                    "startchar": 345,
+                                    "endchar": 352
                                   }
                                 },
                                 "source": {
                                   "input": {
                                     "filename": "examples/tokenring/tokenring.model"
                                   },
-                                  "startchar": 350,
-                                  "endchar": 360
+                                  "startchar": 345,
+                                  "endchar": 355
                                 }
                               },
                               "parent": {
@@ -514,8 +514,8 @@
                                   "input": {
                                     "filename": "examples/tokenring/tokenring.model"
                                   },
-                                  "startchar": 342,
-                                  "endchar": 349
+                                  "startchar": 337,
+                                  "endchar": 344
                                 }
                               }
                             }
@@ -527,16 +527,16 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 373,
-                              "endchar": 377
+                              "startchar": 368,
+                              "endchar": 372
                             }
                           },
                           "source": {
                             "input": {
                               "filename": "examples/tokenring/tokenring.model"
                             },
-                            "startchar": 342,
-                            "endchar": 385
+                            "startchar": 337,
+                            "endchar": 380
                           }
                         },
                         {
@@ -548,8 +548,8 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 385,
-                              "endchar": 391
+                              "startchar": 380,
+                              "endchar": 386
                             }
                           },
                           "rhs": {
@@ -561,8 +561,8 @@
                                 "input": {
                                   "filename": "examples/tokenring/tokenring.model"
                                 },
-                                "startchar": 393,
-                                "endchar": 402
+                                "startchar": 388,
+                                "endchar": 397
                               }
                             },
                             "fields": [
@@ -574,8 +574,8 @@
                                     "input": {
                                       "filename": "examples/tokenring/tokenring.model"
                                     },
-                                    "startchar": 404,
-                                    "endchar": 406
+                                    "startchar": 399,
+                                    "endchar": 401
                                   }
                                 },
                                 "expr": {
@@ -587,8 +587,8 @@
                                       "input": {
                                         "filename": "examples/tokenring/tokenring.model"
                                       },
-                                      "startchar": 416,
-                                      "endchar": 419
+                                      "startchar": 411,
+                                      "endchar": 414
                                     }
                                   },
                                   "parent": {
@@ -598,16 +598,16 @@
                                       "input": {
                                         "filename": "examples/tokenring/tokenring.model"
                                       },
-                                      "startchar": 408,
-                                      "endchar": 415
+                                      "startchar": 403,
+                                      "endchar": 410
                                     }
                                   },
                                   "source": {
                                     "input": {
                                       "filename": "examples/tokenring/tokenring.model"
                                     },
-                                    "startchar": 408,
-                                    "endchar": 419
+                                    "startchar": 403,
+                                    "endchar": 414
                                   }
                                 }
                               }
@@ -616,16 +616,16 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 393,
-                              "endchar": 420
+                              "startchar": 388,
+                              "endchar": 415
                             }
                           },
                           "source": {
                             "input": {
                               "filename": "examples/tokenring/tokenring.model"
                             },
-                            "startchar": 385,
-                            "endchar": 426
+                            "startchar": 380,
+                            "endchar": 421
                           }
                         }
                       ]
@@ -641,8 +641,8 @@
                       "input": {
                         "filename": "examples/tokenring/tokenring.model"
                       },
-                      "startchar": 433,
-                      "endchar": 442
+                      "startchar": 427,
+                      "endchar": 436
                     }
                   },
                   "code": {
@@ -659,7 +659,7 @@
                   "filename": "examples/tokenring/tokenring.model"
                 },
                 "startchar": 292,
-                "endchar": 458
+                "endchar": 461
               }
             }
           ]
@@ -670,7 +670,7 @@
           "filename": "examples/tokenring/tokenring.model"
         },
         "startchar": 270,
-        "endchar": 461
+        "endchar": 464
       }
     },
     {
@@ -683,8 +683,8 @@
           "input": {
             "filename": "examples/tokenring/tokenring.model"
           },
-          "startchar": 466,
-          "endchar": 476
+          "startchar": 469,
+          "endchar": 479
         }
       },
       "loops": [
@@ -696,8 +696,8 @@
               "input": {
                 "filename": "examples/tokenring/tokenring.model"
               },
-              "startchar": 480,
-              "endchar": 482
+              "startchar": 483,
+              "endchar": 485
             }
           },
           "value": {
@@ -707,8 +707,8 @@
               "input": {
                 "filename": "examples/tokenring/tokenring.model"
               },
-              "startchar": 484,
-              "endchar": 491
+              "startchar": 487,
+              "endchar": 494
             }
           },
           "expr": {
@@ -718,8 +718,8 @@
               "input": {
                 "filename": "examples/tokenring/tokenring.model"
               },
-              "startchar": 494,
-              "endchar": 502
+              "startchar": 497,
+              "endchar": 505
             }
           }
         }
@@ -740,8 +740,8 @@
                     "input": {
                       "filename": "examples/tokenring/tokenring.model"
                     },
-                    "startchar": 516,
-                    "endchar": 525
+                    "startchar": 519,
+                    "endchar": 528
                   }
                 },
                 "parent": {
@@ -751,16 +751,16 @@
                     "input": {
                       "filename": "examples/tokenring/tokenring.model"
                     },
-                    "startchar": 509,
-                    "endchar": 515
+                    "startchar": 512,
+                    "endchar": 518
                   }
                 },
                 "source": {
                   "input": {
                     "filename": "examples/tokenring/tokenring.model"
                   },
-                  "startchar": 509,
-                  "endchar": 525
+                  "startchar": 512,
+                  "endchar": 528
                 }
               },
               "thenblock": {
@@ -777,8 +777,8 @@
                           "input": {
                             "filename": "examples/tokenring/tokenring.model"
                           },
-                          "startchar": 535,
-                          "endchar": 540
+                          "startchar": 538,
+                          "endchar": 543
                         }
                       },
                       "type": {
@@ -788,24 +788,24 @@
                           "input": {
                             "filename": "examples/tokenring/tokenring.model"
                           },
-                          "startchar": 542,
-                          "endchar": 551
+                          "startchar": 545,
+                          "endchar": 554
                         }
                       },
                       "default": {
                         "kind": "apply",
                         "func": {
-                          "start": 560,
+                          "start": 563,
                           "value": "+",
-                          "end": 562
+                          "end": 565
                         },
                         "args": [
                           {
                             "kind": "apply",
                             "func": {
-                              "start": 556,
+                              "start": 559,
                               "value": "%",
-                              "end": 558
+                              "end": 561
                             },
                             "args": [
                               {
@@ -815,8 +815,8 @@
                                   "input": {
                                     "filename": "examples/tokenring/tokenring.model"
                                   },
-                                  "startchar": 553,
-                                  "endchar": 556
+                                  "startchar": 556,
+                                  "endchar": 559
                                 }
                               },
                               {
@@ -826,8 +826,8 @@
                                   "input": {
                                     "filename": "examples/tokenring/tokenring.model"
                                   },
-                                  "startchar": 558,
-                                  "endchar": 560
+                                  "startchar": 561,
+                                  "endchar": 563
                                 }
                               }
                             ],
@@ -835,8 +835,8 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 553,
-                              "endchar": 560
+                              "startchar": 556,
+                              "endchar": 563
                             }
                           },
                           {
@@ -846,8 +846,8 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 562,
-                              "endchar": 563
+                              "startchar": 565,
+                              "endchar": 566
                             }
                           }
                         ],
@@ -855,16 +855,16 @@
                           "input": {
                             "filename": "examples/tokenring/tokenring.model"
                           },
-                          "startchar": 553,
-                          "endchar": 563
+                          "startchar": 556,
+                          "endchar": 566
                         }
                       },
                       "source": {
                         "input": {
                           "filename": "examples/tokenring/tokenring.model"
                         },
-                        "startchar": 531,
-                        "endchar": 569
+                        "startchar": 534,
+                        "endchar": 572
                       }
                     },
                     {
@@ -876,8 +876,8 @@
                           "input": {
                             "filename": "examples/tokenring/tokenring.model"
                           },
-                          "startchar": 569,
-                          "endchar": 575
+                          "startchar": 572,
+                          "endchar": 578
                         }
                       },
                       "rhs": {
@@ -889,8 +889,8 @@
                             "input": {
                               "filename": "examples/tokenring/tokenring.model"
                             },
-                            "startchar": 577,
-                            "endchar": 587
+                            "startchar": 580,
+                            "endchar": 590
                           }
                         },
                         "fields": [
@@ -902,8 +902,8 @@
                                 "input": {
                                   "filename": "examples/tokenring/tokenring.model"
                                 },
-                                "startchar": 595,
-                                "endchar": 599
+                                "startchar": 598,
+                                "endchar": 602
                               }
                             },
                             "expr": {
@@ -913,8 +913,8 @@
                                 "input": {
                                   "filename": "examples/tokenring/tokenring.model"
                                 },
-                                "startchar": 601,
-                                "endchar": 603
+                                "startchar": 604,
+                                "endchar": 606
                               }
                             }
                           },
@@ -926,8 +926,8 @@
                                 "input": {
                                   "filename": "examples/tokenring/tokenring.model"
                                 },
-                                "startchar": 611,
-                                "endchar": 613
+                                "startchar": 614,
+                                "endchar": 616
                               }
                             },
                             "expr": {
@@ -937,8 +937,8 @@
                                 "input": {
                                   "filename": "examples/tokenring/tokenring.model"
                                 },
-                                "startchar": 615,
-                                "endchar": 619
+                                "startchar": 618,
+                                "endchar": 622
                               }
                             }
                           }
@@ -947,16 +947,16 @@
                           "input": {
                             "filename": "examples/tokenring/tokenring.model"
                           },
-                          "startchar": 577,
-                          "endchar": 626
+                          "startchar": 580,
+                          "endchar": 629
                         }
                       },
                       "source": {
                         "input": {
                           "filename": "examples/tokenring/tokenring.model"
                         },
-                        "startchar": 569,
-                        "endchar": 632
+                        "startchar": 572,
+                        "endchar": 635
                       }
                     },
                     {
@@ -970,8 +970,8 @@
                             "input": {
                               "filename": "examples/tokenring/tokenring.model"
                             },
-                            "startchar": 639,
-                            "endchar": 648
+                            "startchar": 642,
+                            "endchar": 651
                           }
                         },
                         "parent": {
@@ -981,8 +981,8 @@
                             "input": {
                               "filename": "examples/tokenring/tokenring.model"
                             },
-                            "startchar": 632,
-                            "endchar": 638
+                            "startchar": 635,
+                            "endchar": 641
                           }
                         }
                       },
@@ -993,16 +993,16 @@
                           "input": {
                             "filename": "examples/tokenring/tokenring.model"
                           },
-                          "startchar": 650,
-                          "endchar": 655
+                          "startchar": 653,
+                          "endchar": 658
                         }
                       },
                       "source": {
                         "input": {
                           "filename": "examples/tokenring/tokenring.model"
                         },
-                        "startchar": 632,
-                        "endchar": 659
+                        "startchar": 635,
+                        "endchar": 662
                       }
                     }
                   ]
@@ -1016,8 +1016,8 @@
                 "input": {
                   "filename": "examples/tokenring/tokenring.model"
                 },
-                "startchar": 506,
-                "endchar": 661
+                "startchar": 509,
+                "endchar": 664
               }
             }
           ]
@@ -1027,8 +1027,8 @@
         "input": {
           "filename": "examples/tokenring/tokenring.model"
         },
-        "startchar": 461,
-        "endchar": 664
+        "startchar": 464,
+        "endchar": 667
       }
     },
     {
@@ -1040,8 +1040,8 @@
           "input": {
             "filename": "examples/tokenring/tokenring.model"
           },
-          "startchar": 674,
-          "endchar": 689
+          "startchar": 677,
+          "endchar": 692
         }
       },
       "code": {
@@ -1058,8 +1058,8 @@
                   "input": {
                     "filename": "examples/tokenring/tokenring.model"
                   },
-                  "startchar": 697,
-                  "endchar": 699
+                  "startchar": 700,
+                  "endchar": 702
                 }
               },
               "value": {
@@ -1069,8 +1069,8 @@
                   "input": {
                     "filename": "examples/tokenring/tokenring.model"
                   },
-                  "startchar": 701,
-                  "endchar": 708
+                  "startchar": 704,
+                  "endchar": 711
                 }
               },
               "expr": {
@@ -1080,8 +1080,8 @@
                   "input": {
                     "filename": "examples/tokenring/tokenring.model"
                   },
-                  "startchar": 711,
-                  "endchar": 719
+                  "startchar": 714,
+                  "endchar": 722
                 }
               },
               "code": {
@@ -1098,8 +1098,8 @@
                           "input": {
                             "filename": "examples/tokenring/tokenring.model"
                           },
-                          "startchar": 731,
-                          "endchar": 737
+                          "startchar": 734,
+                          "endchar": 740
                         }
                       },
                       "variants": [
@@ -1112,8 +1112,8 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 745,
-                              "endchar": 755
+                              "startchar": 748,
+                              "endchar": 758
                             }
                           },
                           "code": {
@@ -1186,8 +1186,8 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 808,
-                              "endchar": 817
+                              "startchar": 807,
+                              "endchar": 815
                             }
                           },
                           "id": {
@@ -1197,8 +1197,8 @@
                               "input": {
                                 "filename": "examples/tokenring/tokenring.model"
                               },
-                              "startchar": 820,
-                              "endchar": 822
+                              "startchar": 816,
+                              "endchar": 817
                             }
                           },
                           "code": {
@@ -1211,9 +1211,9 @@
                                   "expr": {
                                     "kind": "apply",
                                     "func": {
-                                      "start": 858,
+                                      "start": 852,
                                       "value": "==",
-                                      "end": 861
+                                      "end": 855
                                     },
                                     "args": [
                                       {
@@ -1225,8 +1225,8 @@
                                             "input": {
                                               "filename": "examples/tokenring/tokenring.model"
                                             },
-                                            "startchar": 849,
-                                            "endchar": 858
+                                            "startchar": 843,
+                                            "endchar": 852
                                           }
                                         },
                                         "parent": {
@@ -1236,24 +1236,24 @@
                                             "input": {
                                               "filename": "examples/tokenring/tokenring.model"
                                             },
-                                            "startchar": 842,
-                                            "endchar": 848
+                                            "startchar": 836,
+                                            "endchar": 842
                                           }
                                         },
                                         "source": {
                                           "input": {
                                             "filename": "examples/tokenring/tokenring.model"
                                           },
-                                          "startchar": 842,
-                                          "endchar": 858
+                                          "startchar": 836,
+                                          "endchar": 852
                                         }
                                       },
                                       {
                                         "kind": "apply",
                                         "func": {
-                                          "start": 867,
+                                          "start": 861,
                                           "value": "==",
-                                          "end": 870
+                                          "end": 864
                                         },
                                         "args": [
                                           {
@@ -1265,8 +1265,8 @@
                                                 "input": {
                                                   "filename": "examples/tokenring/tokenring.model"
                                                 },
-                                                "startchar": 864,
-                                                "endchar": 867
+                                                "startchar": 858,
+                                                "endchar": 861
                                               }
                                             },
                                             "parent": {
@@ -1276,16 +1276,16 @@
                                                 "input": {
                                                   "filename": "examples/tokenring/tokenring.model"
                                                 },
-                                                "startchar": 862,
-                                                "endchar": 863
+                                                "startchar": 856,
+                                                "endchar": 857
                                               }
                                             },
                                             "source": {
                                               "input": {
                                                 "filename": "examples/tokenring/tokenring.model"
                                               },
-                                              "startchar": 862,
-                                              "endchar": 867
+                                              "startchar": 856,
+                                              "endchar": 861
                                             }
                                           },
                                           {
@@ -1295,8 +1295,8 @@
                                               "input": {
                                                 "filename": "examples/tokenring/tokenring.model"
                                               },
-                                              "startchar": 870,
-                                              "endchar": 872
+                                              "startchar": 864,
+                                              "endchar": 866
                                             }
                                           }
                                         ],
@@ -1304,8 +1304,8 @@
                                           "input": {
                                             "filename": "examples/tokenring/tokenring.model"
                                           },
-                                          "startchar": 861,
-                                          "endchar": 873
+                                          "startchar": 855,
+                                          "endchar": 867
                                         }
                                       }
                                     ],
@@ -1313,16 +1313,16 @@
                                       "input": {
                                         "filename": "examples/tokenring/tokenring.model"
                                       },
-                                      "startchar": 842,
-                                      "endchar": 873
+                                      "startchar": 836,
+                                      "endchar": 867
                                     }
                                   },
                                   "source": {
                                     "input": {
                                       "filename": "examples/tokenring/tokenring.model"
                                     },
-                                    "startchar": 835,
-                                    "endchar": 881
+                                    "startchar": 829,
+                                    "endchar": 875
                                   }
                                 }
                               ]
@@ -1334,8 +1334,8 @@
                         "input": {
                           "filename": "examples/tokenring/tokenring.model"
                         },
-                        "startchar": 725,
-                        "endchar": 891
+                        "startchar": 728,
+                        "endchar": 885
                       }
                     }
                   ]
@@ -1345,8 +1345,8 @@
                 "input": {
                   "filename": "examples/tokenring/tokenring.model"
                 },
-                "startchar": 693,
-                "endchar": 893
+                "startchar": 696,
+                "endchar": 887
               }
             }
           ]
@@ -1356,8 +1356,8 @@
         "input": {
           "filename": "examples/tokenring/tokenring.model"
         },
-        "startchar": 664,
-        "endchar": 895
+        "startchar": 667,
+        "endchar": 889
       }
     }
   ]
