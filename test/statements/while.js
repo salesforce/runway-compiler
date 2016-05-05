@@ -1,5 +1,5 @@
 
-"use strict";
+'use strict';
 
 let assert = require('assert');
 let testing = require('../../lib/testing.js');

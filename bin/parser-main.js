@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 let fs = require('fs');
 let Input = require('../lib/input.js');

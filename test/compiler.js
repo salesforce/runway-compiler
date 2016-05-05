@@ -1,14 +1,11 @@
-"use strict";
+'use strict';
 
 let assert = require('assert');
 let environment = require('../lib/environment.js');
 let Environment = environment.Environment;
 let GlobalEnvironment = environment.GlobalEnvironment;
 let Input = require('../lib/input.js');
-let Parser = require('../lib/parser.js');
 let compiler = require('../lib/compiler.js');
-let Type = require('../lib/types/type.js');
-let makeType = require('../lib/types/factory.js').make;
 let fs = require('fs');
 
 let inline = (text) => new Input('unit test', text);

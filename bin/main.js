@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-"use strict";
+'use strict';
 
 let GlobalEnvironment = require('../lib/environment.js').GlobalEnvironment;
 let Input = require('../lib/input.js');
@@ -7,15 +7,10 @@ let compiler = require('../lib/compiler.js');
 let errors = require('../lib/errors.js');
 let docopt = require('docopt').docopt;
 let fs = require('fs');
-let parser = require('../lib/parser.js');
 let process = require('process');
 let checker = require('../lib/modelchecker.js').checker;
 let Workspace = require('../lib/workspace.js').Workspace;
 let Simulator = require('../lib/simulator.js').Simulator;
-
-let out = function(o) {
-  console.log(JSON.stringify(o, null, 2));
-};
 
 let printEnv = (env) => {
   env.vars.forEach((value, name) => {
@@ -171,7 +166,7 @@ Options:
     let workspace = new Workspace(module);
     let simulator = new Simulator(module, workspace);
     let i = 0;
-    while (true) {
+    for (;;) {
       process.stdout.write(`${i}: `);
       let ok = simulator.step(i);
       process.stdout.write(`${workspace.cursor.getEvent().msg} at clock ${workspace.clock}\n`);

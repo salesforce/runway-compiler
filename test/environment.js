@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 let assert = require('assert');
 let Environment = require('../lib/environment.js').Environment;

@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 let assert = require('assert');
 let Changesets = require('../lib/changesets.js');
