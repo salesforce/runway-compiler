@@ -8,7 +8,7 @@
         "value": "ServerId",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 5,
           "endchar": 13
@@ -21,7 +21,7 @@
           "value": 1,
           "source": {
             "input": {
-              "filename": "examples/tokenring/tokenring.model"
+              "filename": "test-parser/input-2.model"
             },
             "startchar": 15,
             "endchar": 16
@@ -32,7 +32,7 @@
           "value": 5,
           "source": {
             "input": {
-              "filename": "examples/tokenring/tokenring.model"
+              "filename": "test-parser/input-2.model"
             },
             "startchar": 18,
             "endchar": 19
@@ -40,7 +40,7 @@
         },
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 15,
           "endchar": 19
@@ -48,7 +48,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 0,
         "endchar": 22
@@ -61,7 +61,7 @@
         "value": "Token",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 27,
           "endchar": 32
@@ -76,7 +76,7 @@
               "value": "AtServer",
               "source": {
                 "input": {
-                  "filename": "examples/tokenring/tokenring.model"
+                  "filename": "test-parser/input-2.model"
                 },
                 "startchar": 45,
                 "endchar": 54
@@ -91,7 +91,7 @@
                     "value": "at",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 60,
                       "endchar": 62
@@ -102,7 +102,7 @@
                     "value": "ServerId",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 64,
                       "endchar": 72
@@ -118,7 +118,7 @@
               "value": "InTransit",
               "source": {
                 "input": {
-                  "filename": "examples/tokenring/tokenring.model"
+                  "filename": "test-parser/input-2.model"
                 },
                 "startchar": 81,
                 "endchar": 91
@@ -133,7 +133,7 @@
                     "value": "from",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 97,
                       "endchar": 101
@@ -144,7 +144,7 @@
                     "value": "ServerId",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 103,
                       "endchar": 111
@@ -157,7 +157,7 @@
                     "value": "to",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 117,
                       "endchar": 119
@@ -168,7 +168,7 @@
                     "value": "ServerId",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 121,
                       "endchar": 129
@@ -181,7 +181,7 @@
         ],
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 34,
           "endchar": 138
@@ -189,7 +189,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 22,
         "endchar": 138
@@ -202,7 +202,7 @@
         "value": "token",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 142,
           "endchar": 147
@@ -213,7 +213,7 @@
         "value": "Token",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 149,
           "endchar": 154
@@ -221,7 +221,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 138,
         "endchar": 157
@@ -234,7 +234,7 @@
         "value": "Server",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 162,
           "endchar": 168
@@ -249,7 +249,7 @@
               "value": "hasToken",
               "source": {
                 "input": {
-                  "filename": "examples/tokenring/tokenring.model"
+                  "filename": "test-parser/input-2.model"
                 },
                 "startchar": 181,
                 "endchar": 189
@@ -260,7 +260,7 @@
               "value": "Boolean",
               "source": {
                 "input": {
-                  "filename": "examples/tokenring/tokenring.model"
+                  "filename": "test-parser/input-2.model"
                 },
                 "startchar": 191,
                 "endchar": 198
@@ -271,7 +271,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 157,
         "endchar": 203
@@ -284,7 +284,7 @@
         "value": "servers",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 207,
           "endchar": 214
@@ -297,7 +297,7 @@
           "value": "Array",
           "source": {
             "input": {
-              "filename": "examples/tokenring/tokenring.model"
+              "filename": "test-parser/input-2.model"
             },
             "startchar": 216,
             "endchar": 221
@@ -309,7 +309,7 @@
             "value": "Server",
             "source": {
               "input": {
-                "filename": "examples/tokenring/tokenring.model"
+                "filename": "test-parser/input-2.model"
               },
               "startchar": 222,
               "endchar": 228
@@ -321,7 +321,7 @@
           "value": "ServerId",
           "source": {
             "input": {
-              "filename": "examples/tokenring/tokenring.model"
+              "filename": "test-parser/input-2.model"
             },
             "startchar": 230,
             "endchar": 238
@@ -330,7 +330,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 203,
         "endchar": 241
@@ -345,7 +345,7 @@
           "value": "hasToken",
           "source": {
             "input": {
-              "filename": "examples/tokenring/tokenring.model"
+              "filename": "test-parser/input-2.model"
             },
             "startchar": 252,
             "endchar": 261
@@ -358,7 +358,7 @@
             "value": 1,
             "source": {
               "input": {
-                "filename": "examples/tokenring/tokenring.model"
+                "filename": "test-parser/input-2.model"
               },
               "startchar": 249,
               "endchar": 250
@@ -369,7 +369,7 @@
             "value": "servers",
             "source": {
               "input": {
-                "filename": "examples/tokenring/tokenring.model"
+                "filename": "test-parser/input-2.model"
               },
               "startchar": 241,
               "endchar": 248
@@ -382,7 +382,7 @@
         "value": "True",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 263,
           "endchar": 267
@@ -390,7 +390,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 241,
         "endchar": 270
@@ -404,7 +404,7 @@
         "value": "deliverToken",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 275,
           "endchar": 288
@@ -422,7 +422,7 @@
                 "value": "token",
                 "source": {
                   "input": {
-                    "filename": "examples/tokenring/tokenring.model"
+                    "filename": "test-parser/input-2.model"
                   },
                   "startchar": 298,
                   "endchar": 304
@@ -436,7 +436,7 @@
                     "value": "InTransit",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 310,
                       "endchar": 319
@@ -447,7 +447,7 @@
                     "value": "transit",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 320,
                       "endchar": 327
@@ -467,7 +467,7 @@
                               "value": "hasToken",
                               "source": {
                                 "input": {
-                                  "filename": "examples/tokenring/tokenring.model"
+                                  "filename": "test-parser/input-2.model"
                                 },
                                 "startchar": 357,
                                 "endchar": 366
@@ -482,7 +482,7 @@
                                   "value": "to",
                                   "source": {
                                     "input": {
-                                      "filename": "examples/tokenring/tokenring.model"
+                                      "filename": "test-parser/input-2.model"
                                     },
                                     "startchar": 353,
                                     "endchar": 355
@@ -493,7 +493,7 @@
                                   "value": "transit",
                                   "source": {
                                     "input": {
-                                      "filename": "examples/tokenring/tokenring.model"
+                                      "filename": "test-parser/input-2.model"
                                     },
                                     "startchar": 345,
                                     "endchar": 352
@@ -501,7 +501,7 @@
                                 },
                                 "source": {
                                   "input": {
-                                    "filename": "examples/tokenring/tokenring.model"
+                                    "filename": "test-parser/input-2.model"
                                   },
                                   "startchar": 345,
                                   "endchar": 355
@@ -512,7 +512,7 @@
                                 "value": "servers",
                                 "source": {
                                   "input": {
-                                    "filename": "examples/tokenring/tokenring.model"
+                                    "filename": "test-parser/input-2.model"
                                   },
                                   "startchar": 337,
                                   "endchar": 344
@@ -525,7 +525,7 @@
                             "value": "True",
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 368,
                               "endchar": 372
@@ -533,7 +533,7 @@
                           },
                           "source": {
                             "input": {
-                              "filename": "examples/tokenring/tokenring.model"
+                              "filename": "test-parser/input-2.model"
                             },
                             "startchar": 337,
                             "endchar": 380
@@ -546,7 +546,7 @@
                             "value": "token",
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 380,
                               "endchar": 386
@@ -559,7 +559,7 @@
                               "value": "AtServer",
                               "source": {
                                 "input": {
-                                  "filename": "examples/tokenring/tokenring.model"
+                                  "filename": "test-parser/input-2.model"
                                 },
                                 "startchar": 388,
                                 "endchar": 397
@@ -572,7 +572,7 @@
                                   "value": "at",
                                   "source": {
                                     "input": {
-                                      "filename": "examples/tokenring/tokenring.model"
+                                      "filename": "test-parser/input-2.model"
                                     },
                                     "startchar": 399,
                                     "endchar": 401
@@ -585,7 +585,7 @@
                                     "value": "to",
                                     "source": {
                                       "input": {
-                                        "filename": "examples/tokenring/tokenring.model"
+                                        "filename": "test-parser/input-2.model"
                                       },
                                       "startchar": 411,
                                       "endchar": 414
@@ -596,7 +596,7 @@
                                     "value": "transit",
                                     "source": {
                                       "input": {
-                                        "filename": "examples/tokenring/tokenring.model"
+                                        "filename": "test-parser/input-2.model"
                                       },
                                       "startchar": 403,
                                       "endchar": 410
@@ -604,7 +604,7 @@
                                   },
                                   "source": {
                                     "input": {
-                                      "filename": "examples/tokenring/tokenring.model"
+                                      "filename": "test-parser/input-2.model"
                                     },
                                     "startchar": 403,
                                     "endchar": 414
@@ -614,7 +614,7 @@
                             ],
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 388,
                               "endchar": 415
@@ -622,7 +622,7 @@
                           },
                           "source": {
                             "input": {
-                              "filename": "examples/tokenring/tokenring.model"
+                              "filename": "test-parser/input-2.model"
                             },
                             "startchar": 380,
                             "endchar": 421
@@ -639,7 +639,7 @@
                     "value": "AtServer",
                     "source": {
                       "input": {
-                        "filename": "examples/tokenring/tokenring.model"
+                        "filename": "test-parser/input-2.model"
                       },
                       "startchar": 427,
                       "endchar": 436
@@ -656,7 +656,7 @@
               ],
               "source": {
                 "input": {
-                  "filename": "examples/tokenring/tokenring.model"
+                  "filename": "test-parser/input-2.model"
                 },
                 "startchar": 292,
                 "endchar": 461
@@ -667,7 +667,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 270,
         "endchar": 464
@@ -681,7 +681,7 @@
         "value": "passToken",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 469,
           "endchar": 479
@@ -694,7 +694,7 @@
             "value": "id",
             "source": {
               "input": {
-                "filename": "examples/tokenring/tokenring.model"
+                "filename": "test-parser/input-2.model"
               },
               "startchar": 483,
               "endchar": 485
@@ -705,7 +705,7 @@
             "value": "server",
             "source": {
               "input": {
-                "filename": "examples/tokenring/tokenring.model"
+                "filename": "test-parser/input-2.model"
               },
               "startchar": 487,
               "endchar": 494
@@ -716,7 +716,7 @@
             "value": "servers",
             "source": {
               "input": {
-                "filename": "examples/tokenring/tokenring.model"
+                "filename": "test-parser/input-2.model"
               },
               "startchar": 497,
               "endchar": 505
@@ -738,7 +738,7 @@
                   "value": "hasToken",
                   "source": {
                     "input": {
-                      "filename": "examples/tokenring/tokenring.model"
+                      "filename": "test-parser/input-2.model"
                     },
                     "startchar": 519,
                     "endchar": 528
@@ -749,7 +749,7 @@
                   "value": "server",
                   "source": {
                     "input": {
-                      "filename": "examples/tokenring/tokenring.model"
+                      "filename": "test-parser/input-2.model"
                     },
                     "startchar": 512,
                     "endchar": 518
@@ -757,7 +757,7 @@
                 },
                 "source": {
                   "input": {
-                    "filename": "examples/tokenring/tokenring.model"
+                    "filename": "test-parser/input-2.model"
                   },
                   "startchar": 512,
                   "endchar": 528
@@ -775,7 +775,7 @@
                         "value": "next",
                         "source": {
                           "input": {
-                            "filename": "examples/tokenring/tokenring.model"
+                            "filename": "test-parser/input-2.model"
                           },
                           "startchar": 538,
                           "endchar": 543
@@ -786,7 +786,7 @@
                         "value": "ServerId",
                         "source": {
                           "input": {
-                            "filename": "examples/tokenring/tokenring.model"
+                            "filename": "test-parser/input-2.model"
                           },
                           "startchar": 545,
                           "endchar": 554
@@ -813,7 +813,7 @@
                                 "value": "id",
                                 "source": {
                                   "input": {
-                                    "filename": "examples/tokenring/tokenring.model"
+                                    "filename": "test-parser/input-2.model"
                                   },
                                   "startchar": 556,
                                   "endchar": 559
@@ -824,7 +824,7 @@
                                 "value": 5,
                                 "source": {
                                   "input": {
-                                    "filename": "examples/tokenring/tokenring.model"
+                                    "filename": "test-parser/input-2.model"
                                   },
                                   "startchar": 561,
                                   "endchar": 563
@@ -833,7 +833,7 @@
                             ],
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 556,
                               "endchar": 563
@@ -844,7 +844,7 @@
                             "value": 1,
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 565,
                               "endchar": 566
@@ -853,7 +853,7 @@
                         ],
                         "source": {
                           "input": {
-                            "filename": "examples/tokenring/tokenring.model"
+                            "filename": "test-parser/input-2.model"
                           },
                           "startchar": 556,
                           "endchar": 566
@@ -861,7 +861,7 @@
                       },
                       "source": {
                         "input": {
-                          "filename": "examples/tokenring/tokenring.model"
+                          "filename": "test-parser/input-2.model"
                         },
                         "startchar": 534,
                         "endchar": 572
@@ -874,7 +874,7 @@
                         "value": "token",
                         "source": {
                           "input": {
-                            "filename": "examples/tokenring/tokenring.model"
+                            "filename": "test-parser/input-2.model"
                           },
                           "startchar": 572,
                           "endchar": 578
@@ -887,7 +887,7 @@
                           "value": "InTransit",
                           "source": {
                             "input": {
-                              "filename": "examples/tokenring/tokenring.model"
+                              "filename": "test-parser/input-2.model"
                             },
                             "startchar": 580,
                             "endchar": 590
@@ -900,7 +900,7 @@
                               "value": "from",
                               "source": {
                                 "input": {
-                                  "filename": "examples/tokenring/tokenring.model"
+                                  "filename": "test-parser/input-2.model"
                                 },
                                 "startchar": 598,
                                 "endchar": 602
@@ -911,7 +911,7 @@
                               "value": "id",
                               "source": {
                                 "input": {
-                                  "filename": "examples/tokenring/tokenring.model"
+                                  "filename": "test-parser/input-2.model"
                                 },
                                 "startchar": 604,
                                 "endchar": 606
@@ -924,7 +924,7 @@
                               "value": "to",
                               "source": {
                                 "input": {
-                                  "filename": "examples/tokenring/tokenring.model"
+                                  "filename": "test-parser/input-2.model"
                                 },
                                 "startchar": 614,
                                 "endchar": 616
@@ -935,7 +935,7 @@
                               "value": "next",
                               "source": {
                                 "input": {
-                                  "filename": "examples/tokenring/tokenring.model"
+                                  "filename": "test-parser/input-2.model"
                                 },
                                 "startchar": 618,
                                 "endchar": 622
@@ -945,7 +945,7 @@
                         ],
                         "source": {
                           "input": {
-                            "filename": "examples/tokenring/tokenring.model"
+                            "filename": "test-parser/input-2.model"
                           },
                           "startchar": 580,
                           "endchar": 629
@@ -953,7 +953,7 @@
                       },
                       "source": {
                         "input": {
-                          "filename": "examples/tokenring/tokenring.model"
+                          "filename": "test-parser/input-2.model"
                         },
                         "startchar": 572,
                         "endchar": 635
@@ -968,7 +968,7 @@
                           "value": "hasToken",
                           "source": {
                             "input": {
-                              "filename": "examples/tokenring/tokenring.model"
+                              "filename": "test-parser/input-2.model"
                             },
                             "startchar": 642,
                             "endchar": 651
@@ -979,7 +979,7 @@
                           "value": "server",
                           "source": {
                             "input": {
-                              "filename": "examples/tokenring/tokenring.model"
+                              "filename": "test-parser/input-2.model"
                             },
                             "startchar": 635,
                             "endchar": 641
@@ -991,7 +991,7 @@
                         "value": "False",
                         "source": {
                           "input": {
-                            "filename": "examples/tokenring/tokenring.model"
+                            "filename": "test-parser/input-2.model"
                           },
                           "startchar": 653,
                           "endchar": 658
@@ -999,7 +999,7 @@
                       },
                       "source": {
                         "input": {
-                          "filename": "examples/tokenring/tokenring.model"
+                          "filename": "test-parser/input-2.model"
                         },
                         "startchar": 635,
                         "endchar": 662
@@ -1014,7 +1014,7 @@
               },
               "source": {
                 "input": {
-                  "filename": "examples/tokenring/tokenring.model"
+                  "filename": "test-parser/input-2.model"
                 },
                 "startchar": 509,
                 "endchar": 664
@@ -1025,7 +1025,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 464,
         "endchar": 667
@@ -1038,7 +1038,7 @@
         "value": "tokenAgreement",
         "source": {
           "input": {
-            "filename": "examples/tokenring/tokenring.model"
+            "filename": "test-parser/input-2.model"
           },
           "startchar": 677,
           "endchar": 692
@@ -1056,7 +1056,7 @@
                 "value": "id",
                 "source": {
                   "input": {
-                    "filename": "examples/tokenring/tokenring.model"
+                    "filename": "test-parser/input-2.model"
                   },
                   "startchar": 700,
                   "endchar": 702
@@ -1067,7 +1067,7 @@
                 "value": "server",
                 "source": {
                   "input": {
-                    "filename": "examples/tokenring/tokenring.model"
+                    "filename": "test-parser/input-2.model"
                   },
                   "startchar": 704,
                   "endchar": 711
@@ -1078,7 +1078,7 @@
                 "value": "servers",
                 "source": {
                   "input": {
-                    "filename": "examples/tokenring/tokenring.model"
+                    "filename": "test-parser/input-2.model"
                   },
                   "startchar": 714,
                   "endchar": 722
@@ -1096,7 +1096,7 @@
                         "value": "token",
                         "source": {
                           "input": {
-                            "filename": "examples/tokenring/tokenring.model"
+                            "filename": "test-parser/input-2.model"
                           },
                           "startchar": 734,
                           "endchar": 740
@@ -1110,7 +1110,7 @@
                             "value": "InTransit",
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 748,
                               "endchar": 758
@@ -1138,7 +1138,7 @@
                                           "value": "hasToken",
                                           "source": {
                                             "input": {
-                                              "filename": "examples/tokenring/tokenring.model"
+                                              "filename": "test-parser/input-2.model"
                                             },
                                             "startchar": 783,
                                             "endchar": 791
@@ -1149,7 +1149,7 @@
                                           "value": "server",
                                           "source": {
                                             "input": {
-                                              "filename": "examples/tokenring/tokenring.model"
+                                              "filename": "test-parser/input-2.model"
                                             },
                                             "startchar": 776,
                                             "endchar": 782
@@ -1159,7 +1159,7 @@
                                     ],
                                     "source": {
                                       "input": {
-                                        "filename": "examples/tokenring/tokenring.model"
+                                        "filename": "test-parser/input-2.model"
                                       },
                                       "startchar": 775,
                                       "endchar": 791
@@ -1167,7 +1167,7 @@
                                   },
                                   "source": {
                                     "input": {
-                                      "filename": "examples/tokenring/tokenring.model"
+                                      "filename": "test-parser/input-2.model"
                                     },
                                     "startchar": 768,
                                     "endchar": 799
@@ -1184,7 +1184,7 @@
                             "value": "AtServer",
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 807,
                               "endchar": 815
@@ -1195,7 +1195,7 @@
                             "value": "t",
                             "source": {
                               "input": {
-                                "filename": "examples/tokenring/tokenring.model"
+                                "filename": "test-parser/input-2.model"
                               },
                               "startchar": 816,
                               "endchar": 817
@@ -1223,7 +1223,7 @@
                                           "value": "hasToken",
                                           "source": {
                                             "input": {
-                                              "filename": "examples/tokenring/tokenring.model"
+                                              "filename": "test-parser/input-2.model"
                                             },
                                             "startchar": 843,
                                             "endchar": 852
@@ -1234,7 +1234,7 @@
                                           "value": "server",
                                           "source": {
                                             "input": {
-                                              "filename": "examples/tokenring/tokenring.model"
+                                              "filename": "test-parser/input-2.model"
                                             },
                                             "startchar": 836,
                                             "endchar": 842
@@ -1242,7 +1242,7 @@
                                         },
                                         "source": {
                                           "input": {
-                                            "filename": "examples/tokenring/tokenring.model"
+                                            "filename": "test-parser/input-2.model"
                                           },
                                           "startchar": 836,
                                           "endchar": 852
@@ -1263,7 +1263,7 @@
                                               "value": "at",
                                               "source": {
                                                 "input": {
-                                                  "filename": "examples/tokenring/tokenring.model"
+                                                  "filename": "test-parser/input-2.model"
                                                 },
                                                 "startchar": 858,
                                                 "endchar": 861
@@ -1274,7 +1274,7 @@
                                               "value": "t",
                                               "source": {
                                                 "input": {
-                                                  "filename": "examples/tokenring/tokenring.model"
+                                                  "filename": "test-parser/input-2.model"
                                                 },
                                                 "startchar": 856,
                                                 "endchar": 857
@@ -1282,7 +1282,7 @@
                                             },
                                             "source": {
                                               "input": {
-                                                "filename": "examples/tokenring/tokenring.model"
+                                                "filename": "test-parser/input-2.model"
                                               },
                                               "startchar": 856,
                                               "endchar": 861
@@ -1293,7 +1293,7 @@
                                             "value": "id",
                                             "source": {
                                               "input": {
-                                                "filename": "examples/tokenring/tokenring.model"
+                                                "filename": "test-parser/input-2.model"
                                               },
                                               "startchar": 864,
                                               "endchar": 866
@@ -1302,7 +1302,7 @@
                                         ],
                                         "source": {
                                           "input": {
-                                            "filename": "examples/tokenring/tokenring.model"
+                                            "filename": "test-parser/input-2.model"
                                           },
                                           "startchar": 855,
                                           "endchar": 867
@@ -1311,7 +1311,7 @@
                                     ],
                                     "source": {
                                       "input": {
-                                        "filename": "examples/tokenring/tokenring.model"
+                                        "filename": "test-parser/input-2.model"
                                       },
                                       "startchar": 836,
                                       "endchar": 867
@@ -1319,7 +1319,7 @@
                                   },
                                   "source": {
                                     "input": {
-                                      "filename": "examples/tokenring/tokenring.model"
+                                      "filename": "test-parser/input-2.model"
                                     },
                                     "startchar": 829,
                                     "endchar": 875
@@ -1332,7 +1332,7 @@
                       ],
                       "source": {
                         "input": {
-                          "filename": "examples/tokenring/tokenring.model"
+                          "filename": "test-parser/input-2.model"
                         },
                         "startchar": 728,
                         "endchar": 885
@@ -1343,7 +1343,7 @@
               },
               "source": {
                 "input": {
-                  "filename": "examples/tokenring/tokenring.model"
+                  "filename": "test-parser/input-2.model"
                 },
                 "startchar": 696,
                 "endchar": 887
@@ -1354,7 +1354,7 @@
       },
       "source": {
         "input": {
-          "filename": "examples/tokenring/tokenring.model"
+          "filename": "test-parser/input-2.model"
         },
         "startchar": 667,
         "endchar": 889
