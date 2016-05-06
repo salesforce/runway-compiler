@@ -10,8 +10,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 5,
-          "endchar": 13
+          "startchar": 226,
+          "endchar": 234
         }
       },
       "type": {
@@ -23,8 +23,8 @@
             "input": {
               "filename": "test-parser/input-2.model"
             },
-            "startchar": 15,
-            "endchar": 16
+            "startchar": 236,
+            "endchar": 237
           }
         },
         "high": {
@@ -34,24 +34,24 @@
             "input": {
               "filename": "test-parser/input-2.model"
             },
-            "startchar": 18,
-            "endchar": 19
+            "startchar": 239,
+            "endchar": 240
           }
         },
         "source": {
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 15,
-          "endchar": 19
+          "startchar": 236,
+          "endchar": 240
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 0,
-        "endchar": 22
+        "startchar": 221,
+        "endchar": 243
       }
     },
     {
@@ -63,8 +63,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 27,
-          "endchar": 32
+          "startchar": 248,
+          "endchar": 253
         }
       },
       "type": {
@@ -78,8 +78,8 @@
                 "input": {
                   "filename": "test-parser/input-2.model"
                 },
-                "startchar": 45,
-                "endchar": 54
+                "startchar": 266,
+                "endchar": 275
               }
             },
             "type": {
@@ -93,8 +93,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 60,
-                      "endchar": 62
+                      "startchar": 281,
+                      "endchar": 283
                     }
                   },
                   "type": {
@@ -104,8 +104,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 64,
-                      "endchar": 72
+                      "startchar": 285,
+                      "endchar": 293
                     }
                   }
                 }
@@ -120,8 +120,8 @@
                 "input": {
                   "filename": "test-parser/input-2.model"
                 },
-                "startchar": 81,
-                "endchar": 91
+                "startchar": 302,
+                "endchar": 312
               }
             },
             "type": {
@@ -135,8 +135,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 97,
-                      "endchar": 101
+                      "startchar": 318,
+                      "endchar": 322
                     }
                   },
                   "type": {
@@ -146,8 +146,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 103,
-                      "endchar": 111
+                      "startchar": 324,
+                      "endchar": 332
                     }
                   }
                 },
@@ -159,8 +159,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 117,
-                      "endchar": 119
+                      "startchar": 338,
+                      "endchar": 340
                     }
                   },
                   "type": {
@@ -170,8 +170,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 121,
-                      "endchar": 129
+                      "startchar": 342,
+                      "endchar": 350
                     }
                   }
                 }
@@ -183,16 +183,16 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 34,
-          "endchar": 138
+          "startchar": 255,
+          "endchar": 359
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 22,
-        "endchar": 138
+        "startchar": 243,
+        "endchar": 359
       }
     },
     {
@@ -204,8 +204,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 142,
-          "endchar": 147
+          "startchar": 363,
+          "endchar": 368
         }
       },
       "type": {
@@ -215,16 +215,16 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 149,
-          "endchar": 154
+          "startchar": 370,
+          "endchar": 375
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 138,
-        "endchar": 157
+        "startchar": 359,
+        "endchar": 378
       }
     },
     {
@@ -236,8 +236,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 162,
-          "endchar": 168
+          "startchar": 383,
+          "endchar": 389
         }
       },
       "type": {
@@ -251,8 +251,8 @@
                 "input": {
                   "filename": "test-parser/input-2.model"
                 },
-                "startchar": 181,
-                "endchar": 189
+                "startchar": 402,
+                "endchar": 410
               }
             },
             "type": {
@@ -262,8 +262,8 @@
                 "input": {
                   "filename": "test-parser/input-2.model"
                 },
-                "startchar": 191,
-                "endchar": 198
+                "startchar": 412,
+                "endchar": 419
               }
             }
           }
@@ -273,8 +273,8 @@
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 157,
-        "endchar": 203
+        "startchar": 378,
+        "endchar": 424
       }
     },
     {
@@ -286,8 +286,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 207,
-          "endchar": 214
+          "startchar": 428,
+          "endchar": 435
         }
       },
       "type": {
@@ -299,8 +299,8 @@
             "input": {
               "filename": "test-parser/input-2.model"
             },
-            "startchar": 216,
-            "endchar": 221
+            "startchar": 437,
+            "endchar": 442
           }
         },
         "args": [
@@ -311,8 +311,8 @@
               "input": {
                 "filename": "test-parser/input-2.model"
               },
-              "startchar": 222,
-              "endchar": 228
+              "startchar": 443,
+              "endchar": 449
             }
           }
         ],
@@ -323,8 +323,8 @@
             "input": {
               "filename": "test-parser/input-2.model"
             },
-            "startchar": 230,
-            "endchar": 238
+            "startchar": 451,
+            "endchar": 459
           }
         }
       },
@@ -332,8 +332,8 @@
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 203,
-        "endchar": 241
+        "startchar": 424,
+        "endchar": 462
       }
     },
     {
@@ -347,8 +347,8 @@
             "input": {
               "filename": "test-parser/input-2.model"
             },
-            "startchar": 252,
-            "endchar": 261
+            "startchar": 473,
+            "endchar": 482
           }
         },
         "parent": {
@@ -360,8 +360,8 @@
               "input": {
                 "filename": "test-parser/input-2.model"
               },
-              "startchar": 249,
-              "endchar": 250
+              "startchar": 470,
+              "endchar": 471
             }
           },
           "parent": {
@@ -371,8 +371,8 @@
               "input": {
                 "filename": "test-parser/input-2.model"
               },
-              "startchar": 241,
-              "endchar": 248
+              "startchar": 462,
+              "endchar": 469
             }
           }
         }
@@ -384,16 +384,16 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 263,
-          "endchar": 267
+          "startchar": 484,
+          "endchar": 488
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 241,
-        "endchar": 270
+        "startchar": 462,
+        "endchar": 491
       }
     },
     {
@@ -406,8 +406,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 275,
-          "endchar": 288
+          "startchar": 496,
+          "endchar": 509
         }
       },
       "code": {
@@ -424,8 +424,8 @@
                   "input": {
                     "filename": "test-parser/input-2.model"
                   },
-                  "startchar": 298,
-                  "endchar": 304
+                  "startchar": 519,
+                  "endchar": 525
                 }
               },
               "variants": [
@@ -438,8 +438,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 310,
-                      "endchar": 319
+                      "startchar": 531,
+                      "endchar": 540
                     }
                   },
                   "id": {
@@ -449,8 +449,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 320,
-                      "endchar": 327
+                      "startchar": 541,
+                      "endchar": 548
                     }
                   },
                   "code": {
@@ -469,8 +469,8 @@
                                 "input": {
                                   "filename": "test-parser/input-2.model"
                                 },
-                                "startchar": 357,
-                                "endchar": 366
+                                "startchar": 578,
+                                "endchar": 587
                               }
                             },
                             "parent": {
@@ -484,8 +484,8 @@
                                     "input": {
                                       "filename": "test-parser/input-2.model"
                                     },
-                                    "startchar": 353,
-                                    "endchar": 355
+                                    "startchar": 574,
+                                    "endchar": 576
                                   }
                                 },
                                 "parent": {
@@ -495,16 +495,16 @@
                                     "input": {
                                       "filename": "test-parser/input-2.model"
                                     },
-                                    "startchar": 345,
-                                    "endchar": 352
+                                    "startchar": 566,
+                                    "endchar": 573
                                   }
                                 },
                                 "source": {
                                   "input": {
                                     "filename": "test-parser/input-2.model"
                                   },
-                                  "startchar": 345,
-                                  "endchar": 355
+                                  "startchar": 566,
+                                  "endchar": 576
                                 }
                               },
                               "parent": {
@@ -514,8 +514,8 @@
                                   "input": {
                                     "filename": "test-parser/input-2.model"
                                   },
-                                  "startchar": 337,
-                                  "endchar": 344
+                                  "startchar": 558,
+                                  "endchar": 565
                                 }
                               }
                             }
@@ -527,16 +527,16 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 368,
-                              "endchar": 372
+                              "startchar": 589,
+                              "endchar": 593
                             }
                           },
                           "source": {
                             "input": {
                               "filename": "test-parser/input-2.model"
                             },
-                            "startchar": 337,
-                            "endchar": 380
+                            "startchar": 558,
+                            "endchar": 601
                           }
                         },
                         {
@@ -548,8 +548,8 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 380,
-                              "endchar": 386
+                              "startchar": 601,
+                              "endchar": 607
                             }
                           },
                           "rhs": {
@@ -561,8 +561,8 @@
                                 "input": {
                                   "filename": "test-parser/input-2.model"
                                 },
-                                "startchar": 388,
-                                "endchar": 397
+                                "startchar": 609,
+                                "endchar": 618
                               }
                             },
                             "fields": [
@@ -574,8 +574,8 @@
                                     "input": {
                                       "filename": "test-parser/input-2.model"
                                     },
-                                    "startchar": 399,
-                                    "endchar": 401
+                                    "startchar": 620,
+                                    "endchar": 622
                                   }
                                 },
                                 "expr": {
@@ -587,8 +587,8 @@
                                       "input": {
                                         "filename": "test-parser/input-2.model"
                                       },
-                                      "startchar": 411,
-                                      "endchar": 414
+                                      "startchar": 632,
+                                      "endchar": 635
                                     }
                                   },
                                   "parent": {
@@ -598,16 +598,16 @@
                                       "input": {
                                         "filename": "test-parser/input-2.model"
                                       },
-                                      "startchar": 403,
-                                      "endchar": 410
+                                      "startchar": 624,
+                                      "endchar": 631
                                     }
                                   },
                                   "source": {
                                     "input": {
                                       "filename": "test-parser/input-2.model"
                                     },
-                                    "startchar": 403,
-                                    "endchar": 414
+                                    "startchar": 624,
+                                    "endchar": 635
                                   }
                                 }
                               }
@@ -616,16 +616,16 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 388,
-                              "endchar": 415
+                              "startchar": 609,
+                              "endchar": 636
                             }
                           },
                           "source": {
                             "input": {
                               "filename": "test-parser/input-2.model"
                             },
-                            "startchar": 380,
-                            "endchar": 421
+                            "startchar": 601,
+                            "endchar": 642
                           }
                         }
                       ]
@@ -641,8 +641,8 @@
                       "input": {
                         "filename": "test-parser/input-2.model"
                       },
-                      "startchar": 427,
-                      "endchar": 436
+                      "startchar": 648,
+                      "endchar": 657
                     }
                   },
                   "code": {
@@ -658,8 +658,8 @@
                 "input": {
                   "filename": "test-parser/input-2.model"
                 },
-                "startchar": 292,
-                "endchar": 461
+                "startchar": 513,
+                "endchar": 682
               }
             }
           ]
@@ -669,8 +669,8 @@
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 270,
-        "endchar": 464
+        "startchar": 491,
+        "endchar": 685
       }
     },
     {
@@ -683,8 +683,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 469,
-          "endchar": 479
+          "startchar": 690,
+          "endchar": 700
         }
       },
       "loops": [
@@ -696,8 +696,8 @@
               "input": {
                 "filename": "test-parser/input-2.model"
               },
-              "startchar": 483,
-              "endchar": 485
+              "startchar": 704,
+              "endchar": 706
             }
           },
           "value": {
@@ -707,8 +707,8 @@
               "input": {
                 "filename": "test-parser/input-2.model"
               },
-              "startchar": 487,
-              "endchar": 494
+              "startchar": 708,
+              "endchar": 715
             }
           },
           "expr": {
@@ -718,8 +718,8 @@
               "input": {
                 "filename": "test-parser/input-2.model"
               },
-              "startchar": 497,
-              "endchar": 505
+              "startchar": 718,
+              "endchar": 726
             }
           }
         }
@@ -740,8 +740,8 @@
                     "input": {
                       "filename": "test-parser/input-2.model"
                     },
-                    "startchar": 519,
-                    "endchar": 528
+                    "startchar": 740,
+                    "endchar": 749
                   }
                 },
                 "parent": {
@@ -751,16 +751,16 @@
                     "input": {
                       "filename": "test-parser/input-2.model"
                     },
-                    "startchar": 512,
-                    "endchar": 518
+                    "startchar": 733,
+                    "endchar": 739
                   }
                 },
                 "source": {
                   "input": {
                     "filename": "test-parser/input-2.model"
                   },
-                  "startchar": 512,
-                  "endchar": 528
+                  "startchar": 733,
+                  "endchar": 749
                 }
               },
               "thenblock": {
@@ -777,8 +777,8 @@
                           "input": {
                             "filename": "test-parser/input-2.model"
                           },
-                          "startchar": 538,
-                          "endchar": 543
+                          "startchar": 759,
+                          "endchar": 764
                         }
                       },
                       "type": {
@@ -788,24 +788,24 @@
                           "input": {
                             "filename": "test-parser/input-2.model"
                           },
-                          "startchar": 545,
-                          "endchar": 554
+                          "startchar": 766,
+                          "endchar": 775
                         }
                       },
                       "default": {
                         "kind": "apply",
                         "func": {
-                          "start": 563,
+                          "start": 784,
                           "value": "+",
-                          "end": 565
+                          "end": 786
                         },
                         "args": [
                           {
                             "kind": "apply",
                             "func": {
-                              "start": 559,
+                              "start": 780,
                               "value": "%",
-                              "end": 561
+                              "end": 782
                             },
                             "args": [
                               {
@@ -815,8 +815,8 @@
                                   "input": {
                                     "filename": "test-parser/input-2.model"
                                   },
-                                  "startchar": 556,
-                                  "endchar": 559
+                                  "startchar": 777,
+                                  "endchar": 780
                                 }
                               },
                               {
@@ -826,8 +826,8 @@
                                   "input": {
                                     "filename": "test-parser/input-2.model"
                                   },
-                                  "startchar": 561,
-                                  "endchar": 563
+                                  "startchar": 782,
+                                  "endchar": 784
                                 }
                               }
                             ],
@@ -835,8 +835,8 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 556,
-                              "endchar": 563
+                              "startchar": 777,
+                              "endchar": 784
                             }
                           },
                           {
@@ -846,8 +846,8 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 565,
-                              "endchar": 566
+                              "startchar": 786,
+                              "endchar": 787
                             }
                           }
                         ],
@@ -855,16 +855,16 @@
                           "input": {
                             "filename": "test-parser/input-2.model"
                           },
-                          "startchar": 556,
-                          "endchar": 566
+                          "startchar": 777,
+                          "endchar": 787
                         }
                       },
                       "source": {
                         "input": {
                           "filename": "test-parser/input-2.model"
                         },
-                        "startchar": 534,
-                        "endchar": 572
+                        "startchar": 755,
+                        "endchar": 793
                       }
                     },
                     {
@@ -876,8 +876,8 @@
                           "input": {
                             "filename": "test-parser/input-2.model"
                           },
-                          "startchar": 572,
-                          "endchar": 578
+                          "startchar": 793,
+                          "endchar": 799
                         }
                       },
                       "rhs": {
@@ -889,8 +889,8 @@
                             "input": {
                               "filename": "test-parser/input-2.model"
                             },
-                            "startchar": 580,
-                            "endchar": 590
+                            "startchar": 801,
+                            "endchar": 811
                           }
                         },
                         "fields": [
@@ -902,8 +902,8 @@
                                 "input": {
                                   "filename": "test-parser/input-2.model"
                                 },
-                                "startchar": 598,
-                                "endchar": 602
+                                "startchar": 819,
+                                "endchar": 823
                               }
                             },
                             "expr": {
@@ -913,8 +913,8 @@
                                 "input": {
                                   "filename": "test-parser/input-2.model"
                                 },
-                                "startchar": 604,
-                                "endchar": 606
+                                "startchar": 825,
+                                "endchar": 827
                               }
                             }
                           },
@@ -926,8 +926,8 @@
                                 "input": {
                                   "filename": "test-parser/input-2.model"
                                 },
-                                "startchar": 614,
-                                "endchar": 616
+                                "startchar": 835,
+                                "endchar": 837
                               }
                             },
                             "expr": {
@@ -937,8 +937,8 @@
                                 "input": {
                                   "filename": "test-parser/input-2.model"
                                 },
-                                "startchar": 618,
-                                "endchar": 622
+                                "startchar": 839,
+                                "endchar": 843
                               }
                             }
                           }
@@ -947,16 +947,16 @@
                           "input": {
                             "filename": "test-parser/input-2.model"
                           },
-                          "startchar": 580,
-                          "endchar": 629
+                          "startchar": 801,
+                          "endchar": 850
                         }
                       },
                       "source": {
                         "input": {
                           "filename": "test-parser/input-2.model"
                         },
-                        "startchar": 572,
-                        "endchar": 635
+                        "startchar": 793,
+                        "endchar": 856
                       }
                     },
                     {
@@ -970,8 +970,8 @@
                             "input": {
                               "filename": "test-parser/input-2.model"
                             },
-                            "startchar": 642,
-                            "endchar": 651
+                            "startchar": 863,
+                            "endchar": 872
                           }
                         },
                         "parent": {
@@ -981,8 +981,8 @@
                             "input": {
                               "filename": "test-parser/input-2.model"
                             },
-                            "startchar": 635,
-                            "endchar": 641
+                            "startchar": 856,
+                            "endchar": 862
                           }
                         }
                       },
@@ -993,16 +993,16 @@
                           "input": {
                             "filename": "test-parser/input-2.model"
                           },
-                          "startchar": 653,
-                          "endchar": 658
+                          "startchar": 874,
+                          "endchar": 879
                         }
                       },
                       "source": {
                         "input": {
                           "filename": "test-parser/input-2.model"
                         },
-                        "startchar": 635,
-                        "endchar": 662
+                        "startchar": 856,
+                        "endchar": 883
                       }
                     }
                   ]
@@ -1016,8 +1016,8 @@
                 "input": {
                   "filename": "test-parser/input-2.model"
                 },
-                "startchar": 509,
-                "endchar": 664
+                "startchar": 730,
+                "endchar": 885
               }
             }
           ]
@@ -1027,8 +1027,8 @@
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 464,
-        "endchar": 667
+        "startchar": 685,
+        "endchar": 888
       }
     },
     {
@@ -1040,8 +1040,8 @@
           "input": {
             "filename": "test-parser/input-2.model"
           },
-          "startchar": 677,
-          "endchar": 692
+          "startchar": 898,
+          "endchar": 913
         }
       },
       "code": {
@@ -1058,8 +1058,8 @@
                   "input": {
                     "filename": "test-parser/input-2.model"
                   },
-                  "startchar": 700,
-                  "endchar": 702
+                  "startchar": 921,
+                  "endchar": 923
                 }
               },
               "value": {
@@ -1069,8 +1069,8 @@
                   "input": {
                     "filename": "test-parser/input-2.model"
                   },
-                  "startchar": 704,
-                  "endchar": 711
+                  "startchar": 925,
+                  "endchar": 932
                 }
               },
               "expr": {
@@ -1080,8 +1080,8 @@
                   "input": {
                     "filename": "test-parser/input-2.model"
                   },
-                  "startchar": 714,
-                  "endchar": 722
+                  "startchar": 935,
+                  "endchar": 943
                 }
               },
               "code": {
@@ -1098,8 +1098,8 @@
                           "input": {
                             "filename": "test-parser/input-2.model"
                           },
-                          "startchar": 734,
-                          "endchar": 740
+                          "startchar": 955,
+                          "endchar": 961
                         }
                       },
                       "variants": [
@@ -1112,8 +1112,8 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 748,
-                              "endchar": 758
+                              "startchar": 969,
+                              "endchar": 979
                             }
                           },
                           "code": {
@@ -1126,9 +1126,9 @@
                                   "expr": {
                                     "kind": "apply",
                                     "func": {
-                                      "start": 775,
+                                      "start": 996,
                                       "value": "!",
-                                      "end": 776
+                                      "end": 997
                                     },
                                     "args": [
                                       {
@@ -1140,8 +1140,8 @@
                                             "input": {
                                               "filename": "test-parser/input-2.model"
                                             },
-                                            "startchar": 783,
-                                            "endchar": 791
+                                            "startchar": 1004,
+                                            "endchar": 1012
                                           }
                                         },
                                         "parent": {
@@ -1151,8 +1151,8 @@
                                             "input": {
                                               "filename": "test-parser/input-2.model"
                                             },
-                                            "startchar": 776,
-                                            "endchar": 782
+                                            "startchar": 997,
+                                            "endchar": 1003
                                           }
                                         }
                                       }
@@ -1161,16 +1161,16 @@
                                       "input": {
                                         "filename": "test-parser/input-2.model"
                                       },
-                                      "startchar": 775,
-                                      "endchar": 791
+                                      "startchar": 996,
+                                      "endchar": 1012
                                     }
                                   },
                                   "source": {
                                     "input": {
                                       "filename": "test-parser/input-2.model"
                                     },
-                                    "startchar": 768,
-                                    "endchar": 799
+                                    "startchar": 989,
+                                    "endchar": 1020
                                   }
                                 }
                               ]
@@ -1186,8 +1186,8 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 807,
-                              "endchar": 815
+                              "startchar": 1028,
+                              "endchar": 1036
                             }
                           },
                           "id": {
@@ -1197,8 +1197,8 @@
                               "input": {
                                 "filename": "test-parser/input-2.model"
                               },
-                              "startchar": 816,
-                              "endchar": 817
+                              "startchar": 1037,
+                              "endchar": 1038
                             }
                           },
                           "code": {
@@ -1211,9 +1211,9 @@
                                   "expr": {
                                     "kind": "apply",
                                     "func": {
-                                      "start": 852,
+                                      "start": 1073,
                                       "value": "==",
-                                      "end": 855
+                                      "end": 1076
                                     },
                                     "args": [
                                       {
@@ -1225,8 +1225,8 @@
                                             "input": {
                                               "filename": "test-parser/input-2.model"
                                             },
-                                            "startchar": 843,
-                                            "endchar": 852
+                                            "startchar": 1064,
+                                            "endchar": 1073
                                           }
                                         },
                                         "parent": {
@@ -1236,24 +1236,24 @@
                                             "input": {
                                               "filename": "test-parser/input-2.model"
                                             },
-                                            "startchar": 836,
-                                            "endchar": 842
+                                            "startchar": 1057,
+                                            "endchar": 1063
                                           }
                                         },
                                         "source": {
                                           "input": {
                                             "filename": "test-parser/input-2.model"
                                           },
-                                          "startchar": 836,
-                                          "endchar": 852
+                                          "startchar": 1057,
+                                          "endchar": 1073
                                         }
                                       },
                                       {
                                         "kind": "apply",
                                         "func": {
-                                          "start": 861,
+                                          "start": 1082,
                                           "value": "==",
-                                          "end": 864
+                                          "end": 1085
                                         },
                                         "args": [
                                           {
@@ -1265,8 +1265,8 @@
                                                 "input": {
                                                   "filename": "test-parser/input-2.model"
                                                 },
-                                                "startchar": 858,
-                                                "endchar": 861
+                                                "startchar": 1079,
+                                                "endchar": 1082
                                               }
                                             },
                                             "parent": {
@@ -1276,16 +1276,16 @@
                                                 "input": {
                                                   "filename": "test-parser/input-2.model"
                                                 },
-                                                "startchar": 856,
-                                                "endchar": 857
+                                                "startchar": 1077,
+                                                "endchar": 1078
                                               }
                                             },
                                             "source": {
                                               "input": {
                                                 "filename": "test-parser/input-2.model"
                                               },
-                                              "startchar": 856,
-                                              "endchar": 861
+                                              "startchar": 1077,
+                                              "endchar": 1082
                                             }
                                           },
                                           {
@@ -1295,8 +1295,8 @@
                                               "input": {
                                                 "filename": "test-parser/input-2.model"
                                               },
-                                              "startchar": 864,
-                                              "endchar": 866
+                                              "startchar": 1085,
+                                              "endchar": 1087
                                             }
                                           }
                                         ],
@@ -1304,8 +1304,8 @@
                                           "input": {
                                             "filename": "test-parser/input-2.model"
                                           },
-                                          "startchar": 855,
-                                          "endchar": 867
+                                          "startchar": 1076,
+                                          "endchar": 1088
                                         }
                                       }
                                     ],
@@ -1313,16 +1313,16 @@
                                       "input": {
                                         "filename": "test-parser/input-2.model"
                                       },
-                                      "startchar": 836,
-                                      "endchar": 867
+                                      "startchar": 1057,
+                                      "endchar": 1088
                                     }
                                   },
                                   "source": {
                                     "input": {
                                       "filename": "test-parser/input-2.model"
                                     },
-                                    "startchar": 829,
-                                    "endchar": 875
+                                    "startchar": 1050,
+                                    "endchar": 1096
                                   }
                                 }
                               ]
@@ -1334,8 +1334,8 @@
                         "input": {
                           "filename": "test-parser/input-2.model"
                         },
-                        "startchar": 728,
-                        "endchar": 885
+                        "startchar": 949,
+                        "endchar": 1106
                       }
                     }
                   ]
@@ -1345,8 +1345,8 @@
                 "input": {
                   "filename": "test-parser/input-2.model"
                 },
-                "startchar": 696,
-                "endchar": 887
+                "startchar": 917,
+                "endchar": 1108
               }
             }
           ]
@@ -1356,8 +1356,8 @@
         "input": {
           "filename": "test-parser/input-2.model"
         },
-        "startchar": 667,
-        "endchar": 889
+        "startchar": 888,
+        "endchar": 1110
       }
     }
   ]
