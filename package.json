@@ -22,5 +22,5 @@
     "url": "git@localhost:dongaro/runway-compiler.git"
   },
   "author": "Diego Ongaro <dongaro@salesforce.com>",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
