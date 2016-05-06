@@ -1,5 +1,7 @@
 # Runway Compiler
 
+[![Build Status](https://travis-ci.org/SalesforceEng/runway-compiler.svg?branch=master)](https://travis-ci.org/SalesforceEng/runway-compiler)
+
 This is an interpreter for the Runway specification language, which was created
 to model distributed and concurrent systems. The interpreter is typically used
 as part of [runway-browser](https://github.com/SalesforceEng/runway-browser),
