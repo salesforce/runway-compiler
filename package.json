@@ -1,7 +1,7 @@
 {
   "name": "runway-compiler",
-  "version": "0.0.1-alpha.0",
-  "description": "Requires node >=v4.x, npm.",
+  "version": "0.1.0",
+  "description": "Compiler for Runway models of distributed systems",
   "main": "main.js",
   "dependencies": {
     "docopt": "^0.6.2",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@localhost:dongaro/runway-compiler.git"
+    "url": "https://github.com/SalesforceEng/runway-compiler.git"
   },
   "author": "Diego Ongaro <dongaro@salesforce.com>",
   "license": "MIT"
