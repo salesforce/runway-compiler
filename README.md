@@ -1,10 +1,10 @@
 # Runway Compiler
 
-[![Build Status](https://travis-ci.org/SalesforceEng/runway-compiler.svg?branch=master)](https://travis-ci.org/SalesforceEng/runway-compiler)
+[![Build Status](https://travis-ci.org/salesforce/runway-compiler.svg?branch=master)](https://travis-ci.org/salesforce/runway-compiler)
 
 This is an interpreter for the Runway specification language, which was created
 to model distributed and concurrent systems. The interpreter is typically used
-as part of [runway-browser](https://github.com/SalesforceEng/runway-browser),
+as part of [runway-browser](https://github.com/salesforce/runway-browser),
 which provides a web-based UI in which you can run interactive visualizations
 based on the models.
 
@@ -28,7 +28,7 @@ using the syntax file [vim/runway.vim](vim/runway.vim). Copy it into
 ### Syntax Highlighting: Atom
 
 Syntax highlighting for the [Atom](https://atom.io) text editor can be found in
-a separate [language-runway](https://github.com/SalesforceEng/language-runway)
+a separate [language-runway](https://github.com/salesforce/language-runway)
 repo.
 
 
@@ -66,7 +66,7 @@ Use the REPL to try out statements and expressions in your console:
 ### Running Example in REPL
 
 You can also load Runway models into the REPL, such as the [Too Many
-Bananas](https://github.com/SalesforceEng/runway-model-toomanybananas/) model.
+Bananas](https://github.com/salesforce/runway-model-toomanybananas/) model.
 
     $ node main.js ~/runway-model-toomanybananas/toomanybananas.model
     bananas = 0
@@ -100,15 +100,15 @@ Bananas](https://github.com/SalesforceEng/runway-model-toomanybananas/) model.
     roommates = [1: Hungry, 2: Happy, 3: Hungry, 4: Happy, 5: Happy]
 
 Note that invariants are not automatically checked in the REPL
-(issue [#1](/SalesforceEng/runway-compiler/issues/1)).
+(issue [#1](/salesforce/runway-compiler/issues/1)).
 
 
 ## Writing a Model
 
 You're encouraged to look at existing examples to begin with, such as
-[runway-model-toomanybananas](https://github.com/SalesforceEng/runway-model-toomanybananas)
+[runway-model-toomanybananas](https://github.com/salesforce/runway-model-toomanybananas)
 and
-[runway-model-elevators](https://github.com/SalesforceEng/runway-model-elevators).
+[runway-model-elevators](https://github.com/salesforce/runway-model-elevators).
 The specification language is documented in
 [doc/LANGUAGE-GUIDE.md](doc/LANGUAGE-GUIDE.md), and the most important thing to
 note is that most things are pass-by-value (copy semantics), but for loops are
