@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SalesforceEng/runway-compiler.git"
+    "url": "https://github.com/salesforce/runway-compiler.git"
   },
   "author": "Diego Ongaro <dongaro@salesforce.com>",
   "license": "MIT"
