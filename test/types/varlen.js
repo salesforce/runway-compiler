@@ -51,6 +51,23 @@ describe('types/varlen.js', function() {
       assert.equal(module.env.getVar('b2').toString(),
         'False');
     });
+
+    it('pop (issue-5 regression)', function() {
+      let module = testing.run(`
+        type Number : 0..9;
+        var os : OrderedSet<Number>[1..3];
+        push(os, 2);
+        push(os, 4);
+        var e1 : Number = pop(os);
+        var e2 : Number = pop(os);
+      `);
+      assert.equal(module.env.getVar('os').toString(),
+        '{}');
+      assert.equal(module.env.getVar('e1').toString(),
+        '4');
+      assert.equal(module.env.getVar('e2').toString(),
+        '2');
+    });
   });
 
   describe('MultiSet', function() {
