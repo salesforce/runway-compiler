@@ -10,8 +10,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 227,
-          "endchar": 236
+          "startchar": {
+            "offset": 227,
+            "line": 9,
+            "column": 7
+          },
+          "endchar": {
+            "offset": 236,
+            "line": 9,
+            "column": 16
+          }
         }
       },
       "type": {
@@ -23,8 +31,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 238,
-            "endchar": 239
+            "startchar": {
+              "offset": 238,
+              "line": 9,
+              "column": 18
+            },
+            "endchar": {
+              "offset": 239,
+              "line": 9,
+              "column": 19
+            }
           }
         },
         "high": {
@@ -34,16 +50,32 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 241,
-            "endchar": 246
+            "startchar": {
+              "offset": 241,
+              "line": 9,
+              "column": 21
+            },
+            "endchar": {
+              "offset": 246,
+              "line": 9,
+              "column": 26
+            }
           }
         },
         "source": {
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 238,
-          "endchar": 246
+          "startchar": {
+            "offset": 238,
+            "line": 9,
+            "column": 18
+          },
+          "endchar": {
+            "offset": 246,
+            "line": 9,
+            "column": 26
+          }
         }
       },
       "default": {
@@ -53,16 +85,32 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 248,
-          "endchar": 249
+          "startchar": {
+            "offset": 248,
+            "line": 9,
+            "column": 28
+          },
+          "endchar": {
+            "offset": 249,
+            "line": 9,
+            "column": 29
+          }
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 221,
-        "endchar": 251
+        "startchar": {
+          "offset": 221,
+          "line": 9,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 251,
+          "line": 10,
+          "column": 1
+        }
       }
     },
     {
@@ -74,8 +122,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 257,
-          "endchar": 263
+          "startchar": {
+            "offset": 257,
+            "line": 10,
+            "column": 7
+          },
+          "endchar": {
+            "offset": 263,
+            "line": 10,
+            "column": 13
+          }
         }
       },
       "type": {
@@ -87,16 +143,32 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 265,
-            "endchar": 266
+            "startchar": {
+              "offset": 265,
+              "line": 10,
+              "column": 15
+            },
+            "endchar": {
+              "offset": 266,
+              "line": 10,
+              "column": 16
+            }
           }
         },
         "high": {
           "kind": "apply",
           "func": {
-            "start": 278,
+            "start": {
+              "offset": 278,
+              "line": 10,
+              "column": 28
+            },
             "value": "*",
-            "end": 279
+            "end": {
+              "offset": 279,
+              "line": 10,
+              "column": 29
+            }
           },
           "args": [
             {
@@ -106,8 +178,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 269,
-                "endchar": 278
+                "startchar": {
+                  "offset": 269,
+                  "line": 10,
+                  "column": 19
+                },
+                "endchar": {
+                  "offset": 278,
+                  "line": 10,
+                  "column": 28
+                }
               }
             },
             {
@@ -117,8 +197,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 279,
-                "endchar": 282
+                "startchar": {
+                  "offset": 279,
+                  "line": 10,
+                  "column": 29
+                },
+                "endchar": {
+                  "offset": 282,
+                  "line": 10,
+                  "column": 32
+                }
               }
             }
           ],
@@ -126,16 +214,32 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 268,
-            "endchar": 284
+            "startchar": {
+              "offset": 268,
+              "line": 10,
+              "column": 18
+            },
+            "endchar": {
+              "offset": 284,
+              "line": 10,
+              "column": 34
+            }
           }
         },
         "source": {
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 265,
-          "endchar": 284
+          "startchar": {
+            "offset": 265,
+            "line": 10,
+            "column": 15
+          },
+          "endchar": {
+            "offset": 284,
+            "line": 10,
+            "column": 34
+          }
         }
       },
       "default": {
@@ -145,16 +249,32 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 286,
-          "endchar": 289
+          "startchar": {
+            "offset": 286,
+            "line": 10,
+            "column": 36
+          },
+          "endchar": {
+            "offset": 289,
+            "line": 10,
+            "column": 39
+          }
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 251,
-        "endchar": 291
+        "startchar": {
+          "offset": 251,
+          "line": 10,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 291,
+          "line": 11,
+          "column": 1
+        }
       }
     },
     {
@@ -166,8 +286,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 297,
-          "endchar": 303
+          "startchar": {
+            "offset": 297,
+            "line": 11,
+            "column": 7
+          },
+          "endchar": {
+            "offset": 303,
+            "line": 11,
+            "column": 13
+          }
         }
       },
       "type": {
@@ -179,8 +307,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 305,
-            "endchar": 306
+            "startchar": {
+              "offset": 305,
+              "line": 11,
+              "column": 15
+            },
+            "endchar": {
+              "offset": 306,
+              "line": 11,
+              "column": 16
+            }
           }
         },
         "high": {
@@ -190,16 +326,32 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 308,
-            "endchar": 313
+            "startchar": {
+              "offset": 308,
+              "line": 11,
+              "column": 18
+            },
+            "endchar": {
+              "offset": 313,
+              "line": 11,
+              "column": 23
+            }
           }
         },
         "source": {
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 305,
-          "endchar": 313
+          "startchar": {
+            "offset": 305,
+            "line": 11,
+            "column": 15
+          },
+          "endchar": {
+            "offset": 313,
+            "line": 11,
+            "column": 23
+          }
         }
       },
       "default": {
@@ -209,16 +361,32 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 315,
-          "endchar": 317
+          "startchar": {
+            "offset": 315,
+            "line": 11,
+            "column": 25
+          },
+          "endchar": {
+            "offset": 317,
+            "line": 11,
+            "column": 27
+          }
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 291,
-        "endchar": 320
+        "startchar": {
+          "offset": 291,
+          "line": 11,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 320,
+          "line": 13,
+          "column": 1
+        }
       }
     },
     {
@@ -230,8 +398,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 325,
-          "endchar": 335
+          "startchar": {
+            "offset": 325,
+            "line": 13,
+            "column": 6
+          },
+          "endchar": {
+            "offset": 335,
+            "line": 13,
+            "column": 16
+          }
         }
       },
       "type": {
@@ -243,8 +419,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 337,
-            "endchar": 338
+            "startchar": {
+              "offset": 337,
+              "line": 13,
+              "column": 18
+            },
+            "endchar": {
+              "offset": 338,
+              "line": 13,
+              "column": 19
+            }
           }
         },
         "high": {
@@ -254,24 +438,48 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 340,
-            "endchar": 349
+            "startchar": {
+              "offset": 340,
+              "line": 13,
+              "column": 21
+            },
+            "endchar": {
+              "offset": 349,
+              "line": 13,
+              "column": 30
+            }
           }
         },
         "source": {
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 337,
-          "endchar": 349
+          "startchar": {
+            "offset": 337,
+            "line": 13,
+            "column": 18
+          },
+          "endchar": {
+            "offset": 349,
+            "line": 13,
+            "column": 30
+          }
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 320,
-        "endchar": 351
+        "startchar": {
+          "offset": 320,
+          "line": 13,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 351,
+          "line": 14,
+          "column": 1
+        }
       }
     },
     {
@@ -283,8 +491,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 356,
-          "endchar": 361
+          "startchar": {
+            "offset": 356,
+            "line": 14,
+            "column": 6
+          },
+          "endchar": {
+            "offset": 361,
+            "line": 14,
+            "column": 11
+          }
         }
       },
       "type": {
@@ -296,8 +512,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 363,
-            "endchar": 364
+            "startchar": {
+              "offset": 363,
+              "line": 14,
+              "column": 13
+            },
+            "endchar": {
+              "offset": 364,
+              "line": 14,
+              "column": 14
+            }
           }
         },
         "high": {
@@ -307,24 +531,48 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 366,
-            "endchar": 372
+            "startchar": {
+              "offset": 366,
+              "line": 14,
+              "column": 16
+            },
+            "endchar": {
+              "offset": 372,
+              "line": 14,
+              "column": 22
+            }
           }
         },
         "source": {
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 363,
-          "endchar": 372
+          "startchar": {
+            "offset": 363,
+            "line": 14,
+            "column": 13
+          },
+          "endchar": {
+            "offset": 372,
+            "line": 14,
+            "column": 22
+          }
         }
       },
       "source": {
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 351,
-        "endchar": 407
+        "startchar": {
+          "offset": 351,
+          "line": 14,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 407,
+          "line": 17,
+          "column": 1
+        }
       }
     },
     {
@@ -337,8 +585,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 420,
-          "endchar": 428
+          "startchar": {
+            "offset": 420,
+            "line": 17,
+            "column": 14
+          },
+          "endchar": {
+            "offset": 428,
+            "line": 17,
+            "column": 22
+          }
         }
       },
       "params": [],
@@ -349,8 +605,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 434,
-          "endchar": 439
+          "startchar": {
+            "offset": 434,
+            "line": 17,
+            "column": 28
+          },
+          "endchar": {
+            "offset": 439,
+            "line": 17,
+            "column": 33
+          }
         }
       },
       "code": {
@@ -368,16 +632,32 @@
                   "input": {
                     "filename": "test-parser/input-1.model"
                   },
-                  "startchar": 452,
-                  "endchar": 454
+                  "startchar": {
+                    "offset": 452,
+                    "line": 18,
+                    "column": 12
+                  },
+                  "endchar": {
+                    "offset": 454,
+                    "line": 18,
+                    "column": 14
+                  }
                 }
               },
               "source": {
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 445,
-                "endchar": 456
+                "startchar": {
+                  "offset": 445,
+                  "line": 18,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 456,
+                  "line": 19,
+                  "column": 1
+                }
               }
             }
           ]
@@ -387,8 +667,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 407,
-        "endchar": 503
+        "startchar": {
+          "offset": 407,
+          "line": 17,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 503,
+          "line": 22,
+          "column": 1
+        }
       }
     },
     {
@@ -401,8 +689,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 516,
-          "endchar": 524
+          "startchar": {
+            "offset": 516,
+            "line": 22,
+            "column": 14
+          },
+          "endchar": {
+            "offset": 524,
+            "line": 22,
+            "column": 22
+          }
         }
       },
       "params": [],
@@ -413,8 +709,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 530,
-          "endchar": 535
+          "startchar": {
+            "offset": 530,
+            "line": 22,
+            "column": 28
+          },
+          "endchar": {
+            "offset": 535,
+            "line": 22,
+            "column": 33
+          }
         }
       },
       "code": {
@@ -432,16 +736,32 @@
                   "input": {
                     "filename": "test-parser/input-1.model"
                   },
-                  "startchar": 548,
-                  "endchar": 550
+                  "startchar": {
+                    "offset": 548,
+                    "line": 23,
+                    "column": 12
+                  },
+                  "endchar": {
+                    "offset": 550,
+                    "line": 23,
+                    "column": 14
+                  }
                 }
               },
               "source": {
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 541,
-                "endchar": 552
+                "startchar": {
+                  "offset": 541,
+                  "line": 23,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 552,
+                  "line": 24,
+                  "column": 1
+                }
               }
             }
           ]
@@ -451,8 +771,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 503,
-        "endchar": 555
+        "startchar": {
+          "offset": 503,
+          "line": 22,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 555,
+          "line": 26,
+          "column": 1
+        }
       }
     },
     {
@@ -465,8 +793,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 568,
-          "endchar": 583
+          "startchar": {
+            "offset": 568,
+            "line": 26,
+            "column": 14
+          },
+          "endchar": {
+            "offset": 583,
+            "line": 26,
+            "column": 29
+          }
         }
       },
       "params": [
@@ -478,8 +814,16 @@
               "input": {
                 "filename": "test-parser/input-1.model"
               },
-              "startchar": 584,
-              "endchar": 589
+              "startchar": {
+                "offset": 584,
+                "line": 26,
+                "column": 30
+              },
+              "endchar": {
+                "offset": 589,
+                "line": 26,
+                "column": 35
+              }
             }
           },
           "type": {
@@ -489,16 +833,32 @@
               "input": {
                 "filename": "test-parser/input-1.model"
               },
-              "startchar": 591,
-              "endchar": 596
+              "startchar": {
+                "offset": 591,
+                "line": 26,
+                "column": 37
+              },
+              "endchar": {
+                "offset": 596,
+                "line": 26,
+                "column": 42
+              }
             }
           },
           "source": {
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 584,
-            "endchar": 596
+            "startchar": {
+              "offset": 584,
+              "line": 26,
+              "column": 30
+            },
+            "endchar": {
+              "offset": 596,
+              "line": 26,
+              "column": 42
+            }
           }
         }
       ],
@@ -509,8 +869,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 601,
-          "endchar": 607
+          "startchar": {
+            "offset": 601,
+            "line": 26,
+            "column": 47
+          },
+          "endchar": {
+            "offset": 607,
+            "line": 26,
+            "column": 53
+          }
         }
       },
       "code": {
@@ -527,16 +895,32 @@
                   "input": {
                     "filename": "test-parser/input-1.model"
                   },
-                  "startchar": 620,
-                  "endchar": 625
+                  "startchar": {
+                    "offset": 620,
+                    "line": 27,
+                    "column": 12
+                  },
+                  "endchar": {
+                    "offset": 625,
+                    "line": 27,
+                    "column": 17
+                  }
                 }
               },
               "source": {
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 613,
-                "endchar": 627
+                "startchar": {
+                  "offset": 613,
+                  "line": 27,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 627,
+                  "line": 28,
+                  "column": 1
+                }
               }
             }
           ]
@@ -546,8 +930,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 555,
-        "endchar": 630
+        "startchar": {
+          "offset": 555,
+          "line": 26,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 630,
+          "line": 30,
+          "column": 1
+        }
       }
     },
     {
@@ -559,8 +951,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 635,
-          "endchar": 641
+          "startchar": {
+            "offset": 635,
+            "line": 30,
+            "column": 6
+          },
+          "endchar": {
+            "offset": 641,
+            "line": 30,
+            "column": 12
+          }
         }
       },
       "type": {
@@ -574,8 +974,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 654,
-                "endchar": 659
+                "startchar": {
+                  "offset": 654,
+                  "line": 31,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 659,
+                  "line": 31,
+                  "column": 10
+                }
               }
             },
             "type": {
@@ -589,8 +997,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 678,
-                      "endchar": 687
+                      "startchar": {
+                        "offset": 678,
+                        "line": 32,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 687,
+                        "line": 32,
+                        "column": 18
+                      }
                     }
                   },
                   "type": {
@@ -604,8 +1020,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 701,
-                            "endchar": 706
+                            "startchar": {
+                              "offset": 701,
+                              "line": 33,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 706,
+                              "line": 33,
+                              "column": 18
+                            }
                           }
                         },
                         "type": {
@@ -615,8 +1039,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 708,
-                            "endchar": 713
+                            "startchar": {
+                              "offset": 708,
+                              "line": 33,
+                              "column": 20
+                            },
+                            "endchar": {
+                              "offset": 713,
+                              "line": 33,
+                              "column": 25
+                            }
                           }
                         }
                       }
@@ -631,8 +1063,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 734,
-                      "endchar": 742
+                      "startchar": {
+                        "offset": 734,
+                        "line": 35,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 742,
+                        "line": 35,
+                        "column": 17
+                      }
                     }
                   },
                   "type": {
@@ -646,8 +1086,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 756,
-                            "endchar": 761
+                            "startchar": {
+                              "offset": 756,
+                              "line": 36,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 761,
+                              "line": 36,
+                              "column": 18
+                            }
                           }
                         },
                         "type": {
@@ -657,8 +1105,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 763,
-                            "endchar": 768
+                            "startchar": {
+                              "offset": 763,
+                              "line": 36,
+                              "column": 20
+                            },
+                            "endchar": {
+                              "offset": 768,
+                              "line": 36,
+                              "column": 25
+                            }
                           }
                         }
                       },
@@ -670,8 +1126,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 782,
-                            "endchar": 793
+                            "startchar": {
+                              "offset": 782,
+                              "line": 37,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 793,
+                              "line": 37,
+                              "column": 24
+                            }
                           }
                         },
                         "type": {
@@ -681,8 +1145,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 795,
-                            "endchar": 800
+                            "startchar": {
+                              "offset": 795,
+                              "line": 37,
+                              "column": 26
+                            },
+                            "endchar": {
+                              "offset": 800,
+                              "line": 37,
+                              "column": 31
+                            }
                           }
                         }
                       }
@@ -697,8 +1169,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 821,
-                      "endchar": 828
+                      "startchar": {
+                        "offset": 821,
+                        "line": 39,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 828,
+                        "line": 39,
+                        "column": 16
+                      }
                     }
                   },
                   "type": {
@@ -712,8 +1192,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 842,
-                            "endchar": 850
+                            "startchar": {
+                              "offset": 842,
+                              "line": 40,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 850,
+                              "line": 40,
+                              "column": 21
+                            }
                           }
                         },
                         "type": {
@@ -723,8 +1211,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 852,
-                            "endchar": 862
+                            "startchar": {
+                              "offset": 852,
+                              "line": 40,
+                              "column": 23
+                            },
+                            "endchar": {
+                              "offset": 862,
+                              "line": 40,
+                              "column": 33
+                            }
                           }
                         }
                       },
@@ -736,8 +1232,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 876,
-                            "endchar": 887
+                            "startchar": {
+                              "offset": 876,
+                              "line": 41,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 887,
+                              "line": 41,
+                              "column": 24
+                            }
                           }
                         },
                         "type": {
@@ -747,8 +1251,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 889,
-                            "endchar": 894
+                            "startchar": {
+                              "offset": 889,
+                              "line": 41,
+                              "column": 26
+                            },
+                            "endchar": {
+                              "offset": 894,
+                              "line": 41,
+                              "column": 31
+                            }
                           }
                         }
                       }
@@ -760,8 +1272,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 661,
-                "endchar": 912
+                "startchar": {
+                  "offset": 661,
+                  "line": 31,
+                  "column": 12
+                },
+                "endchar": {
+                  "offset": 912,
+                  "line": 43,
+                  "column": 6
+                }
               }
             }
           }
@@ -771,8 +1291,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 630,
-        "endchar": 916
+        "startchar": {
+          "offset": 630,
+          "line": 30,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 916,
+          "line": 45,
+          "column": 1
+        }
       }
     },
     {
@@ -784,8 +1312,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 920,
-          "endchar": 926
+          "startchar": {
+            "offset": 920,
+            "line": 45,
+            "column": 5
+          },
+          "endchar": {
+            "offset": 926,
+            "line": 45,
+            "column": 11
+          }
         }
       },
       "type": {
@@ -797,8 +1333,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 928,
-            "endchar": 933
+            "startchar": {
+              "offset": 928,
+              "line": 45,
+              "column": 13
+            },
+            "endchar": {
+              "offset": 933,
+              "line": 45,
+              "column": 18
+            }
           }
         },
         "args": [
@@ -809,8 +1353,16 @@
               "input": {
                 "filename": "test-parser/input-1.model"
               },
-              "startchar": 934,
-              "endchar": 940
+              "startchar": {
+                "offset": 934,
+                "line": 45,
+                "column": 19
+              },
+              "endchar": {
+                "offset": 940,
+                "line": 45,
+                "column": 25
+              }
             }
           }
         ],
@@ -821,8 +1373,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 942,
-            "endchar": 950
+            "startchar": {
+              "offset": 942,
+              "line": 45,
+              "column": 27
+            },
+            "endchar": {
+              "offset": 950,
+              "line": 45,
+              "column": 35
+            }
           }
         }
       },
@@ -830,8 +1390,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 916,
-        "endchar": 954
+        "startchar": {
+          "offset": 916,
+          "line": 45,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 954,
+          "line": 47,
+          "column": 1
+        }
       }
     },
     {
@@ -843,8 +1411,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 959,
-          "endchar": 971
+          "startchar": {
+            "offset": 959,
+            "line": 47,
+            "column": 6
+          },
+          "endchar": {
+            "offset": 971,
+            "line": 47,
+            "column": 18
+          }
         }
       },
       "type": {
@@ -858,8 +1434,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 984,
-                "endchar": 994
+                "startchar": {
+                  "offset": 984,
+                  "line": 48,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 994,
+                  "line": 48,
+                  "column": 15
+                }
               }
             },
             "type": {
@@ -869,8 +1453,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 996,
-                "endchar": 1003
+                "startchar": {
+                  "offset": 996,
+                  "line": 48,
+                  "column": 17
+                },
+                "endchar": {
+                  "offset": 1003,
+                  "line": 48,
+                  "column": 24
+                }
               }
             }
           },
@@ -882,8 +1474,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1009,
-                "endchar": 1017
+                "startchar": {
+                  "offset": 1009,
+                  "line": 49,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 1017,
+                  "line": 49,
+                  "column": 13
+                }
               }
             },
             "type": {
@@ -893,8 +1493,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1019,
-                "endchar": 1027
+                "startchar": {
+                  "offset": 1019,
+                  "line": 49,
+                  "column": 15
+                },
+                "endchar": {
+                  "offset": 1027,
+                  "line": 50,
+                  "column": 1
+                }
               }
             }
           }
@@ -904,8 +1512,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 954,
-        "endchar": 1029
+        "startchar": {
+          "offset": 954,
+          "line": 47,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 1029,
+          "line": 51,
+          "column": 1
+        }
       }
     },
     {
@@ -917,8 +1533,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 1033,
-          "endchar": 1046
+          "startchar": {
+            "offset": 1033,
+            "line": 51,
+            "column": 5
+          },
+          "endchar": {
+            "offset": 1046,
+            "line": 51,
+            "column": 18
+          }
         }
       },
       "type": {
@@ -930,8 +1554,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 1048,
-            "endchar": 1053
+            "startchar": {
+              "offset": 1048,
+              "line": 51,
+              "column": 20
+            },
+            "endchar": {
+              "offset": 1053,
+              "line": 51,
+              "column": 25
+            }
           }
         },
         "args": [
@@ -942,8 +1574,16 @@
               "input": {
                 "filename": "test-parser/input-1.model"
               },
-              "startchar": 1054,
-              "endchar": 1066
+              "startchar": {
+                "offset": 1054,
+                "line": 51,
+                "column": 26
+              },
+              "endchar": {
+                "offset": 1066,
+                "line": 51,
+                "column": 38
+              }
             }
           }
         ],
@@ -954,8 +1594,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 1068,
-            "endchar": 1073
+            "startchar": {
+              "offset": 1068,
+              "line": 51,
+              "column": 40
+            },
+            "endchar": {
+              "offset": 1073,
+              "line": 51,
+              "column": 45
+            }
           }
         }
       },
@@ -963,8 +1611,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 1029,
-        "endchar": 1077
+        "startchar": {
+          "offset": 1029,
+          "line": 51,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 1077,
+          "line": 53,
+          "column": 1
+        }
       }
     },
     {
@@ -976,8 +1632,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 1082,
-          "endchar": 1090
+          "startchar": {
+            "offset": 1082,
+            "line": 53,
+            "column": 6
+          },
+          "endchar": {
+            "offset": 1090,
+            "line": 53,
+            "column": 14
+          }
         }
       },
       "type": {
@@ -991,8 +1655,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1103,
-                "endchar": 1115
+                "startchar": {
+                  "offset": 1103,
+                  "line": 54,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 1115,
+                  "line": 54,
+                  "column": 17
+                }
               }
             },
             "type": {
@@ -1004,8 +1676,16 @@
                   "input": {
                     "filename": "test-parser/input-1.model"
                   },
-                  "startchar": 1117,
-                  "endchar": 1120
+                  "startchar": {
+                    "offset": 1117,
+                    "line": 54,
+                    "column": 19
+                  },
+                  "endchar": {
+                    "offset": 1120,
+                    "line": 54,
+                    "column": 22
+                  }
                 }
               },
               "args": [
@@ -1016,8 +1696,16 @@
                     "input": {
                       "filename": "test-parser/input-1.model"
                     },
-                    "startchar": 1121,
-                    "endchar": 1126
+                    "startchar": {
+                      "offset": 1121,
+                      "line": 54,
+                      "column": 23
+                    },
+                    "endchar": {
+                      "offset": 1126,
+                      "line": 54,
+                      "column": 28
+                    }
                   }
                 }
               ]
@@ -1031,8 +1719,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1133,
-                "endchar": 1139
+                "startchar": {
+                  "offset": 1133,
+                  "line": 55,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 1139,
+                  "line": 55,
+                  "column": 11
+                }
               }
             },
             "type": {
@@ -1044,8 +1740,16 @@
                   "input": {
                     "filename": "test-parser/input-1.model"
                   },
-                  "startchar": 1141,
-                  "endchar": 1144
+                  "startchar": {
+                    "offset": 1141,
+                    "line": 55,
+                    "column": 13
+                  },
+                  "endchar": {
+                    "offset": 1144,
+                    "line": 55,
+                    "column": 16
+                  }
                 }
               },
               "args": [
@@ -1056,8 +1760,16 @@
                     "input": {
                       "filename": "test-parser/input-1.model"
                     },
-                    "startchar": 1145,
-                    "endchar": 1153
+                    "startchar": {
+                      "offset": 1145,
+                      "line": 55,
+                      "column": 17
+                    },
+                    "endchar": {
+                      "offset": 1153,
+                      "line": 55,
+                      "column": 25
+                    }
                   }
                 }
               ]
@@ -1071,8 +1783,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1160,
-                "endchar": 1169
+                "startchar": {
+                  "offset": 1160,
+                  "line": 56,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 1169,
+                  "line": 56,
+                  "column": 14
+                }
               }
             },
             "type": {
@@ -1086,8 +1806,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 1188,
-                      "endchar": 1195
+                      "startchar": {
+                        "offset": 1188,
+                        "line": 57,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 1195,
+                        "line": 57,
+                        "column": 16
+                      }
                     }
                   },
                   "kind": "enumvariant"
@@ -1100,8 +1828,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 1205,
-                      "endchar": 1207
+                      "startchar": {
+                        "offset": 1205,
+                        "line": 58,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 1207,
+                        "line": 58,
+                        "column": 11
+                      }
                     }
                   },
                   "kind": "enumvariant"
@@ -1114,8 +1850,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 1217,
-                      "endchar": 1221
+                      "startchar": {
+                        "offset": 1217,
+                        "line": 59,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 1221,
+                        "line": 59,
+                        "column": 13
+                      }
                     }
                   },
                   "kind": "enumvariant"
@@ -1125,8 +1869,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1171,
-                "endchar": 1228
+                "startchar": {
+                  "offset": 1171,
+                  "line": 56,
+                  "column": 16
+                },
+                "endchar": {
+                  "offset": 1228,
+                  "line": 60,
+                  "column": 6
+                }
               }
             }
           },
@@ -1138,8 +1890,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1234,
-                "endchar": 1242
+                "startchar": {
+                  "offset": 1234,
+                  "line": 61,
+                  "column": 5
+                },
+                "endchar": {
+                  "offset": 1242,
+                  "line": 61,
+                  "column": 13
+                }
               }
             },
             "type": {
@@ -1153,8 +1913,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 1261,
-                      "endchar": 1269
+                      "startchar": {
+                        "offset": 1261,
+                        "line": 62,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 1269,
+                        "line": 62,
+                        "column": 17
+                      }
                     }
                   },
                   "type": {
@@ -1168,8 +1936,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 1283,
-                            "endchar": 1285
+                            "startchar": {
+                              "offset": 1283,
+                              "line": 63,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 1285,
+                              "line": 63,
+                              "column": 15
+                            }
                           }
                         },
                         "type": {
@@ -1179,8 +1955,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 1287,
-                            "endchar": 1292
+                            "startchar": {
+                              "offset": 1287,
+                              "line": 63,
+                              "column": 17
+                            },
+                            "endchar": {
+                              "offset": 1292,
+                              "line": 63,
+                              "column": 22
+                            }
                           }
                         }
                       },
@@ -1192,8 +1976,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 1306,
-                            "endchar": 1311
+                            "startchar": {
+                              "offset": 1306,
+                              "line": 64,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 1311,
+                              "line": 64,
+                              "column": 18
+                            }
                           }
                         },
                         "type": {
@@ -1207,8 +1999,16 @@
                                   "input": {
                                     "filename": "test-parser/input-1.model"
                                   },
-                                  "startchar": 1338,
-                                  "endchar": 1344
+                                  "startchar": {
+                                    "offset": 1338,
+                                    "line": 65,
+                                    "column": 17
+                                  },
+                                  "endchar": {
+                                    "offset": 1344,
+                                    "line": 65,
+                                    "column": 23
+                                  }
                                 }
                               },
                               "kind": "enumvariant"
@@ -1221,8 +2021,16 @@
                                   "input": {
                                     "filename": "test-parser/input-1.model"
                                   },
-                                  "startchar": 1362,
-                                  "endchar": 1370
+                                  "startchar": {
+                                    "offset": 1362,
+                                    "line": 66,
+                                    "column": 17
+                                  },
+                                  "endchar": {
+                                    "offset": 1370,
+                                    "line": 66,
+                                    "column": 25
+                                  }
                                 }
                               },
                               "type": {
@@ -1236,8 +2044,16 @@
                                         "input": {
                                           "filename": "test-parser/input-1.model"
                                         },
-                                        "startchar": 1392,
-                                        "endchar": 1398
+                                        "startchar": {
+                                          "offset": 1392,
+                                          "line": 67,
+                                          "column": 21
+                                        },
+                                        "endchar": {
+                                          "offset": 1398,
+                                          "line": 67,
+                                          "column": 27
+                                        }
                                       }
                                     },
                                     "type": {
@@ -1247,8 +2063,16 @@
                                         "input": {
                                           "filename": "test-parser/input-1.model"
                                         },
-                                        "startchar": 1400,
-                                        "endchar": 1404
+                                        "startchar": {
+                                          "offset": 1400,
+                                          "line": 67,
+                                          "column": 29
+                                        },
+                                        "endchar": {
+                                          "offset": 1404,
+                                          "line": 67,
+                                          "column": 33
+                                        }
                                       }
                                     }
                                   }
@@ -1263,8 +2087,16 @@
                                   "input": {
                                     "filename": "test-parser/input-1.model"
                                   },
-                                  "startchar": 1441,
-                                  "endchar": 1446
+                                  "startchar": {
+                                    "offset": 1441,
+                                    "line": 69,
+                                    "column": 17
+                                  },
+                                  "endchar": {
+                                    "offset": 1446,
+                                    "line": 69,
+                                    "column": 22
+                                  }
                                 }
                               },
                               "type": {
@@ -1278,8 +2110,16 @@
                                         "input": {
                                           "filename": "test-parser/input-1.model"
                                         },
-                                        "startchar": 1468,
-                                        "endchar": 1475
+                                        "startchar": {
+                                          "offset": 1468,
+                                          "line": 70,
+                                          "column": 21
+                                        },
+                                        "endchar": {
+                                          "offset": 1475,
+                                          "line": 70,
+                                          "column": 28
+                                        }
                                       }
                                     },
                                     "type": {
@@ -1289,8 +2129,16 @@
                                         "input": {
                                           "filename": "test-parser/input-1.model"
                                         },
-                                        "startchar": 1477,
-                                        "endchar": 1481
+                                        "startchar": {
+                                          "offset": 1477,
+                                          "line": 70,
+                                          "column": 30
+                                        },
+                                        "endchar": {
+                                          "offset": 1481,
+                                          "line": 70,
+                                          "column": 34
+                                        }
                                       }
                                     }
                                   }
@@ -1305,8 +2153,16 @@
                                   "input": {
                                     "filename": "test-parser/input-1.model"
                                   },
-                                  "startchar": 1518,
-                                  "endchar": 1526
+                                  "startchar": {
+                                    "offset": 1518,
+                                    "line": 72,
+                                    "column": 17
+                                  },
+                                  "endchar": {
+                                    "offset": 1526,
+                                    "line": 72,
+                                    "column": 25
+                                  }
                                 }
                               },
                               "type": {
@@ -1320,8 +2176,16 @@
                                         "input": {
                                           "filename": "test-parser/input-1.model"
                                         },
-                                        "startchar": 1548,
-                                        "endchar": 1556
+                                        "startchar": {
+                                          "offset": 1548,
+                                          "line": 73,
+                                          "column": 21
+                                        },
+                                        "endchar": {
+                                          "offset": 1556,
+                                          "line": 73,
+                                          "column": 29
+                                        }
                                       }
                                     },
                                     "type": {
@@ -1331,8 +2195,16 @@
                                         "input": {
                                           "filename": "test-parser/input-1.model"
                                         },
-                                        "startchar": 1558,
-                                        "endchar": 1562
+                                        "startchar": {
+                                          "offset": 1558,
+                                          "line": 73,
+                                          "column": 31
+                                        },
+                                        "endchar": {
+                                          "offset": 1562,
+                                          "line": 73,
+                                          "column": 35
+                                        }
                                       }
                                     }
                                   }
@@ -1344,8 +2216,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 1313,
-                            "endchar": 1596
+                            "startchar": {
+                              "offset": 1313,
+                              "line": 64,
+                              "column": 20
+                            },
+                            "endchar": {
+                              "offset": 1596,
+                              "line": 75,
+                              "column": 14
+                            }
                           }
                         }
                       }
@@ -1360,8 +2240,16 @@
                       "input": {
                         "filename": "test-parser/input-1.model"
                       },
-                      "startchar": 1617,
-                      "endchar": 1625
+                      "startchar": {
+                        "offset": 1617,
+                        "line": 77,
+                        "column": 9
+                      },
+                      "endchar": {
+                        "offset": 1625,
+                        "line": 77,
+                        "column": 17
+                      }
                     }
                   },
                   "type": {
@@ -1375,8 +2263,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 1639,
-                            "endchar": 1643
+                            "startchar": {
+                              "offset": 1639,
+                              "line": 78,
+                              "column": 13
+                            },
+                            "endchar": {
+                              "offset": 1643,
+                              "line": 78,
+                              "column": 17
+                            }
                           }
                         },
                         "type": {
@@ -1386,8 +2282,16 @@
                             "input": {
                               "filename": "test-parser/input-1.model"
                             },
-                            "startchar": 1645,
-                            "endchar": 1650
+                            "startchar": {
+                              "offset": 1645,
+                              "line": 78,
+                              "column": 19
+                            },
+                            "endchar": {
+                              "offset": 1650,
+                              "line": 78,
+                              "column": 24
+                            }
                           }
                         }
                       }
@@ -1399,8 +2303,16 @@
                 "input": {
                   "filename": "test-parser/input-1.model"
                 },
-                "startchar": 1244,
-                "endchar": 1720
+                "startchar": {
+                  "offset": 1244,
+                  "line": 61,
+                  "column": 15
+                },
+                "endchar": {
+                  "offset": 1720,
+                  "line": 81,
+                  "column": 6
+                }
               }
             }
           }
@@ -1410,8 +2322,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 1077,
-        "endchar": 1724
+        "startchar": {
+          "offset": 1077,
+          "line": 53,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 1724,
+          "line": 83,
+          "column": 1
+        }
       }
     },
     {
@@ -1423,8 +2343,16 @@
           "input": {
             "filename": "test-parser/input-1.model"
           },
-          "startchar": 1728,
-          "endchar": 1737
+          "startchar": {
+            "offset": 1728,
+            "line": 83,
+            "column": 5
+          },
+          "endchar": {
+            "offset": 1737,
+            "line": 83,
+            "column": 14
+          }
         }
       },
       "type": {
@@ -1436,8 +2364,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 1739,
-            "endchar": 1744
+            "startchar": {
+              "offset": 1739,
+              "line": 83,
+              "column": 16
+            },
+            "endchar": {
+              "offset": 1744,
+              "line": 83,
+              "column": 21
+            }
           }
         },
         "args": [
@@ -1448,8 +2384,16 @@
               "input": {
                 "filename": "test-parser/input-1.model"
               },
-              "startchar": 1745,
-              "endchar": 1753
+              "startchar": {
+                "offset": 1745,
+                "line": 83,
+                "column": 22
+              },
+              "endchar": {
+                "offset": 1753,
+                "line": 83,
+                "column": 30
+              }
             }
           }
         ],
@@ -1460,8 +2404,16 @@
             "input": {
               "filename": "test-parser/input-1.model"
             },
-            "startchar": 1755,
-            "endchar": 1765
+            "startchar": {
+              "offset": 1755,
+              "line": 83,
+              "column": 32
+            },
+            "endchar": {
+              "offset": 1765,
+              "line": 83,
+              "column": 42
+            }
           }
         }
       },
@@ -1469,8 +2421,16 @@
         "input": {
           "filename": "test-parser/input-1.model"
         },
-        "startchar": 1724,
-        "endchar": 1768
+        "startchar": {
+          "offset": 1724,
+          "line": 83,
+          "column": 1
+        },
+        "endchar": {
+          "offset": 1768,
+          "line": 84,
+          "column": 1
+        }
       }
     }
   ]

@@ -26,7 +26,9 @@ yz
 describe('source.js', function() {
   describe('Source', function() {
     it('basic', function() {
-      let source = new Source(10, 20);
+      let source = new Source(
+        {offset: 10, line: 3, column: 3},
+        {offset: 20, line: 6, column: 1});
       assert.equal(source.toString(), 'chars 10-20');
       source.setInput(new Input('foo.txt', alphabet));
       assert.equal(source.toString(), 'foo.txt: line 3, col 3 to line 6, col 1');
