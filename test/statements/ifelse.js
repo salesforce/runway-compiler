@@ -69,5 +69,47 @@ describe('statements/ifelse.js', function() {
       `);
       assert.equal(module.env.getVar('x').toString(), '1');
     });
+
+    it('else-if True', function() {
+      let module = testing.run(`
+        var x : 0..3;
+        if False {
+          x = 1;
+        } else if True {
+          x = 2;
+        } else {
+          x = 3;
+        }
+      `);
+      assert.equal(module.env.getVar('x').toString(), '2');
+    });
+
+    it('else-if False', function() {
+      let module = testing.run(`
+        var x : 0..3;
+        if False {
+          x = 1;
+        } else if False {
+          x = 2;
+        } else {
+          x = 3;
+        }
+      `);
+      assert.equal(module.env.getVar('x').toString(), '3');
+    });
+
+    it('else-if expression', function() {
+      let module = testing.run(`
+        var x : 0..3;
+        if False {
+          x = 1;
+        } else if True == True {
+          x = 2;
+        } else {
+          x = 3;
+        }
+      `);
+      assert.equal(module.env.getVar('x').toString(), '2');
+    });
   });
 });
