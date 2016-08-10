@@ -263,17 +263,21 @@ result in a compiler error.
 
 ### If Statements
 
-The standard stuff. No parentheses are normally required around the expression
-(if you have an empty code block and a single identifier for your condition,
-you may need parentheses to disambiguate parsing; it's rare but came up in the
+The standard stuff; `if`, `else`, and `else if` statements should work like you
+expect. No parentheses are normally required around the expression (if you have
+an empty code block and a single identifier for your condition, you may need
+parentheses to disambiguate parsing; it's rare but came up in the
 toomanybananas example).
 Braces are required around the code blocks.
 
-     > if bananas == 0 {
-     .   state = GoingToStore;
-     . } else {
+     > if bananas > 0 {
      .   bananas -= 1;
      .   state = Happy;
+     . } else if (notePresent) {
+     .   // Roommate at store: try again later
+     . } else {
+     .   notePresent = True;
+     .   state = GoingToStore;
      . }
      > if bananas == 3 {
      .   bananas = 4;
