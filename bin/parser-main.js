@@ -14,7 +14,7 @@ let parser = require('../lib/parser.js');
 
 
 if (require.main === module) {
-  let filename = 'test-parser/input.model';
+  let filename = 'input.model';
   if (process.argv.length > 2) {
     filename = process.argv[2];
   }

@@ -8,7 +8,7 @@
         "value": "ELEVATORS",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 227,
@@ -29,7 +29,7 @@
           "value": 1,
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 238,
@@ -48,7 +48,7 @@
           "value": 1024,
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 241,
@@ -64,7 +64,7 @@
         },
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 238,
@@ -83,7 +83,7 @@
         "value": 6,
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 248,
@@ -99,7 +99,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 221,
@@ -120,7 +120,7 @@
         "value": "PEOPLE",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 257,
@@ -141,7 +141,7 @@
           "value": 1,
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 265,
@@ -176,7 +176,7 @@
               "value": "ELEVATORS",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 269,
@@ -195,7 +195,7 @@
               "value": 100,
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 279,
@@ -212,7 +212,7 @@
           ],
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 268,
@@ -228,7 +228,7 @@
         },
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 265,
@@ -247,7 +247,7 @@
         "value": 100,
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 286,
@@ -263,7 +263,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 251,
@@ -284,7 +284,7 @@
         "value": "FLOORS",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 297,
@@ -305,7 +305,7 @@
           "value": 2,
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 305,
@@ -324,7 +324,7 @@
           "value": 1000,
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 308,
@@ -340,7 +340,7 @@
         },
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 305,
@@ -359,7 +359,7 @@
         "value": 10,
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 315,
@@ -375,7 +375,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 291,
@@ -396,7 +396,7 @@
         "value": "ElevatorId",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 325,
@@ -417,7 +417,7 @@
           "value": 1,
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 337,
@@ -436,7 +436,7 @@
           "value": "ELEVATORS",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 340,
@@ -452,7 +452,7 @@
         },
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 337,
@@ -468,7 +468,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 320,
@@ -489,7 +489,7 @@
         "value": "Floor",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 356,
@@ -510,7 +510,7 @@
           "value": 1,
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 363,
@@ -529,7 +529,7 @@
           "value": "FLOORS",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 366,
@@ -545,7 +545,7 @@
         },
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 363,
@@ -561,7 +561,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 351,
@@ -583,7 +583,7 @@
         "value": "openTime",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 420,
@@ -603,7 +603,7 @@
         "value": "Time",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 434,
@@ -630,7 +630,7 @@
                 "unit": "s",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-1.model"
+                    "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
                     "offset": 452,
@@ -646,7 +646,7 @@
               },
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 445,
@@ -665,7 +665,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 407,
@@ -687,7 +687,7 @@
         "value": "doorTime",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 516,
@@ -707,7 +707,7 @@
         "value": "Time",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 530,
@@ -734,7 +734,7 @@
                 "unit": "s",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-1.model"
+                    "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
                     "offset": 548,
@@ -750,7 +750,7 @@
               },
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 541,
@@ -769,7 +769,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 503,
@@ -791,7 +791,7 @@
         "value": "makeDestination",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 568,
@@ -812,7 +812,7 @@
             "value": "start",
             "source": {
               "input": {
-                "filename": "test-parser/input-1.model"
+                "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
                 "offset": 584,
@@ -831,7 +831,7 @@
             "value": "Floor",
             "source": {
               "input": {
-                "filename": "test-parser/input-1.model"
+                "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
                 "offset": 591,
@@ -847,7 +847,7 @@
           },
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 584,
@@ -867,7 +867,7 @@
         "value": "Floor",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 601,
@@ -893,7 +893,7 @@
                 "value": "start",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-1.model"
+                    "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
                     "offset": 620,
@@ -909,7 +909,7 @@
               },
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 613,
@@ -928,7 +928,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 555,
@@ -949,7 +949,7 @@
         "value": "Person",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 635,
@@ -972,7 +972,7 @@
               "value": "state",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 654,
@@ -995,7 +995,7 @@
                     "value": "Sleeping",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 678,
@@ -1018,7 +1018,7 @@
                           "value": "floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 701,
@@ -1037,7 +1037,7 @@
                           "value": "Floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 708,
@@ -1061,7 +1061,7 @@
                     "value": "Waiting",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 734,
@@ -1084,7 +1084,7 @@
                           "value": "floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 756,
@@ -1103,7 +1103,7 @@
                           "value": "Floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 763,
@@ -1124,7 +1124,7 @@
                           "value": "destination",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 782,
@@ -1143,7 +1143,7 @@
                           "value": "Floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 795,
@@ -1167,7 +1167,7 @@
                     "value": "Riding",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 821,
@@ -1190,7 +1190,7 @@
                           "value": "elevator",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 842,
@@ -1209,7 +1209,7 @@
                           "value": "ElevatorId",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 852,
@@ -1230,7 +1230,7 @@
                           "value": "destination",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 876,
@@ -1249,7 +1249,7 @@
                           "value": "Floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 889,
@@ -1270,7 +1270,7 @@
               ],
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 661,
@@ -1289,7 +1289,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 630,
@@ -1310,7 +1310,7 @@
         "value": "people",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 920,
@@ -1331,7 +1331,7 @@
           "value": "Array",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 928,
@@ -1351,7 +1351,7 @@
             "value": "Person",
             "source": {
               "input": {
-                "filename": "test-parser/input-1.model"
+                "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
                 "offset": 934,
@@ -1371,7 +1371,7 @@
           "value": "PersonId",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 942,
@@ -1388,7 +1388,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 916,
@@ -1409,7 +1409,7 @@
         "value": "FloorControl",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 959,
@@ -1432,7 +1432,7 @@
               "value": "downActive",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 984,
@@ -1451,7 +1451,7 @@
               "value": "Boolean",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 996,
@@ -1472,7 +1472,7 @@
               "value": "upActive",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1009,
@@ -1491,7 +1491,7 @@
               "value": "Boolean",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1019,
@@ -1510,7 +1510,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 954,
@@ -1531,7 +1531,7 @@
         "value": "floorControls",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 1033,
@@ -1552,7 +1552,7 @@
           "value": "Array",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 1048,
@@ -1572,7 +1572,7 @@
             "value": "FloorControl",
             "source": {
               "input": {
-                "filename": "test-parser/input-1.model"
+                "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
                 "offset": 1054,
@@ -1592,7 +1592,7 @@
           "value": "Floor",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 1068,
@@ -1609,7 +1609,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 1029,
@@ -1630,7 +1630,7 @@
         "value": "Elevator",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 1082,
@@ -1653,7 +1653,7 @@
               "value": "destinations",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1103,
@@ -1674,7 +1674,7 @@
                 "value": "Set",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-1.model"
+                    "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
                     "offset": 1117,
@@ -1694,7 +1694,7 @@
                   "value": "Floor",
                   "source": {
                     "input": {
-                      "filename": "test-parser/input-1.model"
+                      "filename": "test-scripts/parser/input-1.model"
                     },
                     "startchar": {
                       "offset": 1121,
@@ -1717,7 +1717,7 @@
               "value": "riders",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1133,
@@ -1738,7 +1738,7 @@
                 "value": "Set",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-1.model"
+                    "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
                     "offset": 1141,
@@ -1758,7 +1758,7 @@
                   "value": "PersonId",
                   "source": {
                     "input": {
-                      "filename": "test-parser/input-1.model"
+                      "filename": "test-scripts/parser/input-1.model"
                     },
                     "startchar": {
                       "offset": 1145,
@@ -1781,7 +1781,7 @@
               "value": "direction",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1160,
@@ -1804,7 +1804,7 @@
                     "value": "Neutral",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 1188,
@@ -1826,7 +1826,7 @@
                     "value": "Up",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 1205,
@@ -1848,7 +1848,7 @@
                     "value": "Down",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 1217,
@@ -1867,7 +1867,7 @@
               ],
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1171,
@@ -1888,7 +1888,7 @@
               "value": "location",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1234,
@@ -1911,7 +1911,7 @@
                     "value": "AtFloor",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 1261,
@@ -1934,7 +1934,7 @@
                           "value": "at",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 1283,
@@ -1953,7 +1953,7 @@
                           "value": "Floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 1287,
@@ -1974,7 +1974,7 @@
                           "value": "doors",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 1306,
@@ -1997,7 +1997,7 @@
                                 "value": "Closed",
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-1.model"
+                                    "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
                                     "offset": 1338,
@@ -2019,7 +2019,7 @@
                                 "value": "Opening",
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-1.model"
+                                    "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
                                     "offset": 1362,
@@ -2042,7 +2042,7 @@
                                       "value": "openAt",
                                       "source": {
                                         "input": {
-                                          "filename": "test-parser/input-1.model"
+                                          "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
                                           "offset": 1392,
@@ -2061,7 +2061,7 @@
                                       "value": "Time",
                                       "source": {
                                         "input": {
-                                          "filename": "test-parser/input-1.model"
+                                          "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
                                           "offset": 1400,
@@ -2085,7 +2085,7 @@
                                 "value": "Open",
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-1.model"
+                                    "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
                                     "offset": 1441,
@@ -2108,7 +2108,7 @@
                                       "value": "closeAt",
                                       "source": {
                                         "input": {
-                                          "filename": "test-parser/input-1.model"
+                                          "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
                                           "offset": 1468,
@@ -2127,7 +2127,7 @@
                                       "value": "Time",
                                       "source": {
                                         "input": {
-                                          "filename": "test-parser/input-1.model"
+                                          "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
                                           "offset": 1477,
@@ -2151,7 +2151,7 @@
                                 "value": "Closing",
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-1.model"
+                                    "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
                                     "offset": 1518,
@@ -2174,7 +2174,7 @@
                                       "value": "closedAt",
                                       "source": {
                                         "input": {
-                                          "filename": "test-parser/input-1.model"
+                                          "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
                                           "offset": 1548,
@@ -2193,7 +2193,7 @@
                                       "value": "Time",
                                       "source": {
                                         "input": {
-                                          "filename": "test-parser/input-1.model"
+                                          "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
                                           "offset": 1558,
@@ -2214,7 +2214,7 @@
                           ],
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 1313,
@@ -2238,7 +2238,7 @@
                     "value": "Between",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-1.model"
+                        "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
                         "offset": 1617,
@@ -2261,7 +2261,7 @@
                           "value": "next",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 1639,
@@ -2280,7 +2280,7 @@
                           "value": "Floor",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-1.model"
+                              "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
                               "offset": 1645,
@@ -2301,7 +2301,7 @@
               ],
               "source": {
                 "input": {
-                  "filename": "test-parser/input-1.model"
+                  "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
                   "offset": 1244,
@@ -2320,7 +2320,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 1077,
@@ -2341,7 +2341,7 @@
         "value": "elevators",
         "source": {
           "input": {
-            "filename": "test-parser/input-1.model"
+            "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
             "offset": 1728,
@@ -2362,7 +2362,7 @@
           "value": "Array",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 1739,
@@ -2382,7 +2382,7 @@
             "value": "Elevator",
             "source": {
               "input": {
-                "filename": "test-parser/input-1.model"
+                "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
                 "offset": 1745,
@@ -2402,7 +2402,7 @@
           "value": "ElevatorId",
           "source": {
             "input": {
-              "filename": "test-parser/input-1.model"
+              "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
               "offset": 1755,
@@ -2419,7 +2419,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-1.model"
+          "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
           "offset": 1724,

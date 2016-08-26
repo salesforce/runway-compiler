@@ -9,7 +9,9 @@
 
 set -e
 
+dir=test-scripts/parser
+
 for t in 1 2; do
   echo "parser test: input-${t}.model"
-  test-parser/runtest.sh test-parser/input-${t}.model test-parser/output-${t}.json
+  $dir/runtest.sh $dir/input-${t}.model $dir/output-${t}.json
 done

@@ -431,26 +431,14 @@ that an integer monotonically increases, but an inductive invariant can
 
 TODO: Implement and document.
 
-## Reserved Words
-  - as
-  - assert
-  - break
-  - continue
-  - distribution
-  - either
-  - else
-  - for
-  - function
-  - if
-  - in
-  - invariant
-  - match
-  - node
-  - param
-  - print
-  - record
-  - return
-  - rule
-  - type
-  - var
-  - while
+### TODO
+
+keyword `external` is like `rule` but user-controlled during simulation  (not fired automatically)
+
+keywords `later`, `past`, and `Time` are for synchronous models
+
+keyword `param` is for arguments to models but is pretty broken right now
+
+keyword `reset` sets all the variables to their default values. It ought to re-run model initialization code, but it doesn't yet.
+
+keyword `Output` is a container you can push values into for the runtime to drain

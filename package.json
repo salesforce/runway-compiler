@@ -13,9 +13,9 @@
     "mocha": "^2.3.3"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha; ./test-parser/runtests.sh",
+    "test": "./test-scripts/runtests.sh",
     "test-mocha": "./node_modules/.bin/mocha",
-    "test-parser": "./test-parser/runtests.sh"
+    "test-parser": "./test-scripts/parser/runtests.sh"
   },
   "repository": {
     "type": "git",

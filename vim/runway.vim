@@ -51,7 +51,9 @@ syn keyword runwayStructure      Boolean
 syn keyword runwayBoolean        False
 syn keyword runwayStructure      MultiSet
 syn keyword runwayStructure      OrderedSet
+syn keyword runwayStructure      Output
 syn keyword runwayStructure      Set
+syn keyword runwayStructure      Time
 syn keyword runwayBoolean        True
 syn keyword runwayStructure      Vector
 syn keyword runwayFunction       capacity
@@ -65,6 +67,8 @@ syn keyword runwayFunction       pow
 syn keyword runwayFunction       push
 syn keyword runwayFunction       remove
 syn keyword runwayFunction       size
+syn keyword runwayFunction       urandom
+syn keyword runwayFunction       urandomRange
 
 
 " Integers.

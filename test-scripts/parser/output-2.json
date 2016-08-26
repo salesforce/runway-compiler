@@ -8,7 +8,7 @@
         "value": "ServerId",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 226,
@@ -29,7 +29,7 @@
           "value": 1,
           "source": {
             "input": {
-              "filename": "test-parser/input-2.model"
+              "filename": "test-scripts/parser/input-2.model"
             },
             "startchar": {
               "offset": 236,
@@ -48,7 +48,7 @@
           "value": 5,
           "source": {
             "input": {
-              "filename": "test-parser/input-2.model"
+              "filename": "test-scripts/parser/input-2.model"
             },
             "startchar": {
               "offset": 239,
@@ -64,7 +64,7 @@
         },
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 236,
@@ -80,7 +80,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 221,
@@ -101,7 +101,7 @@
         "value": "Token",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 248,
@@ -124,7 +124,7 @@
               "value": "AtServer",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-2.model"
+                  "filename": "test-scripts/parser/input-2.model"
                 },
                 "startchar": {
                   "offset": 266,
@@ -147,7 +147,7 @@
                     "value": "at",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 281,
@@ -166,7 +166,7 @@
                     "value": "ServerId",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 285,
@@ -190,7 +190,7 @@
               "value": "InTransit",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-2.model"
+                  "filename": "test-scripts/parser/input-2.model"
                 },
                 "startchar": {
                   "offset": 302,
@@ -213,7 +213,7 @@
                     "value": "from",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 318,
@@ -232,7 +232,7 @@
                     "value": "ServerId",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 324,
@@ -253,7 +253,7 @@
                     "value": "to",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 338,
@@ -272,7 +272,7 @@
                     "value": "ServerId",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 342,
@@ -293,7 +293,7 @@
         ],
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 255,
@@ -309,7 +309,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 243,
@@ -330,7 +330,7 @@
         "value": "token",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 363,
@@ -349,7 +349,7 @@
         "value": "Token",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 370,
@@ -365,7 +365,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 359,
@@ -386,7 +386,7 @@
         "value": "Server",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 383,
@@ -409,7 +409,7 @@
               "value": "hasToken",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-2.model"
+                  "filename": "test-scripts/parser/input-2.model"
                 },
                 "startchar": {
                   "offset": 402,
@@ -428,7 +428,7 @@
               "value": "Boolean",
               "source": {
                 "input": {
-                  "filename": "test-parser/input-2.model"
+                  "filename": "test-scripts/parser/input-2.model"
                 },
                 "startchar": {
                   "offset": 412,
@@ -447,7 +447,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 378,
@@ -468,7 +468,7 @@
         "value": "servers",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 428,
@@ -489,7 +489,7 @@
           "value": "Array",
           "source": {
             "input": {
-              "filename": "test-parser/input-2.model"
+              "filename": "test-scripts/parser/input-2.model"
             },
             "startchar": {
               "offset": 437,
@@ -509,7 +509,7 @@
             "value": "Server",
             "source": {
               "input": {
-                "filename": "test-parser/input-2.model"
+                "filename": "test-scripts/parser/input-2.model"
               },
               "startchar": {
                 "offset": 443,
@@ -529,7 +529,7 @@
           "value": "ServerId",
           "source": {
             "input": {
-              "filename": "test-parser/input-2.model"
+              "filename": "test-scripts/parser/input-2.model"
             },
             "startchar": {
               "offset": 451,
@@ -546,7 +546,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 424,
@@ -569,7 +569,7 @@
           "value": "hasToken",
           "source": {
             "input": {
-              "filename": "test-parser/input-2.model"
+              "filename": "test-scripts/parser/input-2.model"
             },
             "startchar": {
               "offset": 473,
@@ -590,7 +590,7 @@
             "value": 1,
             "source": {
               "input": {
-                "filename": "test-parser/input-2.model"
+                "filename": "test-scripts/parser/input-2.model"
               },
               "startchar": {
                 "offset": 470,
@@ -609,7 +609,7 @@
             "value": "servers",
             "source": {
               "input": {
-                "filename": "test-parser/input-2.model"
+                "filename": "test-scripts/parser/input-2.model"
               },
               "startchar": {
                 "offset": 462,
@@ -630,7 +630,7 @@
         "value": "True",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 484,
@@ -646,7 +646,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 462,
@@ -668,7 +668,7 @@
         "value": "deliverToken",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 496,
@@ -694,7 +694,7 @@
                 "value": "token",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-2.model"
+                    "filename": "test-scripts/parser/input-2.model"
                   },
                   "startchar": {
                     "offset": 519,
@@ -716,7 +716,7 @@
                     "value": "InTransit",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 531,
@@ -735,7 +735,7 @@
                     "value": "transit",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 541,
@@ -763,7 +763,7 @@
                               "value": "hasToken",
                               "source": {
                                 "input": {
-                                  "filename": "test-parser/input-2.model"
+                                  "filename": "test-scripts/parser/input-2.model"
                                 },
                                 "startchar": {
                                   "offset": 578,
@@ -786,7 +786,7 @@
                                   "value": "to",
                                   "source": {
                                     "input": {
-                                      "filename": "test-parser/input-2.model"
+                                      "filename": "test-scripts/parser/input-2.model"
                                     },
                                     "startchar": {
                                       "offset": 574,
@@ -805,7 +805,7 @@
                                   "value": "transit",
                                   "source": {
                                     "input": {
-                                      "filename": "test-parser/input-2.model"
+                                      "filename": "test-scripts/parser/input-2.model"
                                     },
                                     "startchar": {
                                       "offset": 566,
@@ -821,7 +821,7 @@
                                 },
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-2.model"
+                                    "filename": "test-scripts/parser/input-2.model"
                                   },
                                   "startchar": {
                                     "offset": 566,
@@ -840,7 +840,7 @@
                                 "value": "servers",
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-2.model"
+                                    "filename": "test-scripts/parser/input-2.model"
                                   },
                                   "startchar": {
                                     "offset": 558,
@@ -861,7 +861,7 @@
                             "value": "True",
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 589,
@@ -877,7 +877,7 @@
                           },
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-2.model"
+                              "filename": "test-scripts/parser/input-2.model"
                             },
                             "startchar": {
                               "offset": 558,
@@ -898,7 +898,7 @@
                             "value": "token",
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 601,
@@ -919,7 +919,7 @@
                               "value": "AtServer",
                               "source": {
                                 "input": {
-                                  "filename": "test-parser/input-2.model"
+                                  "filename": "test-scripts/parser/input-2.model"
                                 },
                                 "startchar": {
                                   "offset": 609,
@@ -940,7 +940,7 @@
                                   "value": "at",
                                   "source": {
                                     "input": {
-                                      "filename": "test-parser/input-2.model"
+                                      "filename": "test-scripts/parser/input-2.model"
                                     },
                                     "startchar": {
                                       "offset": 620,
@@ -961,7 +961,7 @@
                                     "value": "to",
                                     "source": {
                                       "input": {
-                                        "filename": "test-parser/input-2.model"
+                                        "filename": "test-scripts/parser/input-2.model"
                                       },
                                       "startchar": {
                                         "offset": 632,
@@ -980,7 +980,7 @@
                                     "value": "transit",
                                     "source": {
                                       "input": {
-                                        "filename": "test-parser/input-2.model"
+                                        "filename": "test-scripts/parser/input-2.model"
                                       },
                                       "startchar": {
                                         "offset": 624,
@@ -996,7 +996,7 @@
                                   },
                                   "source": {
                                     "input": {
-                                      "filename": "test-parser/input-2.model"
+                                      "filename": "test-scripts/parser/input-2.model"
                                     },
                                     "startchar": {
                                       "offset": 624,
@@ -1014,7 +1014,7 @@
                             ],
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 609,
@@ -1030,7 +1030,7 @@
                           },
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-2.model"
+                              "filename": "test-scripts/parser/input-2.model"
                             },
                             "startchar": {
                               "offset": 601,
@@ -1055,7 +1055,7 @@
                     "value": "AtServer",
                     "source": {
                       "input": {
-                        "filename": "test-parser/input-2.model"
+                        "filename": "test-scripts/parser/input-2.model"
                       },
                       "startchar": {
                         "offset": 648,
@@ -1080,7 +1080,7 @@
               ],
               "source": {
                 "input": {
-                  "filename": "test-parser/input-2.model"
+                  "filename": "test-scripts/parser/input-2.model"
                 },
                 "startchar": {
                   "offset": 513,
@@ -1099,7 +1099,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 491,
@@ -1121,7 +1121,7 @@
         "value": "passToken",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 690,
@@ -1142,7 +1142,7 @@
             "value": "id",
             "source": {
               "input": {
-                "filename": "test-parser/input-2.model"
+                "filename": "test-scripts/parser/input-2.model"
               },
               "startchar": {
                 "offset": 704,
@@ -1161,7 +1161,7 @@
             "value": "server",
             "source": {
               "input": {
-                "filename": "test-parser/input-2.model"
+                "filename": "test-scripts/parser/input-2.model"
               },
               "startchar": {
                 "offset": 708,
@@ -1180,7 +1180,7 @@
             "value": "servers",
             "source": {
               "input": {
-                "filename": "test-parser/input-2.model"
+                "filename": "test-scripts/parser/input-2.model"
               },
               "startchar": {
                 "offset": 718,
@@ -1210,7 +1210,7 @@
                   "value": "hasToken",
                   "source": {
                     "input": {
-                      "filename": "test-parser/input-2.model"
+                      "filename": "test-scripts/parser/input-2.model"
                     },
                     "startchar": {
                       "offset": 740,
@@ -1229,7 +1229,7 @@
                   "value": "server",
                   "source": {
                     "input": {
-                      "filename": "test-parser/input-2.model"
+                      "filename": "test-scripts/parser/input-2.model"
                     },
                     "startchar": {
                       "offset": 733,
@@ -1245,7 +1245,7 @@
                 },
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-2.model"
+                    "filename": "test-scripts/parser/input-2.model"
                   },
                   "startchar": {
                     "offset": 733,
@@ -1271,7 +1271,7 @@
                         "value": "next",
                         "source": {
                           "input": {
-                            "filename": "test-parser/input-2.model"
+                            "filename": "test-scripts/parser/input-2.model"
                           },
                           "startchar": {
                             "offset": 759,
@@ -1290,7 +1290,7 @@
                         "value": "ServerId",
                         "source": {
                           "input": {
-                            "filename": "test-parser/input-2.model"
+                            "filename": "test-scripts/parser/input-2.model"
                           },
                           "startchar": {
                             "offset": 766,
@@ -1341,7 +1341,7 @@
                                 "value": "id",
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-2.model"
+                                    "filename": "test-scripts/parser/input-2.model"
                                   },
                                   "startchar": {
                                     "offset": 777,
@@ -1360,7 +1360,7 @@
                                 "value": 5,
                                 "source": {
                                   "input": {
-                                    "filename": "test-parser/input-2.model"
+                                    "filename": "test-scripts/parser/input-2.model"
                                   },
                                   "startchar": {
                                     "offset": 782,
@@ -1377,7 +1377,7 @@
                             ],
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 777,
@@ -1396,7 +1396,7 @@
                             "value": 1,
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 786,
@@ -1413,7 +1413,7 @@
                         ],
                         "source": {
                           "input": {
-                            "filename": "test-parser/input-2.model"
+                            "filename": "test-scripts/parser/input-2.model"
                           },
                           "startchar": {
                             "offset": 777,
@@ -1429,7 +1429,7 @@
                       },
                       "source": {
                         "input": {
-                          "filename": "test-parser/input-2.model"
+                          "filename": "test-scripts/parser/input-2.model"
                         },
                         "startchar": {
                           "offset": 755,
@@ -1450,7 +1450,7 @@
                         "value": "token",
                         "source": {
                           "input": {
-                            "filename": "test-parser/input-2.model"
+                            "filename": "test-scripts/parser/input-2.model"
                           },
                           "startchar": {
                             "offset": 793,
@@ -1471,7 +1471,7 @@
                           "value": "InTransit",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-2.model"
+                              "filename": "test-scripts/parser/input-2.model"
                             },
                             "startchar": {
                               "offset": 801,
@@ -1492,7 +1492,7 @@
                               "value": "from",
                               "source": {
                                 "input": {
-                                  "filename": "test-parser/input-2.model"
+                                  "filename": "test-scripts/parser/input-2.model"
                                 },
                                 "startchar": {
                                   "offset": 819,
@@ -1511,7 +1511,7 @@
                               "value": "id",
                               "source": {
                                 "input": {
-                                  "filename": "test-parser/input-2.model"
+                                  "filename": "test-scripts/parser/input-2.model"
                                 },
                                 "startchar": {
                                   "offset": 825,
@@ -1532,7 +1532,7 @@
                               "value": "to",
                               "source": {
                                 "input": {
-                                  "filename": "test-parser/input-2.model"
+                                  "filename": "test-scripts/parser/input-2.model"
                                 },
                                 "startchar": {
                                   "offset": 835,
@@ -1551,7 +1551,7 @@
                               "value": "next",
                               "source": {
                                 "input": {
-                                  "filename": "test-parser/input-2.model"
+                                  "filename": "test-scripts/parser/input-2.model"
                                 },
                                 "startchar": {
                                   "offset": 839,
@@ -1569,7 +1569,7 @@
                         ],
                         "source": {
                           "input": {
-                            "filename": "test-parser/input-2.model"
+                            "filename": "test-scripts/parser/input-2.model"
                           },
                           "startchar": {
                             "offset": 801,
@@ -1585,7 +1585,7 @@
                       },
                       "source": {
                         "input": {
-                          "filename": "test-parser/input-2.model"
+                          "filename": "test-scripts/parser/input-2.model"
                         },
                         "startchar": {
                           "offset": 793,
@@ -1608,7 +1608,7 @@
                           "value": "hasToken",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-2.model"
+                              "filename": "test-scripts/parser/input-2.model"
                             },
                             "startchar": {
                               "offset": 863,
@@ -1627,7 +1627,7 @@
                           "value": "server",
                           "source": {
                             "input": {
-                              "filename": "test-parser/input-2.model"
+                              "filename": "test-scripts/parser/input-2.model"
                             },
                             "startchar": {
                               "offset": 856,
@@ -1647,7 +1647,7 @@
                         "value": "False",
                         "source": {
                           "input": {
-                            "filename": "test-parser/input-2.model"
+                            "filename": "test-scripts/parser/input-2.model"
                           },
                           "startchar": {
                             "offset": 874,
@@ -1663,7 +1663,7 @@
                       },
                       "source": {
                         "input": {
-                          "filename": "test-parser/input-2.model"
+                          "filename": "test-scripts/parser/input-2.model"
                         },
                         "startchar": {
                           "offset": 856,
@@ -1686,7 +1686,7 @@
               },
               "source": {
                 "input": {
-                  "filename": "test-parser/input-2.model"
+                  "filename": "test-scripts/parser/input-2.model"
                 },
                 "startchar": {
                   "offset": 730,
@@ -1705,7 +1705,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 685,
@@ -1726,7 +1726,7 @@
         "value": "tokenAgreement",
         "source": {
           "input": {
-            "filename": "test-parser/input-2.model"
+            "filename": "test-scripts/parser/input-2.model"
           },
           "startchar": {
             "offset": 898,
@@ -1752,7 +1752,7 @@
                 "value": "id",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-2.model"
+                    "filename": "test-scripts/parser/input-2.model"
                   },
                   "startchar": {
                     "offset": 921,
@@ -1771,7 +1771,7 @@
                 "value": "server",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-2.model"
+                    "filename": "test-scripts/parser/input-2.model"
                   },
                   "startchar": {
                     "offset": 925,
@@ -1790,7 +1790,7 @@
                 "value": "servers",
                 "source": {
                   "input": {
-                    "filename": "test-parser/input-2.model"
+                    "filename": "test-scripts/parser/input-2.model"
                   },
                   "startchar": {
                     "offset": 935,
@@ -1816,7 +1816,7 @@
                         "value": "token",
                         "source": {
                           "input": {
-                            "filename": "test-parser/input-2.model"
+                            "filename": "test-scripts/parser/input-2.model"
                           },
                           "startchar": {
                             "offset": 955,
@@ -1838,7 +1838,7 @@
                             "value": "InTransit",
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 969,
@@ -1882,7 +1882,7 @@
                                           "value": "hasToken",
                                           "source": {
                                             "input": {
-                                              "filename": "test-parser/input-2.model"
+                                              "filename": "test-scripts/parser/input-2.model"
                                             },
                                             "startchar": {
                                               "offset": 1004,
@@ -1901,7 +1901,7 @@
                                           "value": "server",
                                           "source": {
                                             "input": {
-                                              "filename": "test-parser/input-2.model"
+                                              "filename": "test-scripts/parser/input-2.model"
                                             },
                                             "startchar": {
                                               "offset": 997,
@@ -1919,7 +1919,7 @@
                                     ],
                                     "source": {
                                       "input": {
-                                        "filename": "test-parser/input-2.model"
+                                        "filename": "test-scripts/parser/input-2.model"
                                       },
                                       "startchar": {
                                         "offset": 996,
@@ -1935,7 +1935,7 @@
                                   },
                                   "source": {
                                     "input": {
-                                      "filename": "test-parser/input-2.model"
+                                      "filename": "test-scripts/parser/input-2.model"
                                     },
                                     "startchar": {
                                       "offset": 989,
@@ -1960,7 +1960,7 @@
                             "value": "AtServer",
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 1028,
@@ -1979,7 +1979,7 @@
                             "value": "t",
                             "source": {
                               "input": {
-                                "filename": "test-parser/input-2.model"
+                                "filename": "test-scripts/parser/input-2.model"
                               },
                               "startchar": {
                                 "offset": 1037,
@@ -2023,7 +2023,7 @@
                                           "value": "hasToken",
                                           "source": {
                                             "input": {
-                                              "filename": "test-parser/input-2.model"
+                                              "filename": "test-scripts/parser/input-2.model"
                                             },
                                             "startchar": {
                                               "offset": 1064,
@@ -2042,7 +2042,7 @@
                                           "value": "server",
                                           "source": {
                                             "input": {
-                                              "filename": "test-parser/input-2.model"
+                                              "filename": "test-scripts/parser/input-2.model"
                                             },
                                             "startchar": {
                                               "offset": 1057,
@@ -2058,7 +2058,7 @@
                                         },
                                         "source": {
                                           "input": {
-                                            "filename": "test-parser/input-2.model"
+                                            "filename": "test-scripts/parser/input-2.model"
                                           },
                                           "startchar": {
                                             "offset": 1057,
@@ -2095,7 +2095,7 @@
                                               "value": "at",
                                               "source": {
                                                 "input": {
-                                                  "filename": "test-parser/input-2.model"
+                                                  "filename": "test-scripts/parser/input-2.model"
                                                 },
                                                 "startchar": {
                                                   "offset": 1079,
@@ -2114,7 +2114,7 @@
                                               "value": "t",
                                               "source": {
                                                 "input": {
-                                                  "filename": "test-parser/input-2.model"
+                                                  "filename": "test-scripts/parser/input-2.model"
                                                 },
                                                 "startchar": {
                                                   "offset": 1077,
@@ -2130,7 +2130,7 @@
                                             },
                                             "source": {
                                               "input": {
-                                                "filename": "test-parser/input-2.model"
+                                                "filename": "test-scripts/parser/input-2.model"
                                               },
                                               "startchar": {
                                                 "offset": 1077,
@@ -2149,7 +2149,7 @@
                                             "value": "id",
                                             "source": {
                                               "input": {
-                                                "filename": "test-parser/input-2.model"
+                                                "filename": "test-scripts/parser/input-2.model"
                                               },
                                               "startchar": {
                                                 "offset": 1085,
@@ -2166,7 +2166,7 @@
                                         ],
                                         "source": {
                                           "input": {
-                                            "filename": "test-parser/input-2.model"
+                                            "filename": "test-scripts/parser/input-2.model"
                                           },
                                           "startchar": {
                                             "offset": 1076,
@@ -2183,7 +2183,7 @@
                                     ],
                                     "source": {
                                       "input": {
-                                        "filename": "test-parser/input-2.model"
+                                        "filename": "test-scripts/parser/input-2.model"
                                       },
                                       "startchar": {
                                         "offset": 1057,
@@ -2199,7 +2199,7 @@
                                   },
                                   "source": {
                                     "input": {
-                                      "filename": "test-parser/input-2.model"
+                                      "filename": "test-scripts/parser/input-2.model"
                                     },
                                     "startchar": {
                                       "offset": 1050,
@@ -2220,7 +2220,7 @@
                       ],
                       "source": {
                         "input": {
-                          "filename": "test-parser/input-2.model"
+                          "filename": "test-scripts/parser/input-2.model"
                         },
                         "startchar": {
                           "offset": 949,
@@ -2239,7 +2239,7 @@
               },
               "source": {
                 "input": {
-                  "filename": "test-parser/input-2.model"
+                  "filename": "test-scripts/parser/input-2.model"
                 },
                 "startchar": {
                   "offset": 917,
@@ -2258,7 +2258,7 @@
       },
       "source": {
         "input": {
-          "filename": "test-parser/input-2.model"
+          "filename": "test-scripts/parser/input-2.model"
         },
         "startchar": {
           "offset": 888,

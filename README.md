@@ -121,7 +121,8 @@ by reference.
 The lexer+parser ([lib/parser.js](lib/parser.js)) is written using the
 [Parsimmon](https://github.com/jneen/parsimmon) library. It outputs a really
 big basically JSON parse tree like what you find in
-[test-parser/output-2.json](test-parser/output-2.json). Every object in the
+[test-scripts/parser/output-2.json](test-scripts/parser/output-2.json).
+Every object in the
 parse tree has a "kind" field specifying its type and a "source" field
 specifying where it comes from in the input file (for error messages).
 
@@ -144,7 +145,7 @@ Unit tests use the [Mocha](https://mochajs.org/) library.  To add a new test
 file, place it in the `test/` directory.
 
 The parser is tested by feeding it a couple of files
-(`test-parser/input*.model`) and automatically checking their parser output
-(against `test-parser/output*.json`). Eventually we'll want more targeted tests
+(`test-scripts/parser/input*.model`) and automatically checking their parser output
+(against `test-scripts/parser/output*.json`). Eventually we'll want more targeted tests
 for the parser, but this has worked pretty well so far at making sure there
 aren't any regressions.
