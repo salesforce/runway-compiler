@@ -576,8 +576,7 @@
       }
     },
     {
-      "kind": "distribution",
-      "subkind": "distribution",
+      "kind": "function",
       "id": {
         "kind": "id",
         "value": "openTime",
@@ -586,14 +585,14 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 420,
+            "offset": 416,
             "line": 17,
-            "column": 14
+            "column": 10
           },
           "endchar": {
-            "offset": 428,
+            "offset": 424,
             "line": 17,
-            "column": 22
+            "column": 18
           }
         }
       },
@@ -606,14 +605,14 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 434,
+            "offset": 430,
             "line": 17,
-            "column": 28
+            "column": 24
           },
           "endchar": {
-            "offset": 439,
+            "offset": 435,
             "line": 17,
-            "column": 33
+            "column": 29
           }
         }
       },
@@ -633,12 +632,12 @@
                     "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
-                    "offset": 452,
+                    "offset": 448,
                     "line": 18,
                     "column": 12
                   },
                   "endchar": {
-                    "offset": 454,
+                    "offset": 450,
                     "line": 18,
                     "column": 14
                   }
@@ -649,12 +648,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 445,
+                  "offset": 441,
                   "line": 18,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 456,
+                  "offset": 452,
                   "line": 19,
                   "column": 1
                 }
@@ -673,15 +672,14 @@
           "column": 1
         },
         "endchar": {
-          "offset": 503,
+          "offset": 499,
           "line": 22,
           "column": 1
         }
       }
     },
     {
-      "kind": "distribution",
-      "subkind": "distribution",
+      "kind": "function",
       "id": {
         "kind": "id",
         "value": "doorTime",
@@ -690,14 +688,14 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 516,
+            "offset": 508,
             "line": 22,
-            "column": 14
+            "column": 10
           },
           "endchar": {
-            "offset": 524,
+            "offset": 516,
             "line": 22,
-            "column": 22
+            "column": 18
           }
         }
       },
@@ -710,14 +708,14 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 530,
+            "offset": 522,
             "line": 22,
-            "column": 28
+            "column": 24
           },
           "endchar": {
-            "offset": 535,
+            "offset": 527,
             "line": 22,
-            "column": 33
+            "column": 29
           }
         }
       },
@@ -737,12 +735,12 @@
                     "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
-                    "offset": 548,
+                    "offset": 540,
                     "line": 23,
                     "column": 12
                   },
                   "endchar": {
-                    "offset": 550,
+                    "offset": 542,
                     "line": 23,
                     "column": 14
                   }
@@ -753,12 +751,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 541,
+                  "offset": 533,
                   "line": 23,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 552,
+                  "offset": 544,
                   "line": 24,
                   "column": 1
                 }
@@ -772,20 +770,19 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 503,
+          "offset": 499,
           "line": 22,
           "column": 1
         },
         "endchar": {
-          "offset": 555,
+          "offset": 547,
           "line": 26,
           "column": 1
         }
       }
     },
     {
-      "kind": "distribution",
-      "subkind": "distribution",
+      "kind": "function",
       "id": {
         "kind": "id",
         "value": "makeDestination",
@@ -794,14 +791,14 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 568,
+            "offset": 556,
             "line": 26,
-            "column": 14
+            "column": 10
           },
           "endchar": {
-            "offset": 583,
+            "offset": 571,
             "line": 26,
-            "column": 29
+            "column": 25
           }
         }
       },
@@ -815,14 +812,14 @@
                 "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
-                "offset": 584,
+                "offset": 572,
                 "line": 26,
-                "column": 30
+                "column": 26
               },
               "endchar": {
-                "offset": 589,
+                "offset": 577,
                 "line": 26,
-                "column": 35
+                "column": 31
               }
             }
           },
@@ -834,14 +831,14 @@
                 "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
-                "offset": 591,
+                "offset": 579,
                 "line": 26,
-                "column": 37
+                "column": 33
               },
               "endchar": {
-                "offset": 596,
+                "offset": 584,
                 "line": 26,
-                "column": 42
+                "column": 38
               }
             }
           },
@@ -850,14 +847,14 @@
               "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
-              "offset": 584,
+              "offset": 572,
               "line": 26,
-              "column": 30
+              "column": 26
             },
             "endchar": {
-              "offset": 596,
+              "offset": 584,
               "line": 26,
-              "column": 42
+              "column": 38
             }
           }
         }
@@ -870,14 +867,14 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 601,
+            "offset": 589,
             "line": 26,
-            "column": 47
+            "column": 43
           },
           "endchar": {
-            "offset": 607,
+            "offset": 595,
             "line": 26,
-            "column": 53
+            "column": 49
           }
         }
       },
@@ -896,12 +893,12 @@
                     "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
-                    "offset": 620,
+                    "offset": 608,
                     "line": 27,
                     "column": 12
                   },
                   "endchar": {
-                    "offset": 625,
+                    "offset": 613,
                     "line": 27,
                     "column": 17
                   }
@@ -912,12 +909,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 613,
+                  "offset": 601,
                   "line": 27,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 627,
+                  "offset": 615,
                   "line": 28,
                   "column": 1
                 }
@@ -931,12 +928,12 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 555,
+          "offset": 547,
           "line": 26,
           "column": 1
         },
         "endchar": {
-          "offset": 630,
+          "offset": 618,
           "line": 30,
           "column": 1
         }
@@ -952,12 +949,12 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 635,
+            "offset": 623,
             "line": 30,
             "column": 6
           },
           "endchar": {
-            "offset": 641,
+            "offset": 629,
             "line": 30,
             "column": 12
           }
@@ -975,12 +972,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 654,
+                  "offset": 642,
                   "line": 31,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 659,
+                  "offset": 647,
                   "line": 31,
                   "column": 10
                 }
@@ -998,12 +995,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 678,
+                        "offset": 666,
                         "line": 32,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 687,
+                        "offset": 675,
                         "line": 32,
                         "column": 18
                       }
@@ -1021,12 +1018,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 701,
+                              "offset": 689,
                               "line": 33,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 706,
+                              "offset": 694,
                               "line": 33,
                               "column": 18
                             }
@@ -1040,12 +1037,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 708,
+                              "offset": 696,
                               "line": 33,
                               "column": 20
                             },
                             "endchar": {
-                              "offset": 713,
+                              "offset": 701,
                               "line": 33,
                               "column": 25
                             }
@@ -1064,12 +1061,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 734,
+                        "offset": 722,
                         "line": 35,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 742,
+                        "offset": 730,
                         "line": 35,
                         "column": 17
                       }
@@ -1087,12 +1084,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 756,
+                              "offset": 744,
                               "line": 36,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 761,
+                              "offset": 749,
                               "line": 36,
                               "column": 18
                             }
@@ -1106,12 +1103,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 763,
+                              "offset": 751,
                               "line": 36,
                               "column": 20
                             },
                             "endchar": {
-                              "offset": 768,
+                              "offset": 756,
                               "line": 36,
                               "column": 25
                             }
@@ -1127,12 +1124,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 782,
+                              "offset": 770,
                               "line": 37,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 793,
+                              "offset": 781,
                               "line": 37,
                               "column": 24
                             }
@@ -1146,12 +1143,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 795,
+                              "offset": 783,
                               "line": 37,
                               "column": 26
                             },
                             "endchar": {
-                              "offset": 800,
+                              "offset": 788,
                               "line": 37,
                               "column": 31
                             }
@@ -1170,12 +1167,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 821,
+                        "offset": 809,
                         "line": 39,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 828,
+                        "offset": 816,
                         "line": 39,
                         "column": 16
                       }
@@ -1193,12 +1190,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 842,
+                              "offset": 830,
                               "line": 40,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 850,
+                              "offset": 838,
                               "line": 40,
                               "column": 21
                             }
@@ -1212,12 +1209,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 852,
+                              "offset": 840,
                               "line": 40,
                               "column": 23
                             },
                             "endchar": {
-                              "offset": 862,
+                              "offset": 850,
                               "line": 40,
                               "column": 33
                             }
@@ -1233,12 +1230,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 876,
+                              "offset": 864,
                               "line": 41,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 887,
+                              "offset": 875,
                               "line": 41,
                               "column": 24
                             }
@@ -1252,12 +1249,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 889,
+                              "offset": 877,
                               "line": 41,
                               "column": 26
                             },
                             "endchar": {
-                              "offset": 894,
+                              "offset": 882,
                               "line": 41,
                               "column": 31
                             }
@@ -1273,12 +1270,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 661,
+                  "offset": 649,
                   "line": 31,
                   "column": 12
                 },
                 "endchar": {
-                  "offset": 912,
+                  "offset": 900,
                   "line": 43,
                   "column": 6
                 }
@@ -1292,12 +1289,12 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 630,
+          "offset": 618,
           "line": 30,
           "column": 1
         },
         "endchar": {
-          "offset": 916,
+          "offset": 904,
           "line": 45,
           "column": 1
         }
@@ -1313,12 +1310,12 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 920,
+            "offset": 908,
             "line": 45,
             "column": 5
           },
           "endchar": {
-            "offset": 926,
+            "offset": 914,
             "line": 45,
             "column": 11
           }
@@ -1334,12 +1331,12 @@
               "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
-              "offset": 928,
+              "offset": 916,
               "line": 45,
               "column": 13
             },
             "endchar": {
-              "offset": 933,
+              "offset": 921,
               "line": 45,
               "column": 18
             }
@@ -1354,12 +1351,12 @@
                 "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
-                "offset": 934,
+                "offset": 922,
                 "line": 45,
                 "column": 19
               },
               "endchar": {
-                "offset": 940,
+                "offset": 928,
                 "line": 45,
                 "column": 25
               }
@@ -1374,12 +1371,12 @@
               "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
-              "offset": 942,
+              "offset": 930,
               "line": 45,
               "column": 27
             },
             "endchar": {
-              "offset": 950,
+              "offset": 938,
               "line": 45,
               "column": 35
             }
@@ -1391,12 +1388,12 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 916,
+          "offset": 904,
           "line": 45,
           "column": 1
         },
         "endchar": {
-          "offset": 954,
+          "offset": 942,
           "line": 47,
           "column": 1
         }
@@ -1412,12 +1409,12 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 959,
+            "offset": 947,
             "line": 47,
             "column": 6
           },
           "endchar": {
-            "offset": 971,
+            "offset": 959,
             "line": 47,
             "column": 18
           }
@@ -1435,12 +1432,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 984,
+                  "offset": 972,
                   "line": 48,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 994,
+                  "offset": 982,
                   "line": 48,
                   "column": 15
                 }
@@ -1454,12 +1451,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 996,
+                  "offset": 984,
                   "line": 48,
                   "column": 17
                 },
                 "endchar": {
-                  "offset": 1003,
+                  "offset": 991,
                   "line": 48,
                   "column": 24
                 }
@@ -1475,12 +1472,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1009,
+                  "offset": 997,
                   "line": 49,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 1017,
+                  "offset": 1005,
                   "line": 49,
                   "column": 13
                 }
@@ -1494,12 +1491,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1019,
+                  "offset": 1007,
                   "line": 49,
                   "column": 15
                 },
                 "endchar": {
-                  "offset": 1027,
+                  "offset": 1015,
                   "line": 50,
                   "column": 1
                 }
@@ -1513,12 +1510,12 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 954,
+          "offset": 942,
           "line": 47,
           "column": 1
         },
         "endchar": {
-          "offset": 1029,
+          "offset": 1017,
           "line": 51,
           "column": 1
         }
@@ -1534,12 +1531,12 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 1033,
+            "offset": 1021,
             "line": 51,
             "column": 5
           },
           "endchar": {
-            "offset": 1046,
+            "offset": 1034,
             "line": 51,
             "column": 18
           }
@@ -1555,12 +1552,12 @@
               "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
-              "offset": 1048,
+              "offset": 1036,
               "line": 51,
               "column": 20
             },
             "endchar": {
-              "offset": 1053,
+              "offset": 1041,
               "line": 51,
               "column": 25
             }
@@ -1575,12 +1572,12 @@
                 "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
-                "offset": 1054,
+                "offset": 1042,
                 "line": 51,
                 "column": 26
               },
               "endchar": {
-                "offset": 1066,
+                "offset": 1054,
                 "line": 51,
                 "column": 38
               }
@@ -1595,12 +1592,12 @@
               "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
-              "offset": 1068,
+              "offset": 1056,
               "line": 51,
               "column": 40
             },
             "endchar": {
-              "offset": 1073,
+              "offset": 1061,
               "line": 51,
               "column": 45
             }
@@ -1612,12 +1609,12 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 1029,
+          "offset": 1017,
           "line": 51,
           "column": 1
         },
         "endchar": {
-          "offset": 1077,
+          "offset": 1065,
           "line": 53,
           "column": 1
         }
@@ -1633,12 +1630,12 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 1082,
+            "offset": 1070,
             "line": 53,
             "column": 6
           },
           "endchar": {
-            "offset": 1090,
+            "offset": 1078,
             "line": 53,
             "column": 14
           }
@@ -1656,12 +1653,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1103,
+                  "offset": 1091,
                   "line": 54,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 1115,
+                  "offset": 1103,
                   "line": 54,
                   "column": 17
                 }
@@ -1677,12 +1674,12 @@
                     "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
-                    "offset": 1117,
+                    "offset": 1105,
                     "line": 54,
                     "column": 19
                   },
                   "endchar": {
-                    "offset": 1120,
+                    "offset": 1108,
                     "line": 54,
                     "column": 22
                   }
@@ -1697,12 +1694,12 @@
                       "filename": "test-scripts/parser/input-1.model"
                     },
                     "startchar": {
-                      "offset": 1121,
+                      "offset": 1109,
                       "line": 54,
                       "column": 23
                     },
                     "endchar": {
-                      "offset": 1126,
+                      "offset": 1114,
                       "line": 54,
                       "column": 28
                     }
@@ -1720,12 +1717,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1133,
+                  "offset": 1121,
                   "line": 55,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 1139,
+                  "offset": 1127,
                   "line": 55,
                   "column": 11
                 }
@@ -1741,12 +1738,12 @@
                     "filename": "test-scripts/parser/input-1.model"
                   },
                   "startchar": {
-                    "offset": 1141,
+                    "offset": 1129,
                     "line": 55,
                     "column": 13
                   },
                   "endchar": {
-                    "offset": 1144,
+                    "offset": 1132,
                     "line": 55,
                     "column": 16
                   }
@@ -1761,12 +1758,12 @@
                       "filename": "test-scripts/parser/input-1.model"
                     },
                     "startchar": {
-                      "offset": 1145,
+                      "offset": 1133,
                       "line": 55,
                       "column": 17
                     },
                     "endchar": {
-                      "offset": 1153,
+                      "offset": 1141,
                       "line": 55,
                       "column": 25
                     }
@@ -1784,12 +1781,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1160,
+                  "offset": 1148,
                   "line": 56,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 1169,
+                  "offset": 1157,
                   "line": 56,
                   "column": 14
                 }
@@ -1807,12 +1804,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 1188,
+                        "offset": 1176,
                         "line": 57,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 1195,
+                        "offset": 1183,
                         "line": 57,
                         "column": 16
                       }
@@ -1829,12 +1826,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 1205,
+                        "offset": 1193,
                         "line": 58,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 1207,
+                        "offset": 1195,
                         "line": 58,
                         "column": 11
                       }
@@ -1851,12 +1848,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 1217,
+                        "offset": 1205,
                         "line": 59,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 1221,
+                        "offset": 1209,
                         "line": 59,
                         "column": 13
                       }
@@ -1870,12 +1867,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1171,
+                  "offset": 1159,
                   "line": 56,
                   "column": 16
                 },
                 "endchar": {
-                  "offset": 1228,
+                  "offset": 1216,
                   "line": 60,
                   "column": 6
                 }
@@ -1891,12 +1888,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1234,
+                  "offset": 1222,
                   "line": 61,
                   "column": 5
                 },
                 "endchar": {
-                  "offset": 1242,
+                  "offset": 1230,
                   "line": 61,
                   "column": 13
                 }
@@ -1914,12 +1911,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 1261,
+                        "offset": 1249,
                         "line": 62,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 1269,
+                        "offset": 1257,
                         "line": 62,
                         "column": 17
                       }
@@ -1937,12 +1934,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 1283,
+                              "offset": 1271,
                               "line": 63,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 1285,
+                              "offset": 1273,
                               "line": 63,
                               "column": 15
                             }
@@ -1956,12 +1953,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 1287,
+                              "offset": 1275,
                               "line": 63,
                               "column": 17
                             },
                             "endchar": {
-                              "offset": 1292,
+                              "offset": 1280,
                               "line": 63,
                               "column": 22
                             }
@@ -1977,12 +1974,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 1306,
+                              "offset": 1294,
                               "line": 64,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 1311,
+                              "offset": 1299,
                               "line": 64,
                               "column": 18
                             }
@@ -2000,12 +1997,12 @@
                                     "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
-                                    "offset": 1338,
+                                    "offset": 1326,
                                     "line": 65,
                                     "column": 17
                                   },
                                   "endchar": {
-                                    "offset": 1344,
+                                    "offset": 1332,
                                     "line": 65,
                                     "column": 23
                                   }
@@ -2022,12 +2019,12 @@
                                     "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
-                                    "offset": 1362,
+                                    "offset": 1350,
                                     "line": 66,
                                     "column": 17
                                   },
                                   "endchar": {
-                                    "offset": 1370,
+                                    "offset": 1358,
                                     "line": 66,
                                     "column": 25
                                   }
@@ -2045,12 +2042,12 @@
                                           "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
-                                          "offset": 1392,
+                                          "offset": 1380,
                                           "line": 67,
                                           "column": 21
                                         },
                                         "endchar": {
-                                          "offset": 1398,
+                                          "offset": 1386,
                                           "line": 67,
                                           "column": 27
                                         }
@@ -2064,12 +2061,12 @@
                                           "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
-                                          "offset": 1400,
+                                          "offset": 1388,
                                           "line": 67,
                                           "column": 29
                                         },
                                         "endchar": {
-                                          "offset": 1404,
+                                          "offset": 1392,
                                           "line": 67,
                                           "column": 33
                                         }
@@ -2088,12 +2085,12 @@
                                     "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
-                                    "offset": 1441,
+                                    "offset": 1429,
                                     "line": 69,
                                     "column": 17
                                   },
                                   "endchar": {
-                                    "offset": 1446,
+                                    "offset": 1434,
                                     "line": 69,
                                     "column": 22
                                   }
@@ -2111,12 +2108,12 @@
                                           "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
-                                          "offset": 1468,
+                                          "offset": 1456,
                                           "line": 70,
                                           "column": 21
                                         },
                                         "endchar": {
-                                          "offset": 1475,
+                                          "offset": 1463,
                                           "line": 70,
                                           "column": 28
                                         }
@@ -2130,12 +2127,12 @@
                                           "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
-                                          "offset": 1477,
+                                          "offset": 1465,
                                           "line": 70,
                                           "column": 30
                                         },
                                         "endchar": {
-                                          "offset": 1481,
+                                          "offset": 1469,
                                           "line": 70,
                                           "column": 34
                                         }
@@ -2154,12 +2151,12 @@
                                     "filename": "test-scripts/parser/input-1.model"
                                   },
                                   "startchar": {
-                                    "offset": 1518,
+                                    "offset": 1506,
                                     "line": 72,
                                     "column": 17
                                   },
                                   "endchar": {
-                                    "offset": 1526,
+                                    "offset": 1514,
                                     "line": 72,
                                     "column": 25
                                   }
@@ -2177,12 +2174,12 @@
                                           "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
-                                          "offset": 1548,
+                                          "offset": 1536,
                                           "line": 73,
                                           "column": 21
                                         },
                                         "endchar": {
-                                          "offset": 1556,
+                                          "offset": 1544,
                                           "line": 73,
                                           "column": 29
                                         }
@@ -2196,12 +2193,12 @@
                                           "filename": "test-scripts/parser/input-1.model"
                                         },
                                         "startchar": {
-                                          "offset": 1558,
+                                          "offset": 1546,
                                           "line": 73,
                                           "column": 31
                                         },
                                         "endchar": {
-                                          "offset": 1562,
+                                          "offset": 1550,
                                           "line": 73,
                                           "column": 35
                                         }
@@ -2217,12 +2214,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 1313,
+                              "offset": 1301,
                               "line": 64,
                               "column": 20
                             },
                             "endchar": {
-                              "offset": 1596,
+                              "offset": 1584,
                               "line": 75,
                               "column": 14
                             }
@@ -2241,12 +2238,12 @@
                         "filename": "test-scripts/parser/input-1.model"
                       },
                       "startchar": {
-                        "offset": 1617,
+                        "offset": 1605,
                         "line": 77,
                         "column": 9
                       },
                       "endchar": {
-                        "offset": 1625,
+                        "offset": 1613,
                         "line": 77,
                         "column": 17
                       }
@@ -2264,12 +2261,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 1639,
+                              "offset": 1627,
                               "line": 78,
                               "column": 13
                             },
                             "endchar": {
-                              "offset": 1643,
+                              "offset": 1631,
                               "line": 78,
                               "column": 17
                             }
@@ -2283,12 +2280,12 @@
                               "filename": "test-scripts/parser/input-1.model"
                             },
                             "startchar": {
-                              "offset": 1645,
+                              "offset": 1633,
                               "line": 78,
                               "column": 19
                             },
                             "endchar": {
-                              "offset": 1650,
+                              "offset": 1638,
                               "line": 78,
                               "column": 24
                             }
@@ -2304,12 +2301,12 @@
                   "filename": "test-scripts/parser/input-1.model"
                 },
                 "startchar": {
-                  "offset": 1244,
+                  "offset": 1232,
                   "line": 61,
                   "column": 15
                 },
                 "endchar": {
-                  "offset": 1720,
+                  "offset": 1708,
                   "line": 81,
                   "column": 6
                 }
@@ -2323,12 +2320,12 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 1077,
+          "offset": 1065,
           "line": 53,
           "column": 1
         },
         "endchar": {
-          "offset": 1724,
+          "offset": 1712,
           "line": 83,
           "column": 1
         }
@@ -2344,12 +2341,12 @@
             "filename": "test-scripts/parser/input-1.model"
           },
           "startchar": {
-            "offset": 1728,
+            "offset": 1716,
             "line": 83,
             "column": 5
           },
           "endchar": {
-            "offset": 1737,
+            "offset": 1725,
             "line": 83,
             "column": 14
           }
@@ -2365,12 +2362,12 @@
               "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
-              "offset": 1739,
+              "offset": 1727,
               "line": 83,
               "column": 16
             },
             "endchar": {
-              "offset": 1744,
+              "offset": 1732,
               "line": 83,
               "column": 21
             }
@@ -2385,12 +2382,12 @@
                 "filename": "test-scripts/parser/input-1.model"
               },
               "startchar": {
-                "offset": 1745,
+                "offset": 1733,
                 "line": 83,
                 "column": 22
               },
               "endchar": {
-                "offset": 1753,
+                "offset": 1741,
                 "line": 83,
                 "column": 30
               }
@@ -2405,12 +2402,12 @@
               "filename": "test-scripts/parser/input-1.model"
             },
             "startchar": {
-              "offset": 1755,
+              "offset": 1743,
               "line": 83,
               "column": 32
             },
             "endchar": {
-              "offset": 1765,
+              "offset": 1753,
               "line": 83,
               "column": 42
             }
@@ -2422,12 +2419,12 @@
           "filename": "test-scripts/parser/input-1.model"
         },
         "startchar": {
-          "offset": 1724,
+          "offset": 1712,
           "line": 83,
           "column": 1
         },
         "endchar": {
-          "offset": 1768,
+          "offset": 1756,
           "line": 84,
           "column": 1
         }

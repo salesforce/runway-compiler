@@ -14,16 +14,16 @@ type ElevatorId: 1..ELEVATORS;
 type Floor: 1..FLOORS;
 
 // How long the doors stay open
-distribution openTime() -> Time {
+function openTime() -> Time {
     return 3s;
 }
 
 // How long the doors take to open or close
-distribution doorTime() -> Time {
+function doorTime() -> Time {
     return 1s;
 }
 
-distribution makeDestination(start: Floor) -> Floor {
+function makeDestination(start: Floor) -> Floor {
     return start;
 }
 

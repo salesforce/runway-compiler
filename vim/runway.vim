@@ -19,7 +19,6 @@ syn keyword runwayConditional    as
 syn keyword runwayStatement      assert
 syn keyword runwayRepeat         break
 syn keyword runwayRepeat         continue
-syn keyword runwayStatement      distribution
 syn keyword runwayStructure      either
 syn keyword runwayConditional    else
 syn keyword runwayStatement      external
