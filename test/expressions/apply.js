@@ -37,6 +37,9 @@ describe('expressions/apply.js', function() {
         var f3 : Boolean = 3 >= 4;
         var t4 : Boolean = 3 > 2;
         var f4 : Boolean = 3 > 3;
+
+        var t5 : Boolean = -3 < 1;
+        var f5 : Boolean = 0 < -1;
       `);
       assert.equal(module.env.getVar('t1').toString(), 'True');
       assert.equal(module.env.getVar('f1').toString(), 'False');
@@ -46,6 +49,8 @@ describe('expressions/apply.js', function() {
       assert.equal(module.env.getVar('f3').toString(), 'False');
       assert.equal(module.env.getVar('t4').toString(), 'True');
       assert.equal(module.env.getVar('f4').toString(), 'False');
+      assert.equal(module.env.getVar('t5').toString(), 'True');
+      assert.equal(module.env.getVar('f5').toString(), 'False');
     });
 
     it('basic arithmetic', function() {
@@ -53,10 +58,16 @@ describe('expressions/apply.js', function() {
         var a : 0..99 = 3 + 4;
         var b : 0..99 = 3 - 1;
         var c : 0..99 = 3 * 3;
+        var d : 0..99 = -3 * -3;
+        var e : -99..0 = -3 * 3;
+        var f : 0..99 = -2 - -5;
       `);
       assert.equal(module.env.getVar('a').toString(), '7');
       assert.equal(module.env.getVar('b').toString(), '2');
       assert.equal(module.env.getVar('c').toString(), '9');
+      assert.equal(module.env.getVar('d').toString(), '9');
+      assert.equal(module.env.getVar('e').toString(), '-9');
+      assert.equal(module.env.getVar('f').toString(), '3');
     });
 
     it('negation', function() {
